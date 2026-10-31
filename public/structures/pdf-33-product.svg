@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg role="img" version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='640px' height='300px' viewBox='0 0 640 300'>
+<title>(Z)-3-methylpent-2-ene as drawn</title>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:#FFFFFF;stroke:none' width='640.0' height='300.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 144.1,251.0 L 202.7,149.5' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 202.7,149.5 L 319.9,149.5' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 212.8,167.1 L 309.8,167.1' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 319.9,149.5 L 378.5,48.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-2 atom-4' d='M 319.9,149.5 L 378.5,251.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 378.5,251.0 L 495.7,251.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 199.8,154.6 L 202.7,149.5 L 208.6,149.5' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 375.6,245.9 L 378.5,251.0 L 384.4,251.0' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='CIP_Code' d='M 250.8 128.3
+Q 250.8 125.4, 251.7 123.1
+Q 252.5 120.7, 254.1 118.1
+L 255.2 118.9
+Q 253.9 121.2, 253.3 123.4
+Q 252.6 125.5, 252.6 128.3
+Q 252.6 131.0, 253.3 133.1
+Q 253.9 135.2, 255.2 137.7
+L 254.1 138.4
+Q 252.5 135.9, 251.7 133.5
+Q 250.8 131.2, 250.8 128.3
+' fill='#7F7FFF'/>
+<path class='CIP_Code' d='M 256.3 132.5
+L 263.5 121.4
+L 256.6 121.4
+L 256.6 119.8
+L 265.9 119.8
+L 265.9 121.2
+L 258.7 132.3
+L 265.8 132.3
+L 265.8 134.0
+L 256.3 134.0
+L 256.3 132.5
+' fill='#7F7FFF'/>
+<path class='CIP_Code' d='M 271.8 128.3
+Q 271.8 131.2, 270.9 133.5
+Q 270.1 135.9, 268.5 138.4
+L 267.4 137.7
+Q 268.7 135.2, 269.3 133.1
+Q 270.0 131.0, 270.0 128.3
+Q 270.0 125.5, 269.3 123.4
+Q 268.7 121.2, 267.4 118.9
+L 268.5 118.1
+Q 270.1 120.7, 270.9 123.1
+Q 271.8 125.4, 271.8 128.3
+' fill='#7F7FFF'/>
+</svg>

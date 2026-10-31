@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg role="img" version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='640px' height='300px' viewBox='0 0 640 300'>
+<title>Chloroethane</title>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:#FFFFFF;stroke:none' width='640.0' height='300.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 113.6,198.8 L 311.2,84.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 311.2,84.7 L 400.7,136.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 400.7,136.4 L 490.3,188.1' style='fill:none;fill-rule:evenodd;stroke:#00CC00;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 301.3,90.4 L 311.2,84.7 L 315.6,87.3' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 497.8 199.7
+Q 497.8 192.7, 501.1 189.0
+Q 504.4 185.3, 510.7 185.3
+Q 516.5 185.3, 519.6 189.4
+L 517.0 191.6
+Q 514.7 188.6, 510.7 188.6
+Q 506.4 188.6, 504.1 191.5
+Q 501.9 194.3, 501.9 199.7
+Q 501.9 205.3, 504.2 208.2
+Q 506.6 211.1, 511.1 211.1
+Q 514.2 211.1, 517.9 209.2
+L 519.0 212.2
+Q 517.5 213.2, 515.3 213.7
+Q 513.0 214.3, 510.6 214.3
+Q 504.4 214.3, 501.1 210.5
+Q 497.8 206.8, 497.8 199.7
+' fill='#00CC00'/>
+<path class='atom-2' d='M 522.5 183.6
+L 526.2 183.6
+L 526.2 213.9
+L 522.5 213.9
+L 522.5 183.6
+' fill='#00CC00'/>
+</svg>

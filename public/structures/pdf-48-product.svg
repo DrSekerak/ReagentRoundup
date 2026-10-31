@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg role="img" version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='640px' height='300px' viewBox='0 0 640 300'>
+<title>2-chlorobutane, stereochemistry unspecified</title>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:#FFFFFF;stroke:none' width='640.0' height='300.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 160.3,249.3 L 266.7,187.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 266.7,187.8 L 266.7,136.2' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 266.7,136.2 L 266.7,84.5' style='fill:none;fill-rule:evenodd;stroke:#00CC00;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 266.7,187.8 L 373.1,249.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 373.1,249.3 L 479.5,187.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 367.8,246.2 L 373.1,249.3 L 378.4,246.2' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 255.8 65.9
+Q 255.8 58.9, 259.0 55.2
+Q 262.4 51.5, 268.6 51.5
+Q 274.5 51.5, 277.6 55.6
+L 275.0 57.7
+Q 272.7 54.7, 268.6 54.7
+Q 264.4 54.7, 262.1 57.6
+Q 259.8 60.5, 259.8 65.9
+Q 259.8 71.5, 262.2 74.4
+Q 264.5 77.3, 269.1 77.3
+Q 272.2 77.3, 275.8 75.4
+L 277.0 78.4
+Q 275.5 79.3, 273.2 79.9
+Q 271.0 80.5, 268.5 80.5
+Q 262.4 80.5, 259.0 76.7
+Q 255.8 72.9, 255.8 65.9
+' fill='#00CC00'/>
+<path class='atom-2' d='M 280.5 49.7
+L 284.2 49.7
+L 284.2 80.1
+L 280.5 80.1
+L 280.5 49.7
+' fill='#00CC00'/>
+</svg>

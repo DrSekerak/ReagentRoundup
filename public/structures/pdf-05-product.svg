@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg role="img" version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='640px' height='300px' viewBox='0 0 640 300'>
+<title>1-chloro-2,2-dimethylpropane</title>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:#FFFFFF;stroke:none' width='640.0' height='300.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 201.8,48.0 L 260.4,149.5' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 260.4,149.5 L 319.0,251.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 260.4,149.5 L 158.9,208.1' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-1 atom-4' d='M 260.4,149.5 L 361.9,90.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 361.9,90.9 L 405.3,115.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 405.3,115.9 L 448.6,141.0' style='fill:none;fill-rule:evenodd;stroke:#00CC00;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 356.8,93.8 L 361.9,90.9 L 364.1,92.2' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-5' d='M 452.5 150.5
+Q 452.5 143.4, 455.8 139.8
+Q 459.1 136.0, 465.4 136.0
+Q 471.2 136.0, 474.3 140.2
+L 471.7 142.3
+Q 469.4 139.3, 465.4 139.3
+Q 461.1 139.3, 458.8 142.2
+Q 456.6 145.0, 456.6 150.5
+Q 456.6 156.1, 458.9 159.0
+Q 461.3 161.8, 465.8 161.8
+Q 468.9 161.8, 472.6 160.0
+L 473.7 163.0
+Q 472.2 163.9, 470.0 164.5
+Q 467.7 165.0, 465.3 165.0
+Q 459.1 165.0, 455.8 161.3
+Q 452.5 157.5, 452.5 150.5
+' fill='#00CC00'/>
+<path class='atom-5' d='M 477.2 134.3
+L 480.9 134.3
+L 480.9 164.7
+L 477.2 164.7
+L 477.2 134.3
+' fill='#00CC00'/>
+</svg>

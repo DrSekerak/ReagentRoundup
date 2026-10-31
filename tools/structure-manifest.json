@@ -1,0 +1,1237 @@
+{
+  "rdkitVersion": "2026.09.1",
+  "structures": [
+    {
+      "questionId": "pdf-01",
+      "role": "reactant",
+      "smiles": "CC",
+      "formula": "C2H6",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "3c4a52c573f5a1d8628970c4d0777655ee02a38c461d1270068438091f9acd1c"
+    },
+    {
+      "questionId": "pdf-01",
+      "role": "product",
+      "smiles": "CCCl",
+      "formula": "C2H5Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "e4fa57bc5060abd638fe70e9ac26a871884a309b8aebd864094399e4cc227bc9"
+    },
+    {
+      "questionId": "pdf-02",
+      "role": "reactant",
+      "smiles": "CCC",
+      "formula": "C3H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "45d2ab4fa396043e9d139c94ed530748f0c38f5c78cc3e27cd71a0a3ea33e5c3"
+    },
+    {
+      "questionId": "pdf-02",
+      "role": "product",
+      "smiles": "CC(Cl)C",
+      "formula": "C3H7Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "8b98731c5f680d9da9fe4fc3a93168c99d6729d934bd74309681b0a74c15934d"
+    },
+    {
+      "questionId": "pdf-03",
+      "role": "reactant",
+      "smiles": "CC(C)C",
+      "formula": "C4H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "fc226bab409b38df5d730269b89b8b377a3f0dca62e5d7e3fb6c66a94b6b4f4a"
+    },
+    {
+      "questionId": "pdf-03",
+      "role": "product",
+      "smiles": "CC(C)(C)Cl",
+      "formula": "C4H9Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "475ca3717aa33d382706c05c1f391ec25a953f9a3285b6dcbd29d9349930cc61"
+    },
+    {
+      "questionId": "pdf-04",
+      "role": "reactant",
+      "smiles": "C1CCCCC1",
+      "formula": "C6H12",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "ea3ddb176c5d66d4314cde40b7c212431d289a35679c8e6fd46a8f700a778106"
+    },
+    {
+      "questionId": "pdf-04",
+      "role": "product",
+      "smiles": "ClC1CCCCC1",
+      "formula": "C6H11Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "4396b1b7dfd31585b213b5b5883c3b64a0d8fb4cf46aaec64f5c5588d97e5f72"
+    },
+    {
+      "questionId": "pdf-05",
+      "role": "reactant",
+      "smiles": "CC(C)(C)C",
+      "formula": "C5H12",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "377b5d8e179a9d545923450f3175676f0c7d804fa5f00cb7d1dbe46245705cbb"
+    },
+    {
+      "questionId": "pdf-05",
+      "role": "product",
+      "smiles": "CC(C)(C)CCl",
+      "formula": "C5H11Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "ff84f218380879c480d0db0e112b982332a7da92b6b4f49f48787fbbc19e234e"
+    },
+    {
+      "questionId": "pdf-06",
+      "role": "reactant",
+      "smiles": "CCC",
+      "formula": "C3H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "45d2ab4fa396043e9d139c94ed530748f0c38f5c78cc3e27cd71a0a3ea33e5c3"
+    },
+    {
+      "questionId": "pdf-06",
+      "role": "product",
+      "smiles": "CC(Br)C",
+      "formula": "C3H7Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "a157132992b1fea6864d8284b8ff6ae6fb440b1f3a01ab0791257e6b98fb87c6"
+    },
+    {
+      "questionId": "pdf-07",
+      "role": "reactant",
+      "smiles": "CC(C)C",
+      "formula": "C4H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "fc226bab409b38df5d730269b89b8b377a3f0dca62e5d7e3fb6c66a94b6b4f4a"
+    },
+    {
+      "questionId": "pdf-07",
+      "role": "product",
+      "smiles": "CC(C)(C)Br",
+      "formula": "C4H9Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "b989ce9fa5ae97d951aad9399d31ce7feac6d3f576471583604227cde8a6b30f"
+    },
+    {
+      "questionId": "pdf-08",
+      "role": "reactant",
+      "smiles": "CCCC",
+      "formula": "C4H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "e5570eda05549e21c19e587df8be319ff97a9b93f3cf736c733bec75fd1fb2bd"
+    },
+    {
+      "questionId": "pdf-08",
+      "role": "product",
+      "smiles": "CC(Br)CC",
+      "formula": "C4H9Br",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "9b69cf70f84e26cbc7a465b0b806c7442436c7ca061a818890352ad21f92a6d2"
+    },
+    {
+      "questionId": "pdf-09",
+      "role": "reactant",
+      "smiles": "CC(C)CC",
+      "formula": "C5H12",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "d04b16c90985ea94b8acba826014c21ab2a64087bf85c77302c9e9caedcc81dc"
+    },
+    {
+      "questionId": "pdf-09",
+      "role": "product",
+      "smiles": "CC(C)(Br)CC",
+      "formula": "C5H11Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "fbf9132c40494b43b05d3b8b69c301b6de87df5e0d76fe43cf5a3429351870e4"
+    },
+    {
+      "questionId": "pdf-10",
+      "role": "reactant",
+      "smiles": "C1CCCCC1",
+      "formula": "C6H12",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "ea3ddb176c5d66d4314cde40b7c212431d289a35679c8e6fd46a8f700a778106"
+    },
+    {
+      "questionId": "pdf-10",
+      "role": "product",
+      "smiles": "BrC1CCCCC1",
+      "formula": "C6H11Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "0b6c6f47dcd8eb635a7ac0b5292902cdd588abb2ea77d00919eab4e294e56fde"
+    },
+    {
+      "questionId": "pdf-11",
+      "role": "reactant",
+      "smiles": "C=CCC",
+      "formula": "C4H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "ba5189529509e71920a7ae5606dacb4a99ef2fd66b7adb0a771d273afa35e8ae"
+    },
+    {
+      "questionId": "pdf-11",
+      "role": "product",
+      "smiles": "C=CC(Br)C",
+      "formula": "C4H7Br",
+      "chiralCenters": [
+        [
+          2,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "b63c05183c3fed569a2529834cd2a3b0e0101364ebb4f753105cdef939580983"
+    },
+    {
+      "questionId": "pdf-12",
+      "role": "reactant",
+      "smiles": "C=CC(C)C",
+      "formula": "C5H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "7c8c51314b6b67e9eb2b494d98324cb455f184540cb064dacc04a600ca483c55"
+    },
+    {
+      "questionId": "pdf-12",
+      "role": "product",
+      "smiles": "C=CC(Br)(C)C",
+      "formula": "C5H9Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "4d7f604f42f11f6c992b1a353099b077c32367ebb829b9fbaf3b987e2d4db53b"
+    },
+    {
+      "questionId": "pdf-13",
+      "role": "reactant",
+      "smiles": "C1=CCCCC1",
+      "formula": "C6H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "f88d2005d3f9c287c6e8c36a76dab98ea22b0ecba880c0bf492637550df29845"
+    },
+    {
+      "questionId": "pdf-13",
+      "role": "product",
+      "smiles": "C1=CC(Br)CCC1",
+      "formula": "C6H9Br",
+      "chiralCenters": [
+        [
+          2,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "108b4ed99014e4f4cbe1192698ec54b49b292eb74745afd0dceaff8e295d0475"
+    },
+    {
+      "questionId": "pdf-14",
+      "role": "reactant",
+      "smiles": "C=CC",
+      "formula": "C3H6",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "f95bd820699f9ec0329436a6ad62b34dd57ea023049d488a4c77640e6afc36d4"
+    },
+    {
+      "questionId": "pdf-14",
+      "role": "product",
+      "smiles": "C=CCBr",
+      "formula": "C3H5Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "e1a2a8e807c66dd79a3d91d451163d69ff2245fa7b4e2f79a62cb892475f2304"
+    },
+    {
+      "questionId": "pdf-15",
+      "role": "reactant",
+      "smiles": "CC(C)(C)Br",
+      "formula": "C4H9Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "b989ce9fa5ae97d951aad9399d31ce7feac6d3f576471583604227cde8a6b30f"
+    },
+    {
+      "questionId": "pdf-15",
+      "role": "product",
+      "smiles": "CC(C)(C)O",
+      "formula": "C4H10O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "1487006b9360205b06b21f6ba40bede018270d17d63bb989e6744774b73c9b89"
+    },
+    {
+      "questionId": "pdf-16",
+      "role": "reactant",
+      "smiles": "CC(C)(C)Cl",
+      "formula": "C4H9Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "475ca3717aa33d382706c05c1f391ec25a953f9a3285b6dcbd29d9349930cc61"
+    },
+    {
+      "questionId": "pdf-16",
+      "role": "product",
+      "smiles": "CC(C)(C)OC",
+      "formula": "C5H12O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "f43afdba8b385f76c47ac42e22b747cccec667e15b69ac7be204628ff5b1b7f5"
+    },
+    {
+      "questionId": "pdf-17",
+      "role": "reactant",
+      "smiles": "CC(C)(C)I",
+      "formula": "C4H9I",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "24df6a10d9c10cc9bd8078a39bf1991d7fe59c65a4eebadfd389a07ce676beab"
+    },
+    {
+      "questionId": "pdf-17",
+      "role": "product",
+      "smiles": "CC(C)(C)OCC",
+      "formula": "C6H14O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "d73e53c0d14c8fbf72f1a1fa26db0a7893016dc3920c25e64f8cc8c423437496"
+    },
+    {
+      "questionId": "pdf-18",
+      "role": "reactant",
+      "smiles": "CCC(C)(C)Br",
+      "formula": "C5H11Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "d9c69e65ed58e1df5057f19d0069e40fa1c55d8b2df15174f986d99e2bd93673"
+    },
+    {
+      "questionId": "pdf-18",
+      "role": "product",
+      "smiles": "CCC(C)(C)O",
+      "formula": "C5H12O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "43822874de98d4326bffb8a7092aa0a6df0e0276657cd7501543692e417d17b2"
+    },
+    {
+      "questionId": "pdf-19",
+      "role": "reactant",
+      "smiles": "CCC(C)(C)Cl",
+      "formula": "C5H11Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "caf99af4f2ef3d5f60ba510ab4abbfbe433f4ff37e7cf3aef3f175341faa1e1a"
+    },
+    {
+      "questionId": "pdf-19",
+      "role": "product",
+      "smiles": "CCC(C)(C)OC",
+      "formula": "C6H14O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "837dc5d216075f9c592552d304ede39a025cd4b24de42644513b5379148e8772"
+    },
+    {
+      "questionId": "pdf-20",
+      "role": "reactant",
+      "smiles": "CC(C)(C)Br",
+      "formula": "C4H9Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "b989ce9fa5ae97d951aad9399d31ce7feac6d3f576471583604227cde8a6b30f"
+    },
+    {
+      "questionId": "pdf-20",
+      "role": "product",
+      "smiles": "C=C(C)C",
+      "formula": "C4H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "c7045ee4f95ace95cba0a55b176a66c0a0bb9c701428026aac36705d602bde45"
+    },
+    {
+      "questionId": "pdf-21",
+      "role": "reactant",
+      "smiles": "CC(C)(C)Cl",
+      "formula": "C4H9Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "475ca3717aa33d382706c05c1f391ec25a953f9a3285b6dcbd29d9349930cc61"
+    },
+    {
+      "questionId": "pdf-21",
+      "role": "product",
+      "smiles": "C=C(C)C",
+      "formula": "C4H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "c7045ee4f95ace95cba0a55b176a66c0a0bb9c701428026aac36705d602bde45"
+    },
+    {
+      "questionId": "pdf-22",
+      "role": "reactant",
+      "smiles": "CCC(C)(C)Br",
+      "formula": "C5H11Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "d9c69e65ed58e1df5057f19d0069e40fa1c55d8b2df15174f986d99e2bd93673"
+    },
+    {
+      "questionId": "pdf-22",
+      "role": "product",
+      "smiles": "CC=C(C)C",
+      "formula": "C5H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "e7ce8b69d382932be1a8d92ba817ec0570f8721f6657ef4ec13a081e78da1749"
+    },
+    {
+      "questionId": "pdf-23",
+      "role": "reactant",
+      "smiles": "CCC(C)(C)I",
+      "formula": "C5H11I",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "392bf8da990f8479c024e428caf47dd9339841a364678b5f07e4fca43e08bdf4"
+    },
+    {
+      "questionId": "pdf-23",
+      "role": "product",
+      "smiles": "CC=C(C)C",
+      "formula": "C5H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "e7ce8b69d382932be1a8d92ba817ec0570f8721f6657ef4ec13a081e78da1749"
+    },
+    {
+      "questionId": "pdf-24",
+      "role": "reactant",
+      "smiles": "CCCBr",
+      "formula": "C3H7Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "bf2f8d572ae2162562b1d81e0a363d841c20e1741d71dcf183cc543df074180a"
+    },
+    {
+      "questionId": "pdf-24",
+      "role": "product",
+      "smiles": "CCCO",
+      "formula": "C3H8O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "0d2e7c4393d286929abf1b4637f5a757c7c8c3e0056283f8389fed2c3f5e8474"
+    },
+    {
+      "questionId": "pdf-25",
+      "role": "reactant",
+      "smiles": "CCCCBr",
+      "formula": "C4H9Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "d785b542895f2f8e234253b9356e9e9f75b107d62ee64e0f83a55b1ced12896a"
+    },
+    {
+      "questionId": "pdf-25",
+      "role": "product",
+      "smiles": "CCCCO",
+      "formula": "C4H10O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "ad0621927efa2696209eb7d911ec5954a8525c9c6bd5fff62b26e3c32e5e7094"
+    },
+    {
+      "questionId": "pdf-26",
+      "role": "reactant",
+      "smiles": "CCBr",
+      "formula": "C2H5Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "b3bb056b592054106743c7e1248e5d745ef83439ad48d33309e0046efa57502c"
+    },
+    {
+      "questionId": "pdf-26",
+      "role": "product",
+      "smiles": "CCOC",
+      "formula": "C3H8O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "31e230f0bc6a36f4285b71a59f5df6c5feee240a654c964d911c1aaf3e456d89"
+    },
+    {
+      "questionId": "pdf-27",
+      "role": "reactant",
+      "smiles": "CCCI",
+      "formula": "C3H7I",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "b9a2e04474d341ff6192d75cefa546e11be083389a1f3bba89b385c82df4d77a"
+    },
+    {
+      "questionId": "pdf-27",
+      "role": "product",
+      "smiles": "CCCS",
+      "formula": "C3H8S",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "62e23d7d9e27600c116ffa7b1eb6e32a58eee3ad474a171ca3c90bb81751f58e"
+    },
+    {
+      "questionId": "pdf-28",
+      "role": "reactant",
+      "smiles": "CCCl",
+      "formula": "C2H5Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "e4fa57bc5060abd638fe70e9ac26a871884a309b8aebd864094399e4cc227bc9"
+    },
+    {
+      "questionId": "pdf-28",
+      "role": "product",
+      "smiles": "CCN",
+      "formula": "C2H7N",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "d8e00d3f89924642e7cacca8f2193ef34605ba79176acb36ce5ab07e0a6aaf76"
+    },
+    {
+      "questionId": "pdf-29",
+      "role": "reactant",
+      "smiles": "CC(Br)CC",
+      "formula": "C4H9Br",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "8661be4e56a266c02b4d76afe0859e455410fb22b0a26882fa262482e878eda0"
+    },
+    {
+      "questionId": "pdf-29",
+      "role": "product",
+      "smiles": "C/C=C/C",
+      "formula": "C4H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREOE"
+      ],
+      "svgSha256": "f9c35d5ba94b943c1174261dbcab21d12a45b41bf9f552b0a35c0f3c045a78a7"
+    },
+    {
+      "questionId": "pdf-30",
+      "role": "reactant",
+      "smiles": "CC(Cl)CCC",
+      "formula": "C5H11Cl",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "e6167a3d8b2d04371a00441b74f81de51841acf23ed5ded09d70832be9ffff9a"
+    },
+    {
+      "questionId": "pdf-30",
+      "role": "product",
+      "smiles": "C/C=C/CC",
+      "formula": "C5H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREOE"
+      ],
+      "svgSha256": "5f52b82f6f04eeb625976a606f0125f7fdd618fca3fe8e235b3a68abacedaa8f"
+    },
+    {
+      "questionId": "pdf-31",
+      "role": "reactant",
+      "smiles": "CC(Br)C(C)C",
+      "formula": "C5H11Br",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "2858481efaabe70ee651c1738f73deae6487a972a6e7db6e6370b64d1e491d8d"
+    },
+    {
+      "questionId": "pdf-31",
+      "role": "product",
+      "smiles": "CC=C(C)C",
+      "formula": "C5H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "e7ce8b69d382932be1a8d92ba817ec0570f8721f6657ef4ec13a081e78da1749"
+    },
+    {
+      "questionId": "pdf-32",
+      "role": "reactant",
+      "smiles": "CC(I)CCC",
+      "formula": "C5H11I",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "dc7f5b86a58e8bc60839415055b1e0df21bec33a3a2fd560ca2c6195b3826907"
+    },
+    {
+      "questionId": "pdf-32",
+      "role": "product",
+      "smiles": "C/C=C/CC",
+      "formula": "C5H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREOE"
+      ],
+      "svgSha256": "5f52b82f6f04eeb625976a606f0125f7fdd618fca3fe8e235b3a68abacedaa8f"
+    },
+    {
+      "questionId": "pdf-33",
+      "role": "reactant",
+      "smiles": "CC(Br)C(C)CC",
+      "formula": "C6H13Br",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ],
+        [
+          3,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "a8a504ae2134eda44de8136dd7995230c2f3a97c1930893b9cacf1230a3cc3ad"
+    },
+    {
+      "questionId": "pdf-33",
+      "role": "product",
+      "smiles": "C/C=C(C)\\CC",
+      "formula": "C6H12",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREOZ"
+      ],
+      "svgSha256": "7d5eca88fb56675dee8fcaac653000c072792db3e632f2f2cca3e4fd5967816b"
+    },
+    {
+      "questionId": "pdf-34",
+      "role": "reactant",
+      "smiles": "CC(Br)CC",
+      "formula": "C4H9Br",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "8661be4e56a266c02b4d76afe0859e455410fb22b0a26882fa262482e878eda0"
+    },
+    {
+      "questionId": "pdf-34",
+      "role": "product",
+      "smiles": "C=CCC",
+      "formula": "C4H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "ba5189529509e71920a7ae5606dacb4a99ef2fd66b7adb0a771d273afa35e8ae"
+    },
+    {
+      "questionId": "pdf-35",
+      "role": "reactant",
+      "smiles": "CC(Cl)CCC",
+      "formula": "C5H11Cl",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "e6167a3d8b2d04371a00441b74f81de51841acf23ed5ded09d70832be9ffff9a"
+    },
+    {
+      "questionId": "pdf-35",
+      "role": "product",
+      "smiles": "C=CCCC",
+      "formula": "C5H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "db0332c9ab70424b786343d4a1a5928c79b63f02247bc85084d90b98bce41935"
+    },
+    {
+      "questionId": "pdf-36",
+      "role": "reactant",
+      "smiles": "CC(I)CCCC",
+      "formula": "C6H13I",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "142f00744671533370793ee1842eb15256737d6442d945c2bc8e17f6e93ad33d"
+    },
+    {
+      "questionId": "pdf-36",
+      "role": "product",
+      "smiles": "C=CCCCC",
+      "formula": "C6H12",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "fa552728fdf2d1e9caf04f3b370b1cfdc85ec0358e8f19318fba59d7678ae143"
+    },
+    {
+      "questionId": "pdf-37",
+      "role": "reactant",
+      "smiles": "CC(C)CCBr",
+      "formula": "C5H11Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "f93b0201d46a1509afd4d1ef27187c1469e33567c48f358027946ae11d5dcd49"
+    },
+    {
+      "questionId": "pdf-37",
+      "role": "product",
+      "smiles": "C=CC(C)C",
+      "formula": "C5H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "7c8c51314b6b67e9eb2b494d98324cb455f184540cb064dacc04a600ca483c55"
+    },
+    {
+      "questionId": "pdf-38",
+      "role": "reactant",
+      "smiles": "CC(O)C",
+      "formula": "C3H8O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "ee188d3964bda4e97adb9b73299b0711eaecdc21545db80caccad21fb3a3b1eb"
+    },
+    {
+      "questionId": "pdf-38",
+      "role": "product",
+      "smiles": "C=CC",
+      "formula": "C3H6",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "f95bd820699f9ec0329436a6ad62b34dd57ea023049d488a4c77640e6afc36d4"
+    },
+    {
+      "questionId": "pdf-39",
+      "role": "reactant",
+      "smiles": "CC(C)(C)O",
+      "formula": "C4H10O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "1487006b9360205b06b21f6ba40bede018270d17d63bb989e6744774b73c9b89"
+    },
+    {
+      "questionId": "pdf-39",
+      "role": "product",
+      "smiles": "C=C(C)C",
+      "formula": "C4H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "c7045ee4f95ace95cba0a55b176a66c0a0bb9c701428026aac36705d602bde45"
+    },
+    {
+      "questionId": "pdf-40",
+      "role": "reactant",
+      "smiles": "CC(O)CC",
+      "formula": "C4H10O",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "6ad3e4aa74d2069f381d4d82fbe01a609ed0f74961b484b4222c4c0e362f8638"
+    },
+    {
+      "questionId": "pdf-40",
+      "role": "product",
+      "smiles": "C/C=C/C",
+      "formula": "C4H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREOE"
+      ],
+      "svgSha256": "3c3c5f35ba8a48ff81b9cd0b6acefb9e21ca116ffc55a3bcbaf80db585f28bbd"
+    },
+    {
+      "questionId": "pdf-41",
+      "role": "reactant",
+      "smiles": "OC1CCCCC1",
+      "formula": "C6H12O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "6b09b349e1881be1c55d5578de090cb4612484358c1a45c85c4ab646401e2a04"
+    },
+    {
+      "questionId": "pdf-41",
+      "role": "product",
+      "smiles": "C1=CCCCC1",
+      "formula": "C6H10",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "f88d2005d3f9c287c6e8c36a76dab98ea22b0ecba880c0bf492637550df29845"
+    },
+    {
+      "questionId": "pdf-42",
+      "role": "reactant",
+      "smiles": "CCCO",
+      "formula": "C3H8O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "0d2e7c4393d286929abf1b4637f5a757c7c8c3e0056283f8389fed2c3f5e8474"
+    },
+    {
+      "questionId": "pdf-42",
+      "role": "product",
+      "smiles": "CCCBr",
+      "formula": "C3H7Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "bf2f8d572ae2162562b1d81e0a363d841c20e1741d71dcf183cc543df074180a"
+    },
+    {
+      "questionId": "pdf-43",
+      "role": "reactant",
+      "smiles": "CC(O)C",
+      "formula": "C3H8O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "ee188d3964bda4e97adb9b73299b0711eaecdc21545db80caccad21fb3a3b1eb"
+    },
+    {
+      "questionId": "pdf-43",
+      "role": "product",
+      "smiles": "CC(Br)C",
+      "formula": "C3H7Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "a157132992b1fea6864d8284b8ff6ae6fb440b1f3a01ab0791257e6b98fb87c6"
+    },
+    {
+      "questionId": "pdf-44",
+      "role": "reactant",
+      "smiles": "CC(C)(C)O",
+      "formula": "C4H10O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "1487006b9360205b06b21f6ba40bede018270d17d63bb989e6744774b73c9b89"
+    },
+    {
+      "questionId": "pdf-44",
+      "role": "product",
+      "smiles": "CC(C)(C)Br",
+      "formula": "C4H9Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "b989ce9fa5ae97d951aad9399d31ce7feac6d3f576471583604227cde8a6b30f"
+    },
+    {
+      "questionId": "pdf-45",
+      "role": "reactant",
+      "smiles": "OCC1CCCCC1",
+      "formula": "C7H14O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "75af4afbeb1f9cf7aec9da70c22ebdf0de066df2b3087d3e63b5eb17447be79d"
+    },
+    {
+      "questionId": "pdf-45",
+      "role": "product",
+      "smiles": "BrCC1CCCCC1",
+      "formula": "C7H13Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "ff259dd5e3204f83aa62e9c3f73499724e511a8c38f95e544c17ad50489fae08"
+    },
+    {
+      "questionId": "pdf-46",
+      "role": "reactant",
+      "smiles": "CC(C)(C)O",
+      "formula": "C4H10O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "1487006b9360205b06b21f6ba40bede018270d17d63bb989e6744774b73c9b89"
+    },
+    {
+      "questionId": "pdf-46",
+      "role": "product",
+      "smiles": "CC(C)(C)Cl",
+      "formula": "C4H9Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "475ca3717aa33d382706c05c1f391ec25a953f9a3285b6dcbd29d9349930cc61"
+    },
+    {
+      "questionId": "pdf-47",
+      "role": "reactant",
+      "smiles": "CC(O)C",
+      "formula": "C3H8O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "ee188d3964bda4e97adb9b73299b0711eaecdc21545db80caccad21fb3a3b1eb"
+    },
+    {
+      "questionId": "pdf-47",
+      "role": "product",
+      "smiles": "CC(Cl)C",
+      "formula": "C3H7Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "8b98731c5f680d9da9fe4fc3a93168c99d6729d934bd74309681b0a74c15934d"
+    },
+    {
+      "questionId": "pdf-48",
+      "role": "reactant",
+      "smiles": "CC(O)CC",
+      "formula": "C4H10O",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "6ad3e4aa74d2069f381d4d82fbe01a609ed0f74961b484b4222c4c0e362f8638"
+    },
+    {
+      "questionId": "pdf-48",
+      "role": "product",
+      "smiles": "CC(Cl)CC",
+      "formula": "C4H9Cl",
+      "chiralCenters": [
+        [
+          1,
+          "?"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "e40f13caa9bb7ddfbf3449f86d4ef6f59e3a13d8a2b9aa3e575a95f34c7f5187"
+    },
+    {
+      "questionId": "pdf-49",
+      "role": "reactant",
+      "smiles": "OC1CCCCC1",
+      "formula": "C6H12O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "6b09b349e1881be1c55d5578de090cb4612484358c1a45c85c4ab646401e2a04"
+    },
+    {
+      "questionId": "pdf-49",
+      "role": "product",
+      "smiles": "ClC1CCCCC1",
+      "formula": "C6H11Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "4396b1b7dfd31585b213b5b5883c3b64a0d8fb4cf46aaec64f5c5588d97e5f72"
+    },
+    {
+      "questionId": "pdf-50",
+      "role": "reactant",
+      "smiles": "CCC(C)(C)O",
+      "formula": "C5H12O",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "43822874de98d4326bffb8a7092aa0a6df0e0276657cd7501543692e417d17b2"
+    },
+    {
+      "questionId": "pdf-50",
+      "role": "product",
+      "smiles": "CCC(C)(C)Cl",
+      "formula": "C5H11Cl",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "caf99af4f2ef3d5f60ba510ab4abbfbe433f4ff37e7cf3aef3f175341faa1e1a"
+    },
+    {
+      "questionId": "pdf-51",
+      "role": "reactant",
+      "smiles": "CCCBr",
+      "formula": "C3H7Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "bf2f8d572ae2162562b1d81e0a363d841c20e1741d71dcf183cc543df074180a"
+    },
+    {
+      "questionId": "pdf-51",
+      "role": "product",
+      "smiles": "CCCC#C",
+      "formula": "C5H8",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "62e0aaaa8a81182d157ccca912f9dcc20e2e3f0b40dcf14adb6813050d2e8725"
+    },
+    {
+      "questionId": "pdf-52",
+      "role": "reactant",
+      "smiles": "CC(C)CBr",
+      "formula": "C4H9Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "286eb5efd6ca2b9edbe55c5ca0e5a23bc571068823ef9e454b3af2026cce07fc"
+    },
+    {
+      "questionId": "pdf-52",
+      "role": "product",
+      "smiles": "CC#CCC(C)C",
+      "formula": "C7H12",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "7a89a0906220ea51953a79c49b8cadc405151db3d19744c27876c9c8e1bde294"
+    },
+    {
+      "questionId": "pdf-53",
+      "role": "reactant",
+      "smiles": "CCCBr",
+      "formula": "C3H7Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "bf2f8d572ae2162562b1d81e0a363d841c20e1741d71dcf183cc543df074180a"
+    },
+    {
+      "questionId": "pdf-53",
+      "role": "product",
+      "smiles": "CCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+      "formula": "C21H22P+",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "8fb3ee84048b2d67bc15c2c4f71a265bb19d24e648f179a044260192b5fdab6c"
+    },
+    {
+      "questionId": "pdf-54",
+      "role": "reactant",
+      "smiles": "CC(C)CBr",
+      "formula": "C4H9Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "286eb5efd6ca2b9edbe55c5ca0e5a23bc571068823ef9e454b3af2026cce07fc"
+    },
+    {
+      "questionId": "pdf-54",
+      "role": "product",
+      "smiles": "CC(C)C[N+](C)(C)C",
+      "formula": "C7H18N+",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "1ea08eaf909ac5b35b3eedfcebc8b6d64f06ae2e9055ce606d241d31ca4bc02f"
+    },
+    {
+      "questionId": "pdf-55",
+      "role": "reactant",
+      "smiles": "CCCBr",
+      "formula": "C3H7Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "bf2f8d572ae2162562b1d81e0a363d841c20e1741d71dcf183cc543df074180a"
+    },
+    {
+      "questionId": "pdf-55",
+      "role": "product",
+      "smiles": "CCC(=O)OCCC",
+      "formula": "C6H12O2",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE"
+      ],
+      "svgSha256": "e53aa7d94464cf5c0f95117bd583c1e10e313a7dc647796c0dd0b75fa16b4ad6"
+    },
+    {
+      "questionId": "pdf-56",
+      "role": "reactant",
+      "smiles": "CCCBr",
+      "formula": "C3H7Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "bf2f8d572ae2162562b1d81e0a363d841c20e1741d71dcf183cc543df074180a"
+    },
+    {
+      "questionId": "pdf-56",
+      "role": "product",
+      "smiles": "CCCC#N",
+      "formula": "C4H7N",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "445c79afdf49d5917dd27d58573b82637cdcb202f8c425883c8d3ba8a42db4a0"
+    },
+    {
+      "questionId": "pdf-57",
+      "role": "reactant",
+      "smiles": "CC(C)CBr",
+      "formula": "C4H9Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "286eb5efd6ca2b9edbe55c5ca0e5a23bc571068823ef9e454b3af2026cce07fc"
+    },
+    {
+      "questionId": "pdf-57",
+      "role": "product",
+      "smiles": "CC(C)CN=[N+]=[N-]",
+      "formula": "C4H9N3",
+      "chiralCenters": [],
+      "doubleBondStereo": [
+        "STEREONONE",
+        "STEREONONE"
+      ],
+      "svgSha256": "79abb4426d9e3c31628d39f38207792a540abd547259fe33434547b40045cd64"
+    },
+    {
+      "questionId": "pdf-58",
+      "role": "reactant",
+      "smiles": "CCCBr",
+      "formula": "C3H7Br",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "bf2f8d572ae2162562b1d81e0a363d841c20e1741d71dcf183cc543df074180a"
+    },
+    {
+      "questionId": "pdf-58",
+      "role": "product",
+      "smiles": "CCCSC",
+      "formula": "C4H10S",
+      "chiralCenters": [],
+      "doubleBondStereo": [],
+      "svgSha256": "0c659b2953d1713a7aa50479a1456f67c08477b990fd2f327e5448a1a58ab336"
+    },
+    {
+      "questionId": "pdf-59",
+      "role": "reactant",
+      "smiles": "C[C@H](Br)CC",
+      "formula": "C4H9Br",
+      "chiralCenters": [
+        [
+          1,
+          "S"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "54e49913f3846f11e790c57864d3fd20722d31ee1748c31637322944cd4ec610"
+    },
+    {
+      "questionId": "pdf-59",
+      "role": "product",
+      "smiles": "C[C@@H](N=[N+]=[N-])CC",
+      "formula": "C4H9N3",
+      "chiralCenters": [
+        [
+          1,
+          "R"
+        ]
+      ],
+      "doubleBondStereo": [
+        "STEREONONE",
+        "STEREONONE"
+      ],
+      "svgSha256": "7ced46bb0647be781124a1e4b24e80571776531487e07197ca9094997227c11a"
+    },
+    {
+      "questionId": "pdf-60",
+      "role": "reactant",
+      "smiles": "C[C@H](Br)CC",
+      "formula": "C4H9Br",
+      "chiralCenters": [
+        [
+          1,
+          "S"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "54e49913f3846f11e790c57864d3fd20722d31ee1748c31637322944cd4ec610"
+    },
+    {
+      "questionId": "pdf-60",
+      "role": "product",
+      "smiles": "C[C@@H](SC)CC",
+      "formula": "C5H12S",
+      "chiralCenters": [
+        [
+          1,
+          "R"
+        ]
+      ],
+      "doubleBondStereo": [],
+      "svgSha256": "841611224390ea4707f133a7cdb64461a987c00b0a5224adde8c8172c4e97789"
+    }
+  ]
+}

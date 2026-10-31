@@ -1,0 +1,422 @@
+[
+  {
+    "number": 1,
+    "page": 1,
+    "correct": "Cl , hν\n2",
+    "distractors": "1. NaCl\n2. NBS, hν\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "01 Radical chlorination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 2,
+    "page": 1,
+    "correct": "Cl , hν\n2",
+    "distractors": "1. NaCl\n2. NBS, hν\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "02 Radical chlorination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 3,
+    "page": 1,
+    "correct": "Cl , hν\n2",
+    "distractors": "1. NaCl\n2. NBS, hν\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "03 Radical chlorination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 4,
+    "page": 2,
+    "correct": "Cl , hν\n2",
+    "distractors": "1. NaCl\n2. NBS, hν\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "04 Radical chlorination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 5,
+    "page": 2,
+    "correct": "Cl , hν\n2",
+    "distractors": "1. NaCl\n2. NBS, hν\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "05 Radical chlorination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 6,
+    "page": 2,
+    "correct": "Br , Δ\n2",
+    "distractors": "1. KBr\n2. NaBr\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "06 Radical bromination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 7,
+    "page": 3,
+    "correct": "Br , hν\n2",
+    "distractors": "1. KBr\n2. NaBr\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "07 Radical bromination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 8,
+    "page": 3,
+    "correct": "Br , Δ\n2",
+    "distractors": "1. KBr\n2. NaBr\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "08 Radical bromination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 9,
+    "page": 3,
+    "correct": "Br , hν\n2",
+    "distractors": "1. KBr\n2. NaBr\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "09 Radical bromination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 10,
+    "page": 4,
+    "correct": "Br , hν\n2",
+    "distractors": "1. KBr\n2. NaBr\n3. HBr\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KOtBu, Δ\n7. H O, Δ\n2",
+    "problem": "10 Radical bromination\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 11,
+    "page": 4,
+    "correct": "NBS, Δ",
+    "distractors": "1. KBr\n2. Cl , hν\n2\n3. HBr (no peroxides)\n4. HCl / ZnCl\n2\n5. NaOH\n6. KOtBu, Δ\n7. conc. H SO , Δ\n2 4",
+    "problem": "11 Allylic bromination (NBS)\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 12,
+    "page": 4,
+    "correct": "NBS, hν",
+    "distractors": "1. KBr\n2. Cl , hν\n2\n3. HBr (no peroxides)\n4. HCl / ZnCl\n2\n5. NaOH\n6. KOtBu, Δ\n7. conc. H SO , Δ\n2 4",
+    "problem": "12 Allylic bromination (NBS)\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 13,
+    "page": 5,
+    "correct": "NBS, Δ",
+    "distractors": "1. KBr\n2. Cl , hν\n2\n3. HBr (no peroxides)\n4. HCl / ZnCl\n2\n5. NaOH\n6. KOtBu, Δ\n7. conc. H SO , Δ\n2 4",
+    "problem": "13 Allylic bromination (NBS)\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 14,
+    "page": 5,
+    "correct": "NBS, hν",
+    "distractors": "1. KBr\n2. Cl , hν\n2\n3. HBr (no peroxides)\n4. HCl / ZnCl\n2\n5. NaOH\n6. KOtBu, Δ\n7. conc. H SO , Δ\n2 4",
+    "problem": "14 Allylic bromination (NBS)\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 15,
+    "page": 5,
+    "correct": "H O, Δ\n2",
+    "distractors": "1. NaOH/Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "15 SN1 solvolysis\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 16,
+    "page": 6,
+    "correct": "CH OH, Δ\n3",
+    "distractors": "1. NaOMe\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "16 SN1 solvolysis\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 17,
+    "page": 6,
+    "correct": "EtOH, Δ",
+    "distractors": "1. Br , hν\n2\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "17 SN1 solvolysis\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 18,
+    "page": 6,
+    "correct": "H O, Δ\n2",
+    "distractors": "1. NaOH/Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "18 SN1 solvolysis\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 19,
+    "page": 7,
+    "correct": "CH OH, Δ\n3",
+    "distractors": "1. NaOMe\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "19 SN1 solvolysis\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 20,
+    "page": 7,
+    "correct": "H O, Δ\n2",
+    "distractors": "1. Br , hν\n2\n2. Cl , hν\n2\n3. NBS, hν\n4. NaSH\n5. HBr\n6. HCl / ZnCl\n2\n7. KCN",
+    "problem": "20 E1 solvolysis\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 21,
+    "page": 7,
+    "correct": "EtOH, Δ",
+    "distractors": "1. Br , hν\n2\n2. Cl , hν\n2\n3. NBS, hν\n4. NaSH\n5. HBr\n6. HCl / ZnCl\n2\n7. KCN",
+    "problem": "21 E1 solvolysis\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 22,
+    "page": 8,
+    "correct": "EtOH, Δ",
+    "distractors": "1. Br , hν\n2\n2. Cl , hν\n2\n3. NBS, hν\n4. DIPEA\n5. HBr\n6. HCl / ZnCl\n2\n7. conc. H SO , Δ\n2 4",
+    "problem": "22 E1 solvolysis\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 23,
+    "page": 8,
+    "correct": "H O, Δ\n2",
+    "distractors": "1. Br , hν\n2\n2. Cl , hν\n2\n3. NBS, hν\n4. DIPEA\n5. HBr\n6. HCl / ZnCl\n2\n7. conc. H SO , Δ\n2 4",
+    "problem": "23 E1 solvolysis\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 24,
+    "page": 8,
+    "correct": "NaOH",
+    "distractors": "1. H₂O, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. conc. H SO , Δ\n2 4\n7. HCl / ZnCl\n2",
+    "problem": "24 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 25,
+    "page": 9,
+    "correct": "NaOH",
+    "distractors": "1. H₂O, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. conc. H SO , Δ\n2 4\n7. HCl / ZnCl\n2",
+    "problem": "25 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 26,
+    "page": 9,
+    "correct": "NaOCH\n3",
+    "distractors": "1. CH₃OH, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. conc. H SO , Δ\n2 4\n7. HCl / ZnCl\n2",
+    "problem": "26 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 27,
+    "page": 9,
+    "correct": "NaSH",
+    "distractors": "1. NaOH\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. conc. H SO , Δ\n2 4\n7. HCl / ZnCl\n2",
+    "problem": "27 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 28,
+    "page": 10,
+    "correct": "excess NH\n3",
+    "distractors": "1. NaN₃\n2. Cl , hν\n2\n3. NBS, hν\n4. KOtBu, Δ\n5. NaOEt, Δ\n6. conc. H SO , Δ\n2 4\n7. HCl / ZnCl\n2",
+    "problem": "28 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 29,
+    "page": 10,
+    "correct": "NaOH, Δ",
+    "distractors": "1. NaSH, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. diisopropylamine\n5. OsO₄, H₂O₂\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "29 E2 Zaitsev\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 30,
+    "page": 10,
+    "correct": "NaOPr",
+    "distractors": "1. NaSH, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. CH₃CO₂Na\n5. KOtBu, Δ\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "30 E2 Zaitsev\nE + Z\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 31,
+    "page": 11,
+    "correct": "NaOEt, Δ",
+    "distractors": "1. CH₃CO₂Na, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. conc. H₂SO₄, Δ\n5. 2,6-dimethylpyridine\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "31 E2 Zaitsev\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 32,
+    "page": 11,
+    "correct": "NaOH, Δ",
+    "distractors": "1. Et₃N, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. conc. H₃PO₄, Δ\n5. KOtBu, Δ\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "32 E2 Zaitsev\nE + Z\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 33,
+    "page": 11,
+    "correct": "NaOEt, Δ",
+    "distractors": "1. CH₃CO₂Na, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. conc. H₃PO₄, Δ\n5. KOtBu, Δ\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "33 E2 Zaitsev\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 34,
+    "page": 12,
+    "correct": "KOtBu",
+    "distractors": "1. EtOH, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. conc. H₂SO₄, Δ\n5. NaOH\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "34 E2 Hofmann\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 35,
+    "page": 12,
+    "correct": "DIPEA",
+    "distractors": "1. EtOH, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. conc. H₃PO₄, Δ\n5. NaOH\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "35 E2 Hofmann\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 36,
+    "page": 12,
+    "correct": "diisopropylamine",
+    "distractors": "1. EtOH, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. conc. H₂SO₄, Δ\n5. NaOH\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "36 E2 Hofmann\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 37,
+    "page": 13,
+    "correct": "2,6-lutidine",
+    "distractors": "1. EtOH, Δ\n2. Cl , hν\n2\n3. NBS, hν\n4. conc. H₃PO₄, Δ\n5. NaOH\n6. HBr\n7. HCl / ZnCl\n2",
+    "problem": "37 E2 Hofmann\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 38,
+    "page": 13,
+    "correct": "conc. H₃PO₄, Δ",
+    "distractors": "1. H₃O⁺\n2. Cl , hν\n2\n3. NBS, hν\n4. HBr\n5. HCl / ZnCl\n2\n6. NaOH\n7. KOtBu, Δ",
+    "problem": "38 Alcohol dehydration\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 39,
+    "page": 13,
+    "correct": "conc. H SO , Δ\n2 4",
+    "distractors": "1. H₃O⁺\n2. Cl , hν\n2\n3. NBS, hν\n4. HBr\n5. HCl / ZnCl\n2\n6. NaOH\n7. KOtBu, Δ",
+    "problem": "39 Alcohol dehydration\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 40,
+    "page": 14,
+    "correct": "conc. H PO , Δ\n3 4",
+    "distractors": "1. H₃O⁺\n2. Cl , hν\n2\n3. NBS, hν\n4. HBr\n5. HCl / ZnCl\n2\n6. NaOH\n7. KOtBu, Δ",
+    "problem": "40 Alcohol dehydration\nE + Z\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 41,
+    "page": 14,
+    "correct": "conc. H SO , Δ\n2 4",
+    "distractors": "1. H₃O⁺\n2. Cl , hν\n2\n3. NBS, hν\n4. HBr\n5. HCl / ZnCl\n2\n6. NaOH\n7. KOtBu, Δ",
+    "problem": "41 Alcohol dehydration\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 42,
+    "page": 14,
+    "correct": "HBr",
+    "distractors": "1. Br , hν\n2\n2. Cl , hν\n2\n3. NBS, hν\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KBr\n7. conc. H SO , Δ\n2 4",
+    "problem": "42 Alcohol to bromide\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 43,
+    "page": 15,
+    "correct": "HBr",
+    "distractors": "1. Br , hν\n2\n2. Cl , hν\n2\n3. NBS, hν\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KBr\n7. conc. H SO , Δ\n2 4",
+    "problem": "43 Alcohol to bromide\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 44,
+    "page": 15,
+    "correct": "HBr",
+    "distractors": "1. Br , hν\n2\n2. Cl , hν\n2\n3. NBS, hν\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KBr\n7. conc. H SO , Δ\n2 4",
+    "problem": "44 Alcohol to bromide\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 45,
+    "page": 15,
+    "correct": "HBr",
+    "distractors": "1. Br , hν\n2\n2. Cl , hν\n2\n3. NBS, hν\n4. HCl / ZnCl\n2\n5. NaOEt, Δ\n6. KBr\n7. conc. H SO , Δ\n2 4",
+    "problem": "45 Alcohol to bromide\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 46,
+    "page": 16,
+    "correct": "HCl, ZnCl₂",
+    "distractors": "1. mCPBA\n2. Cl , hν\n2\n3. NBS, hν\n4. HBr\n5. NaCl\n6. KOtBu, Δ\n7. conc. H SO , Δ\n2 4",
+    "problem": "46 Alcohol to chloride\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 47,
+    "page": 16,
+    "correct": "HCl, ZnCl₂",
+    "distractors": "1. mCPBA\n2. Cl , hν\n2\n3. NBS, hν\n4. HBr\n5. NaCl\n6. KOtBu, Δ\n7. conc. H SO , Δ\n2 4",
+    "problem": "47 Alcohol to chloride\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 48,
+    "page": 16,
+    "correct": "HCl, ZnCl₂",
+    "distractors": "1. mCPBA\n2. Cl , hν\n2\n3. NBS, hν\n4. HBr\n5. NaCl\n6. KOtBu, Δ\n7. conc. H SO , Δ\n2 4",
+    "problem": "48 Alcohol to chloride\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 49,
+    "page": 17,
+    "correct": "HCl, ZnCl₂",
+    "distractors": "1. mCPBA\n2. Cl , hν\n2\n3. NBS, hν\n4. HBr\n5. NaCl\n6. KOtBu, Δ\n7. conc. H SO , Δ\n2 4",
+    "problem": "49 Alcohol to chloride\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 50,
+    "page": 17,
+    "correct": "HCl, ZnCl₂",
+    "distractors": "1. mCPBA\n2. Cl , hν\n2\n3. NBS, hν\n4. HBr\n5. NaCl\n6. KOtBu, Δ\n7. conc. H SO , Δ\n2 4",
+    "problem": "50 Alcohol to chloride\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 51,
+    "page": 18,
+    "correct": "NaC≡CH",
+    "distractors": "1. NaOH\n2. KCN\n3. NaN₃\n4. NaSCH₃\n5. PPh₃\n6. NMe₃\n7. CH₃CO₂Na",
+    "problem": "51 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 52,
+    "page": 18,
+    "correct": "NaC≡CCH₃",
+    "distractors": "1. NaSCH₃\n2. PPh₃\n3. NMe₃\n4. CH₃CO₂Na\n5. KOtBu\n6. DIPEA\n7. H₂O, Δ",
+    "problem": "52 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 53,
+    "page": 18,
+    "correct": "PPh₃",
+    "distractors": "1. NaC≡CH\n2. KOtBu\n3. DIPEA\n4. H₂O, Δ\n5. conc. H₂SO₄, Δ\n6. NaBr\n7. EtOH, Δ",
+    "problem": "53 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 54,
+    "page": 19,
+    "correct": "NMe₃",
+    "distractors": "1. H₂O, Δ\n2. conc. H₂SO₄, Δ\n3. NaBr\n4. EtOH, Δ\n5. NaOCH₃\n6. NaSH\n7. NaCl",
+    "problem": "54 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 55,
+    "page": 19,
+    "correct": "CH₃CH₂CO₂Na",
+    "distractors": "1. NaBr\n2. EtOH, Δ\n3. NaOCH₃\n4. NaSH\n5. NaCl\n6. HBr\n7. NaOH",
+    "problem": "55 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 56,
+    "page": 19,
+    "correct": "KCN",
+    "distractors": "1. NaCl\n2. HBr\n3. NaOH\n4. NaN₃\n5. NaSCH₃\n6. PPh₃\n7. NMe₃",
+    "problem": "56 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 57,
+    "page": 20,
+    "correct": "NaN₃",
+    "distractors": "1. KCN\n2. NaSCH₃\n3. PPh₃\n4. NMe₃\n5. CH₃CO₂Na\n6. NaC≡CH\n7. KOtBu",
+    "problem": "57 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 58,
+    "page": 20,
+    "correct": "NaSCH₃",
+    "distractors": "1. NMe₃\n2. CH₃CO₂Na\n3. NaC≡CH\n4. KOtBu\n5. DIPEA\n6. H₂O, Δ\n7. conc. H₂SO₄, Δ",
+    "problem": "58 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 59,
+    "page": 20,
+    "correct": "NaN₃",
+    "distractors": "1. KOtBu\n2. DIPEA\n3. H₂O, Δ\n4. conc. H₂SO₄, Δ\n5. NaBr\n6. EtOH, Δ\n7. NaOCH₃",
+    "problem": "59 SN2 substitution\nSelect missing reagents / conditions"
+  },
+  {
+    "number": 60,
+    "page": 21,
+    "correct": "NaSCH₃",
+    "distractors": "1. conc. H₂SO₄, Δ\n2. NaBr\n3. EtOH, Δ\n4. NaOCH₃\n5. NaSH\n6. NaCl\n7. HBr",
+    "problem": "60 SN2 substitution\nSelect missing reagents / conditions"
+  }
+]

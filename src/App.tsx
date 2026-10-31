@@ -29,13 +29,13 @@ export default function App() {
           <p>Drag your chosen answer onto the reaction arrow.</p>
           <p>You have up to three attempts per question. After an incorrect answer, you may request a hint. When you answer correctly or use all three attempts, you will see the correct answer and an explanation.</p>
           <p>Your progress will be saved automatically.</p>
-          <aside className="stage-note"><strong>Foundation preview</strong><p>Practice questions arrive in Stage 2. Interactive practice and automatic progress saving will be added in later stages. When available, saved progress will stay in this browser and profile.</p></aside>
+          <aside className="stage-note"><strong>Question bank preview</strong><p>The question bank is prepared; questions requiring instructor review are excluded from the available count. Interactive practice arrives in Stage 3, with automatic progress saving in Stage 4. Saved progress will stay in this browser and profile.</p></aside>
         </section>
         <section className="selection-panel" aria-labelledby="selection-title">
           <div className="panel-heading"><p className="eyebrow">BUILD YOUR PRACTICE</p><h2 id="selection-title">Choose reaction categories</h2><p>Select any combination to focus your review.</p></div>
           <div className="selection-tools"><label><input ref={selectAll} type="checkbox" checked={allSelected} onChange={() => setSelected(allSelected ? [] : reactionGroups.map(({ id }) => id))} /> Select All</label><button className="text-button" onClick={() => setSelected([])} disabled={selected.length === 0}>Clear All</button></div>
           <fieldset><legend className="sr-only">Reaction categories</legend><div className="category-grid">{reactionGroups.map(({ id, label }) => <label className={`category-option ${selected.includes(id) ? 'selected' : ''}`} key={id}><input type="checkbox" checked={selected.includes(id)} onChange={() => toggle(id)} /><span>{label}</span></label>)}</div></fieldset>
-          <div className="start-area"><p role="status"><strong>{available}</strong> questions available <span>· {selected.length} of {reactionGroups.length} groups selected</span></p><button className="start-button" disabled={selected.length === 0 || available === 0} aria-describedby="availability-note">Start Now <span aria-hidden="true">→</span></button><p id="availability-note" className="availability-note">The question bank awaits Stage 2 preparation and instructor review. Practice is not available in this Stage 1 preview.</p></div>
+          <div className="start-area"><p role="status"><strong>{available}</strong> questions available <span>· {selected.length} of {reactionGroups.length} groups selected</span></p><button className="start-button" disabled aria-describedby="availability-note">Start Now <span aria-hidden="true">→</span></button><p id="availability-note" className="availability-note">Practice is not available in this Stage 2 preview. Start Now will be enabled when interactive practice is implemented in Stage 3.</p></div>
         </section>
       </main>
       <footer>Choose your focus. Build your confidence.</footer>

@@ -18,5 +18,10 @@ export interface ReactionQuestion {
   explanation: string;
   hint: string;
   stereochemistry?: string;
-  source: { problemNumber: number; document: string };
+  source: { problemNumber: number; page: number; document: string };
+  review: {
+    status: 'prepared' | 'needs-review';
+    issues: string[];
+    notes: string[];
+  };
 }

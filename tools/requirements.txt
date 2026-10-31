@@ -1,0 +1,5 @@
+rdkit==2026.9.1
+PyMuPDF==2.0
+pdfplumber==0.11.9
+pypdf==6.10.0
+Pillow==13.0.0

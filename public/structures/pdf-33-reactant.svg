@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg role="img" version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='640px' height='300px' viewBox='0 0 640 300'>
+<title>2-bromo-3-methylpentane</title>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:#FFFFFF;stroke:none' width='640.0' height='300.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 414.6,48.0 L 394.8,136.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 394.8,136.0 L 422.2,161.2' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 422.2,161.2 L 449.5,186.4' style='fill:none;fill-rule:evenodd;stroke:#7F4C19;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 394.8,136.0 L 308.7,163.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 308.7,163.0 L 289.0,251.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-3 atom-5' d='M 308.7,163.0 L 242.3,101.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 242.3,101.8 L 156.2,128.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 245.7,104.9 L 242.3,101.8 L 238.0,103.2' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 464.9 196.5
+Q 467.4 197.2, 468.6 198.7
+Q 469.9 200.2, 469.9 202.4
+Q 469.9 205.9, 467.6 208.0
+Q 465.4 209.9, 461.1 209.9
+L 452.5 209.9
+L 452.5 184.4
+L 460.1 184.4
+Q 464.4 184.4, 466.6 186.2
+Q 468.8 187.9, 468.8 191.2
+Q 468.8 195.0, 464.9 196.5
+M 455.9 187.3
+L 455.9 195.3
+L 460.1 195.3
+Q 462.6 195.3, 463.9 194.3
+Q 465.2 193.2, 465.2 191.2
+Q 465.2 187.3, 460.1 187.3
+L 455.9 187.3
+M 461.1 207.1
+Q 463.6 207.1, 464.9 205.9
+Q 466.3 204.7, 466.3 202.4
+Q 466.3 200.3, 464.8 199.3
+Q 463.3 198.2, 460.6 198.2
+L 455.9 198.2
+L 455.9 207.1
+L 461.1 207.1
+' fill='#7F4C19'/>
+<path class='atom-2' d='M 475.7 191.4
+L 476.1 194.0
+Q 478.0 191.1, 481.2 191.1
+Q 482.2 191.1, 483.6 191.4
+L 483.0 194.5
+Q 481.5 194.1, 480.6 194.1
+Q 479.1 194.1, 478.1 194.7
+Q 477.1 195.3, 476.3 196.7
+L 476.3 209.9
+L 472.9 209.9
+L 472.9 191.4
+L 475.7 191.4
+' fill='#7F4C19'/>
+</svg>

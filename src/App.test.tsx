@@ -4,8 +4,8 @@ import { describe, expect, it } from 'vitest';
 import App from './App';
 import { reactionGroups } from './data/categories';
 
-describe('Stage 1 introduction', () => {
-  it('shows three reaction groups and disables practice for the empty bank', () => {
+describe('introduction', () => {
+  it('shows three reaction groups and disables practice pending Stage 3', () => {
     render(<App />);
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Organic Chemistry:Choose the Reagents');
     expect(screen.getAllByRole('checkbox')).toHaveLength(4);

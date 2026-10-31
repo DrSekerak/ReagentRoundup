@@ -1,0 +1,2209 @@
+[
+  {
+    "id": "pdf-01",
+    "category": "radical-chlorination",
+    "correctAnswer": "Cl₂, hν",
+    "distractors": [
+      "NaCl",
+      "NBS, hν",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical chlorination. Light initiates the radical chain that replaces a carbon-bound hydrogen with chlorine. The displayed transformation converts ethane to chloroethane.",
+    "hint": "Consider radical chlorination.",
+    "source": {
+      "problemNumber": 1,
+      "page": 1,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC",
+      "svgPath": "structures/pdf-01-reactant.svg",
+      "alt": "Ethane"
+    },
+    "product": {
+      "smiles": "CCCl",
+      "svgPath": "structures/pdf-01-product.svg",
+      "alt": "Chloroethane"
+    }
+  },
+  {
+    "id": "pdf-02",
+    "category": "radical-chlorination",
+    "correctAnswer": "Cl₂, hν",
+    "distractors": [
+      "NaCl",
+      "NBS, hν",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical chlorination. Light initiates the radical chain that replaces a carbon-bound hydrogen with chlorine. The displayed transformation converts propane to 2-chloropropane.",
+    "hint": "Consider radical chlorination.",
+    "source": {
+      "problemNumber": 2,
+      "page": 1,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Chlorination can give regioisomeric products; the source specifies the displayed transformation, not an exclusive product."
+      ]
+    },
+    "reactant": {
+      "smiles": "CCC",
+      "svgPath": "structures/pdf-02-reactant.svg",
+      "alt": "Propane"
+    },
+    "product": {
+      "smiles": "CC(Cl)C",
+      "svgPath": "structures/pdf-02-product.svg",
+      "alt": "2-chloropropane"
+    }
+  },
+  {
+    "id": "pdf-03",
+    "category": "radical-chlorination",
+    "correctAnswer": "Cl₂, hν",
+    "distractors": [
+      "NaCl",
+      "NBS, hν",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical chlorination. Light initiates the radical chain that replaces a carbon-bound hydrogen with chlorine. The displayed transformation converts 2-methylpropane to 2-chloro-2-methylpropane.",
+    "hint": "Consider radical chlorination.",
+    "source": {
+      "problemNumber": 3,
+      "page": 1,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Chlorination can give regioisomeric products; do not describe the tertiary chloride as the sole product."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(C)C",
+      "svgPath": "structures/pdf-03-reactant.svg",
+      "alt": "2-methylpropane"
+    },
+    "product": {
+      "smiles": "CC(C)(C)Cl",
+      "svgPath": "structures/pdf-03-product.svg",
+      "alt": "2-chloro-2-methylpropane"
+    }
+  },
+  {
+    "id": "pdf-04",
+    "category": "radical-chlorination",
+    "correctAnswer": "Cl₂, hν",
+    "distractors": [
+      "NaCl",
+      "NBS, hν",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical chlorination. Light initiates the radical chain that replaces a carbon-bound hydrogen with chlorine. The displayed transformation converts cyclohexane to chlorocyclohexane.",
+    "hint": "Consider radical chlorination.",
+    "source": {
+      "problemNumber": 4,
+      "page": 2,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "C1CCCCC1",
+      "svgPath": "structures/pdf-04-reactant.svg",
+      "alt": "Cyclohexane"
+    },
+    "product": {
+      "smiles": "ClC1CCCCC1",
+      "svgPath": "structures/pdf-04-product.svg",
+      "alt": "Chlorocyclohexane"
+    }
+  },
+  {
+    "id": "pdf-05",
+    "category": "radical-chlorination",
+    "correctAnswer": "Cl₂, hν",
+    "distractors": [
+      "NaCl",
+      "NBS, hν",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical chlorination of 2,2-dimethylpropane. All twelve hydrogens are equivalent, so replacing one with chlorine gives the displayed 1-chloro-2,2-dimethylpropane.",
+    "hint": "Consider radical chlorination.",
+    "source": {
+      "problemNumber": 5,
+      "page": 2,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)(C)C",
+      "svgPath": "structures/pdf-05-reactant.svg",
+      "alt": "2,2-dimethylpropane"
+    },
+    "product": {
+      "smiles": "CC(C)(C)CCl",
+      "svgPath": "structures/pdf-05-product.svg",
+      "alt": "1-chloro-2,2-dimethylpropane"
+    }
+  },
+  {
+    "id": "pdf-06",
+    "category": "radical-bromination-br2",
+    "correctAnswer": "Br₂, Δ",
+    "distractors": [
+      "KBr",
+      "NaBr",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical bromination. Light or heat initiates a radical chain; the indicated site forms a relatively stable carbon radical. The displayed transformation converts propane to 2-bromopropane.",
+    "hint": "Consider radical bromination.",
+    "source": {
+      "problemNumber": 6,
+      "page": 2,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCC",
+      "svgPath": "structures/pdf-06-reactant.svg",
+      "alt": "Propane"
+    },
+    "product": {
+      "smiles": "CC(Br)C",
+      "svgPath": "structures/pdf-06-product.svg",
+      "alt": "2-bromopropane"
+    }
+  },
+  {
+    "id": "pdf-07",
+    "category": "radical-bromination-br2",
+    "correctAnswer": "Br₂, hν",
+    "distractors": [
+      "KBr",
+      "NaBr",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical bromination. Light or heat initiates a radical chain; the indicated site forms a relatively stable carbon radical. The displayed transformation converts 2-methylpropane to 2-bromo-2-methylpropane.",
+    "hint": "Consider radical bromination.",
+    "source": {
+      "problemNumber": 7,
+      "page": 3,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)C",
+      "svgPath": "structures/pdf-07-reactant.svg",
+      "alt": "2-methylpropane"
+    },
+    "product": {
+      "smiles": "CC(C)(C)Br",
+      "svgPath": "structures/pdf-07-product.svg",
+      "alt": "2-bromo-2-methylpropane"
+    }
+  },
+  {
+    "id": "pdf-08",
+    "category": "radical-bromination-br2",
+    "correctAnswer": "Br₂, Δ",
+    "distractors": [
+      "KBr",
+      "NaBr",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical bromination. Light or heat initiates a radical chain; the indicated site forms a relatively stable carbon radical. The displayed transformation converts butane to 2-bromobutane.",
+    "hint": "Consider radical bromination.",
+    "source": {
+      "problemNumber": 8,
+      "page": 3,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCC",
+      "svgPath": "structures/pdf-08-reactant.svg",
+      "alt": "Butane"
+    },
+    "product": {
+      "smiles": "CC(Br)CC",
+      "svgPath": "structures/pdf-08-product.svg",
+      "alt": "2-bromobutane, stereochemistry unspecified"
+    }
+  },
+  {
+    "id": "pdf-09",
+    "category": "radical-bromination-br2",
+    "correctAnswer": "Br₂, hν",
+    "distractors": [
+      "KBr",
+      "NaBr",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical bromination. Light or heat initiates a radical chain; the indicated site forms a relatively stable carbon radical. The displayed transformation converts 2-methylbutane to 2-bromo-2-methylbutane.",
+    "hint": "Consider radical bromination.",
+    "source": {
+      "problemNumber": 9,
+      "page": 3,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)CC",
+      "svgPath": "structures/pdf-09-reactant.svg",
+      "alt": "2-methylbutane"
+    },
+    "product": {
+      "smiles": "CC(C)(Br)CC",
+      "svgPath": "structures/pdf-09-product.svg",
+      "alt": "2-bromo-2-methylbutane"
+    }
+  },
+  {
+    "id": "pdf-10",
+    "category": "radical-bromination-br2",
+    "correctAnswer": "Br₂, hν",
+    "distractors": [
+      "KBr",
+      "NaBr",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KOtBu, Δ",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is radical bromination. Light or heat initiates a radical chain; the indicated site forms a relatively stable carbon radical. The displayed transformation converts cyclohexane to bromocyclohexane.",
+    "hint": "Consider radical bromination.",
+    "source": {
+      "problemNumber": 10,
+      "page": 4,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "C1CCCCC1",
+      "svgPath": "structures/pdf-10-reactant.svg",
+      "alt": "Cyclohexane"
+    },
+    "product": {
+      "smiles": "BrC1CCCCC1",
+      "svgPath": "structures/pdf-10-product.svg",
+      "alt": "Bromocyclohexane"
+    }
+  },
+  {
+    "id": "pdf-11",
+    "category": "radical-bromination-nbs",
+    "correctAnswer": "NBS, Δ",
+    "distractors": [
+      "KBr",
+      "Cl₂, hν",
+      "HBr (no peroxides)",
+      "HCl / ZnCl₂",
+      "NaOH",
+      "KOtBu, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This is allylic radical bromination. NBS under the stated radical conditions replaces an allylic hydrogen while retaining an alkene. The displayed transformation converts but-1-ene to 3-bromobut-1-ene.",
+    "hint": "Consider allylic radical bromination.",
+    "source": {
+      "problemNumber": 11,
+      "page": 4,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Allylic radical resonance can give other regioisomers; the depicted product is the instructor-selected transformation."
+      ]
+    },
+    "reactant": {
+      "smiles": "C=CCC",
+      "svgPath": "structures/pdf-11-reactant.svg",
+      "alt": "But-1-ene"
+    },
+    "product": {
+      "smiles": "C=CC(Br)C",
+      "svgPath": "structures/pdf-11-product.svg",
+      "alt": "3-bromobut-1-ene"
+    }
+  },
+  {
+    "id": "pdf-12",
+    "category": "radical-bromination-nbs",
+    "correctAnswer": "NBS, hν",
+    "distractors": [
+      "KBr",
+      "Cl₂, hν",
+      "HBr (no peroxides)",
+      "HCl / ZnCl₂",
+      "NaOH",
+      "KOtBu, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This is allylic radical bromination. NBS under the stated radical conditions replaces an allylic hydrogen while retaining an alkene. The displayed transformation converts 3-methylbut-1-ene to 3-bromo-3-methylbut-1-ene.",
+    "hint": "Consider allylic radical bromination.",
+    "source": {
+      "problemNumber": 12,
+      "page": 4,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Allylic radical resonance can give other regioisomers; retain the source product."
+      ]
+    },
+    "reactant": {
+      "smiles": "C=CC(C)C",
+      "svgPath": "structures/pdf-12-reactant.svg",
+      "alt": "3-methylbut-1-ene"
+    },
+    "product": {
+      "smiles": "C=CC(Br)(C)C",
+      "svgPath": "structures/pdf-12-product.svg",
+      "alt": "3-bromo-3-methylbut-1-ene"
+    }
+  },
+  {
+    "id": "pdf-13",
+    "category": "radical-bromination-nbs",
+    "correctAnswer": "NBS, Δ",
+    "distractors": [
+      "KBr",
+      "Cl₂, hν",
+      "HBr (no peroxides)",
+      "HCl / ZnCl₂",
+      "NaOH",
+      "KOtBu, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This is allylic radical bromination. NBS under the stated radical conditions replaces an allylic hydrogen while retaining an alkene. The displayed transformation converts cyclohexene to 3-bromocyclohex-1-ene.",
+    "hint": "Consider allylic radical bromination.",
+    "source": {
+      "problemNumber": 13,
+      "page": 5,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "C1=CCCCC1",
+      "svgPath": "structures/pdf-13-reactant.svg",
+      "alt": "Cyclohexene"
+    },
+    "product": {
+      "smiles": "C1=CC(Br)CCC1",
+      "svgPath": "structures/pdf-13-product.svg",
+      "alt": "3-bromocyclohex-1-ene"
+    }
+  },
+  {
+    "id": "pdf-14",
+    "category": "radical-bromination-nbs",
+    "correctAnswer": "NBS, hν",
+    "distractors": [
+      "KBr",
+      "Cl₂, hν",
+      "HBr (no peroxides)",
+      "HCl / ZnCl₂",
+      "NaOH",
+      "KOtBu, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This is allylic radical bromination. NBS under the stated radical conditions replaces an allylic hydrogen while retaining an alkene. The displayed transformation converts propene to 3-bromoprop-1-ene.",
+    "hint": "Consider allylic radical bromination.",
+    "source": {
+      "problemNumber": 14,
+      "page": 5,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "C=CC",
+      "svgPath": "structures/pdf-14-reactant.svg",
+      "alt": "Propene"
+    },
+    "product": {
+      "smiles": "C=CCBr",
+      "svgPath": "structures/pdf-14-product.svg",
+      "alt": "3-bromoprop-1-ene"
+    }
+  },
+  {
+    "id": "pdf-15",
+    "category": "sn1",
+    "correctAnswer": "H₂O, Δ",
+    "distractors": [
+      "NaOH/Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN1 solvolysis. Ionization of the tertiary halide allows the water or alcohol solvent to form the indicated carbon–oxygen bond; elimination can compete. The displayed transformation converts 2-bromo-2-methylpropane to 2-methylpropan-2-ol.",
+    "hint": "Consider SN1 solvolysis.",
+    "source": {
+      "problemNumber": 15,
+      "page": 5,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Heated solvolysis can compete with E1; instructor-selected substitution answer retained."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(C)(C)Br",
+      "svgPath": "structures/pdf-15-reactant.svg",
+      "alt": "2-bromo-2-methylpropane"
+    },
+    "product": {
+      "smiles": "CC(C)(C)O",
+      "svgPath": "structures/pdf-15-product.svg",
+      "alt": "2-methylpropan-2-ol"
+    }
+  },
+  {
+    "id": "pdf-16",
+    "category": "sn1",
+    "correctAnswer": "CH₃OH, Δ",
+    "distractors": [
+      "NaOMe",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN1 solvolysis. Ionization of the tertiary halide allows the water or alcohol solvent to form the indicated carbon–oxygen bond; elimination can compete. The displayed transformation converts 2-chloro-2-methylpropane to 2-methoxy-2-methylpropane.",
+    "hint": "Consider SN1 solvolysis.",
+    "source": {
+      "problemNumber": 16,
+      "page": 6,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Heated solvolysis can compete with E1; instructor-selected substitution answer retained."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(C)(C)Cl",
+      "svgPath": "structures/pdf-16-reactant.svg",
+      "alt": "2-chloro-2-methylpropane"
+    },
+    "product": {
+      "smiles": "CC(C)(C)OC",
+      "svgPath": "structures/pdf-16-product.svg",
+      "alt": "2-methoxy-2-methylpropane"
+    }
+  },
+  {
+    "id": "pdf-17",
+    "category": "sn1",
+    "correctAnswer": "EtOH, Δ",
+    "distractors": [
+      "Br₂, hν",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN1 solvolysis. Ionization of the tertiary halide allows the water or alcohol solvent to form the indicated carbon–oxygen bond; elimination can compete. The displayed transformation converts 2-iodo-2-methylpropane to 2-ethoxy-2-methylpropane.",
+    "hint": "Consider SN1 solvolysis.",
+    "source": {
+      "problemNumber": 17,
+      "page": 6,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Heated solvolysis can compete with E1; instructor-selected substitution answer retained."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(C)(C)I",
+      "svgPath": "structures/pdf-17-reactant.svg",
+      "alt": "2-iodo-2-methylpropane"
+    },
+    "product": {
+      "smiles": "CC(C)(C)OCC",
+      "svgPath": "structures/pdf-17-product.svg",
+      "alt": "2-ethoxy-2-methylpropane"
+    }
+  },
+  {
+    "id": "pdf-18",
+    "category": "sn1",
+    "correctAnswer": "H₂O, Δ",
+    "distractors": [
+      "NaOH/Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN1 solvolysis. Ionization of the tertiary halide allows the water or alcohol solvent to form the indicated carbon–oxygen bond; elimination can compete. The displayed transformation converts 2-bromo-2-methylbutane to 2-methylbutan-2-ol.",
+    "hint": "Consider SN1 solvolysis.",
+    "source": {
+      "problemNumber": 18,
+      "page": 6,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Heated solvolysis can compete with E1; instructor-selected substitution answer retained."
+      ]
+    },
+    "reactant": {
+      "smiles": "CCC(C)(C)Br",
+      "svgPath": "structures/pdf-18-reactant.svg",
+      "alt": "2-bromo-2-methylbutane"
+    },
+    "product": {
+      "smiles": "CCC(C)(C)O",
+      "svgPath": "structures/pdf-18-product.svg",
+      "alt": "2-methylbutan-2-ol"
+    }
+  },
+  {
+    "id": "pdf-19",
+    "category": "sn1",
+    "correctAnswer": "CH₃OH, Δ",
+    "distractors": [
+      "NaOMe",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN1 solvolysis. Ionization of the tertiary halide allows the water or alcohol solvent to form the indicated carbon–oxygen bond; elimination can compete. The displayed transformation converts 2-chloro-2-methylbutane to 2-methoxy-2-methylbutane.",
+    "hint": "Consider SN1 solvolysis.",
+    "source": {
+      "problemNumber": 19,
+      "page": 7,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Heated solvolysis can compete with E1; instructor-selected substitution answer retained."
+      ]
+    },
+    "reactant": {
+      "smiles": "CCC(C)(C)Cl",
+      "svgPath": "structures/pdf-19-reactant.svg",
+      "alt": "2-chloro-2-methylbutane"
+    },
+    "product": {
+      "smiles": "CCC(C)(C)OC",
+      "svgPath": "structures/pdf-19-product.svg",
+      "alt": "2-methoxy-2-methylbutane"
+    }
+  },
+  {
+    "id": "pdf-20",
+    "category": "e1",
+    "correctAnswer": "H₂O, Δ",
+    "distractors": [
+      "Br₂, hν",
+      "Cl₂, hν",
+      "NBS, hν",
+      "NaSH",
+      "HBr",
+      "HCl / ZnCl₂",
+      "KCN"
+    ],
+    "explanation": "This is E1 elimination. Ionization of the tertiary halide followed by loss of a beta hydrogen gives the indicated alkene under heated solvolysis conditions. The displayed transformation converts 2-bromo-2-methylpropane to 2-methylpropene.",
+    "hint": "Consider E1 elimination.",
+    "source": {
+      "problemNumber": 20,
+      "page": 7,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)(C)Br",
+      "svgPath": "structures/pdf-20-reactant.svg",
+      "alt": "2-bromo-2-methylpropane"
+    },
+    "product": {
+      "smiles": "C=C(C)C",
+      "svgPath": "structures/pdf-20-product.svg",
+      "alt": "2-methylpropene"
+    }
+  },
+  {
+    "id": "pdf-21",
+    "category": "e1",
+    "correctAnswer": "EtOH, Δ",
+    "distractors": [
+      "Br₂, hν",
+      "Cl₂, hν",
+      "NBS, hν",
+      "NaSH",
+      "HBr",
+      "HCl / ZnCl₂",
+      "KCN"
+    ],
+    "explanation": "This is E1 elimination. Ionization of the tertiary halide followed by loss of a beta hydrogen gives the indicated alkene under heated solvolysis conditions. The displayed transformation converts 2-chloro-2-methylpropane to 2-methylpropene.",
+    "hint": "Consider E1 elimination.",
+    "source": {
+      "problemNumber": 21,
+      "page": 7,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)(C)Cl",
+      "svgPath": "structures/pdf-21-reactant.svg",
+      "alt": "2-chloro-2-methylpropane"
+    },
+    "product": {
+      "smiles": "C=C(C)C",
+      "svgPath": "structures/pdf-21-product.svg",
+      "alt": "2-methylpropene"
+    }
+  },
+  {
+    "id": "pdf-22",
+    "category": "e1",
+    "correctAnswer": "EtOH, Δ",
+    "distractors": [
+      "Br₂, hν",
+      "Cl₂, hν",
+      "NBS, hν",
+      "DIPEA",
+      "HBr",
+      "HCl / ZnCl₂",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This is E1 elimination. Ionization of the tertiary halide followed by loss of a beta hydrogen gives the indicated alkene under heated solvolysis conditions. The displayed transformation converts 2-bromo-2-methylbutane to 2-methylbut-2-ene.",
+    "hint": "Consider E1 elimination.",
+    "source": {
+      "problemNumber": 22,
+      "page": 8,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCC(C)(C)Br",
+      "svgPath": "structures/pdf-22-reactant.svg",
+      "alt": "2-bromo-2-methylbutane"
+    },
+    "product": {
+      "smiles": "CC=C(C)C",
+      "svgPath": "structures/pdf-22-product.svg",
+      "alt": "2-methylbut-2-ene"
+    }
+  },
+  {
+    "id": "pdf-23",
+    "category": "e1",
+    "correctAnswer": "H₂O, Δ",
+    "distractors": [
+      "Br₂, hν",
+      "Cl₂, hν",
+      "NBS, hν",
+      "DIPEA",
+      "HBr",
+      "HCl / ZnCl₂",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This is E1 elimination. Ionization of the tertiary halide followed by loss of a beta hydrogen gives the indicated alkene under heated solvolysis conditions. The displayed transformation converts 2-iodo-2-methylbutane to 2-methylbut-2-ene.",
+    "hint": "Consider E1 elimination.",
+    "source": {
+      "problemNumber": 23,
+      "page": 8,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCC(C)(C)I",
+      "svgPath": "structures/pdf-23-reactant.svg",
+      "alt": "2-iodo-2-methylbutane"
+    },
+    "product": {
+      "smiles": "CC=C(C)C",
+      "svgPath": "structures/pdf-23-product.svg",
+      "alt": "2-methylbut-2-ene"
+    }
+  },
+  {
+    "id": "pdf-24",
+    "category": "sn2",
+    "correctAnswer": "NaOH",
+    "distractors": [
+      "H₂O, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "conc. H₂SO₄, Δ",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromopropane to propan-1-ol.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 24,
+      "page": 8,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCBr",
+      "svgPath": "structures/pdf-24-reactant.svg",
+      "alt": "1-bromopropane"
+    },
+    "product": {
+      "smiles": "CCCO",
+      "svgPath": "structures/pdf-24-product.svg",
+      "alt": "Propan-1-ol"
+    }
+  },
+  {
+    "id": "pdf-25",
+    "category": "sn2",
+    "correctAnswer": "NaOH",
+    "distractors": [
+      "H₂O, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "conc. H₂SO₄, Δ",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromobutane to butan-1-ol.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 25,
+      "page": 9,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCCBr",
+      "svgPath": "structures/pdf-25-reactant.svg",
+      "alt": "1-bromobutane"
+    },
+    "product": {
+      "smiles": "CCCCO",
+      "svgPath": "structures/pdf-25-product.svg",
+      "alt": "Butan-1-ol"
+    }
+  },
+  {
+    "id": "pdf-26",
+    "category": "sn2",
+    "correctAnswer": "NaOCH₃",
+    "distractors": [
+      "CH₃OH, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "conc. H₂SO₄, Δ",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts bromoethane to methoxyethane.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 26,
+      "page": 9,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCBr",
+      "svgPath": "structures/pdf-26-reactant.svg",
+      "alt": "Bromoethane"
+    },
+    "product": {
+      "smiles": "CCOC",
+      "svgPath": "structures/pdf-26-product.svg",
+      "alt": "Methoxyethane"
+    }
+  },
+  {
+    "id": "pdf-27",
+    "category": "sn2",
+    "correctAnswer": "NaSH",
+    "distractors": [
+      "NaOH",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "conc. H₂SO₄, Δ",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-iodopropane to propane-1-thiol.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 27,
+      "page": 9,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCI",
+      "svgPath": "structures/pdf-27-reactant.svg",
+      "alt": "1-iodopropane"
+    },
+    "product": {
+      "smiles": "CCCS",
+      "svgPath": "structures/pdf-27-product.svg",
+      "alt": "Propane-1-thiol"
+    }
+  },
+  {
+    "id": "pdf-28",
+    "category": "sn2",
+    "correctAnswer": "excess NH₃",
+    "distractors": [
+      "NaN₃",
+      "Cl₂, hν",
+      "NBS, hν",
+      "KOtBu, Δ",
+      "NaOEt, Δ",
+      "conc. H₂SO₄, Δ",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts chloroethane to ethanamine.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 28,
+      "page": 10,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCl",
+      "svgPath": "structures/pdf-28-reactant.svg",
+      "alt": "Chloroethane"
+    },
+    "product": {
+      "smiles": "CCN",
+      "svgPath": "structures/pdf-28-product.svg",
+      "alt": "Ethanamine"
+    }
+  },
+  {
+    "id": "pdf-29",
+    "category": "e2-zaitsev",
+    "correctAnswer": "NaOH, Δ",
+    "distractors": [
+      "NaSH, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "diisopropylamine",
+      "OsO₄, H₂O₂",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is E2 elimination. The hydroxide or alkoxide base removes a beta hydrogen as the halide leaves, favoring the more substituted alkene. The displayed transformation converts 2-bromobutane to (e)-but-2-ene as drawn.",
+    "hint": "Consider E2 elimination favoring the Zaitsev product.",
+    "source": {
+      "problemNumber": 29,
+      "page": 10,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Source draws E-but-2-ene without an E + Z label; preserve that drawing without claiming exclusive E selectivity."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(Br)CC",
+      "svgPath": "structures/pdf-29-reactant.svg",
+      "alt": "2-bromobutane"
+    },
+    "product": {
+      "smiles": "C/C=C/C",
+      "svgPath": "structures/pdf-29-product.svg",
+      "alt": "(E)-but-2-ene as drawn"
+    },
+    "stereochemistry": "E alkene as drawn; source does not explicitly state a mixture."
+  },
+  {
+    "id": "pdf-30",
+    "category": "e2-zaitsev",
+    "correctAnswer": "NaOPr",
+    "distractors": [
+      "NaSH, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "CH₃CO₂Na",
+      "KOtBu, Δ",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is E2 elimination. The hydroxide or alkoxide base removes a beta hydrogen as the halide leaves, favoring the more substituted alkene. The displayed transformation converts 2-chloropentane to pent-2-ene.",
+    "hint": "Consider E2 elimination favoring the Zaitsev product.",
+    "source": {
+      "problemNumber": 30,
+      "page": 10,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Source explicitly says E + Z; SVG shows a representative E structure with E + Z annotation."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(Cl)CCC",
+      "svgPath": "structures/pdf-30-reactant.svg",
+      "alt": "2-chloropentane"
+    },
+    "product": {
+      "smiles": "C/C=C/CC",
+      "svgPath": "structures/pdf-30-product.svg",
+      "alt": "Pent-2-ene, E + Z; representative E structure"
+    },
+    "stereochemistry": "E + Z as explicitly labeled in the PDF; representative E structure shown."
+  },
+  {
+    "id": "pdf-31",
+    "category": "e2-zaitsev",
+    "correctAnswer": "NaOEt, Δ",
+    "distractors": [
+      "CH₃CO₂Na, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "conc. H₂SO₄, Δ",
+      "2,6-dimethylpyridine",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is E2 elimination. The hydroxide or alkoxide base removes a beta hydrogen as the halide leaves, favoring the more substituted alkene. The displayed transformation converts 2-bromo-3-methylbutane to 2-methylbut-2-ene.",
+    "hint": "Consider E2 elimination favoring the Zaitsev product.",
+    "source": {
+      "problemNumber": 31,
+      "page": 11,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(Br)C(C)C",
+      "svgPath": "structures/pdf-31-reactant.svg",
+      "alt": "2-bromo-3-methylbutane"
+    },
+    "product": {
+      "smiles": "CC=C(C)C",
+      "svgPath": "structures/pdf-31-product.svg",
+      "alt": "2-methylbut-2-ene"
+    }
+  },
+  {
+    "id": "pdf-32",
+    "category": "e2-zaitsev",
+    "correctAnswer": "NaOH, Δ",
+    "distractors": [
+      "Et₃N, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "conc. H₃PO₄, Δ",
+      "KOtBu, Δ",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is E2 elimination. The hydroxide or alkoxide base removes a beta hydrogen as the halide leaves, favoring the more substituted alkene. The displayed transformation converts 2-iodopentane to pent-2-ene.",
+    "hint": "Consider E2 elimination favoring the Zaitsev product.",
+    "source": {
+      "problemNumber": 32,
+      "page": 11,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Source explicitly says E + Z; SVG shows a representative E structure with E + Z annotation."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(I)CCC",
+      "svgPath": "structures/pdf-32-reactant.svg",
+      "alt": "2-iodopentane"
+    },
+    "product": {
+      "smiles": "C/C=C/CC",
+      "svgPath": "structures/pdf-32-product.svg",
+      "alt": "Pent-2-ene, E + Z; representative E structure"
+    },
+    "stereochemistry": "E + Z as explicitly labeled in the PDF; representative E structure shown."
+  },
+  {
+    "id": "pdf-33",
+    "category": "e2-zaitsev",
+    "correctAnswer": "NaOEt, Δ",
+    "distractors": [
+      "CH₃CO₂Na, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "conc. H₃PO₄, Δ",
+      "KOtBu, Δ",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is E2 elimination. The hydroxide or alkoxide base removes a beta hydrogen as the halide leaves, favoring the more substituted alkene. The displayed transformation converts 2-bromo-3-methylpentane to (z)-3-methylpent-2-ene as drawn.",
+    "hint": "Consider E2 elimination favoring the Zaitsev product.",
+    "source": {
+      "problemNumber": 33,
+      "page": 11,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Source draws Z-3-methylpent-2-ene without an E + Z label. Confirm whether one stereoisomer or a mixture is intended; the drawn Z structure is retained."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(Br)C(C)CC",
+      "svgPath": "structures/pdf-33-reactant.svg",
+      "alt": "2-bromo-3-methylpentane"
+    },
+    "product": {
+      "smiles": "C/C=C(C)\\CC",
+      "svgPath": "structures/pdf-33-product.svg",
+      "alt": "(Z)-3-methylpent-2-ene as drawn"
+    },
+    "stereochemistry": "Z alkene as drawn; source does not explicitly state a mixture."
+  },
+  {
+    "id": "pdf-34",
+    "category": "e2-hofmann",
+    "correctAnswer": "KOtBu",
+    "distractors": [
+      "EtOH, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "conc. H₂SO₄, Δ",
+      "NaOH",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "This is E2 elimination favoring the Hofmann product. The bulky tert-butoxide base favors removal of a less hindered beta hydrogen, giving the terminal alkene. The displayed transformation converts 2-bromobutane to but-1-ene.",
+    "hint": "Consider E2 elimination favoring the Hofmann product.",
+    "source": {
+      "problemNumber": 34,
+      "page": 12,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(Br)CC",
+      "svgPath": "structures/pdf-34-reactant.svg",
+      "alt": "2-bromobutane"
+    },
+    "product": {
+      "smiles": "C=CCC",
+      "svgPath": "structures/pdf-34-product.svg",
+      "alt": "But-1-ene"
+    }
+  },
+  {
+    "id": "pdf-35",
+    "category": "e2-hofmann",
+    "correctAnswer": "DIPEA",
+    "distractors": [
+      "EtOH, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "conc. H₃PO₄, Δ",
+      "NaOH",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "The instructor labels this an E2 Hofmann elimination from 2-chloropentane to pent-1-ene. The stated base and conditions require instructor review before this question can be used for practice.",
+    "hint": "Consider E2 elimination favoring the Hofmann product.",
+    "source": {
+      "problemNumber": 35,
+      "page": 12,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "needs-review",
+      "issues": [
+        "Confirm that DIPEA with the secondary chloride gives the intended terminal alkene under the intended conditions; no solvent or temperature is supplied. Preserve the instructor answer pending review."
+      ],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(Cl)CCC",
+      "svgPath": "structures/pdf-35-reactant.svg",
+      "alt": "2-chloropentane"
+    },
+    "product": {
+      "smiles": "C=CCCC",
+      "svgPath": "structures/pdf-35-product.svg",
+      "alt": "Pent-1-ene"
+    }
+  },
+  {
+    "id": "pdf-36",
+    "category": "e2-hofmann",
+    "correctAnswer": "diisopropylamine",
+    "distractors": [
+      "EtOH, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "conc. H₂SO₄, Δ",
+      "NaOH",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "The instructor labels this an E2 Hofmann elimination from 2-iodohexane to hex-1-ene. The stated base and conditions require instructor review before this question can be used for practice.",
+    "hint": "Consider E2 elimination favoring the Hofmann product.",
+    "source": {
+      "problemNumber": 36,
+      "page": 12,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "needs-review",
+      "issues": [
+        "Confirm diisopropylamine (the neutral amine, not an amide anion) and the required conditions for elimination of the secondary iodide to hex-1-ene. Do not silently replace this reagent."
+      ],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(I)CCCC",
+      "svgPath": "structures/pdf-36-reactant.svg",
+      "alt": "2-iodohexane"
+    },
+    "product": {
+      "smiles": "C=CCCCC",
+      "svgPath": "structures/pdf-36-product.svg",
+      "alt": "Hex-1-ene"
+    }
+  },
+  {
+    "id": "pdf-37",
+    "category": "e2-hofmann",
+    "correctAnswer": "2,6-lutidine",
+    "distractors": [
+      "EtOH, Δ",
+      "Cl₂, hν",
+      "NBS, hν",
+      "conc. H₃PO₄, Δ",
+      "NaOH",
+      "HBr",
+      "HCl / ZnCl₂"
+    ],
+    "explanation": "The instructor labels this an E2 Hofmann elimination from 1-bromo-3-methylbutane to 3-methylbut-1-ene. The stated base and conditions require instructor review before this question can be used for practice.",
+    "hint": "Consider E2 elimination favoring the Hofmann product.",
+    "source": {
+      "problemNumber": 37,
+      "page": 13,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "needs-review",
+      "issues": [
+        "Confirm 2,6-lutidine and the intended conditions for elimination of the revised primary bromide. The visible revised substrate has only one beta-carbon position, so a Hofmann-versus-Zaitsev choice is not illustrated."
+      ],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)CCBr",
+      "svgPath": "structures/pdf-37-reactant.svg",
+      "alt": "1-bromo-3-methylbutane, revised source image"
+    },
+    "product": {
+      "smiles": "C=CC(C)C",
+      "svgPath": "structures/pdf-37-product.svg",
+      "alt": "3-methylbut-1-ene"
+    }
+  },
+  {
+    "id": "pdf-38",
+    "category": "alcohol-dehydration",
+    "correctAnswer": "conc. H₃PO₄, Δ",
+    "distractors": [
+      "H₃O⁺",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOH",
+      "KOtBu, Δ"
+    ],
+    "explanation": "This is acid-catalyzed alcohol dehydration. Concentrated acid and heat promote loss of water and formation of the indicated alkene. The displayed transformation converts propan-2-ol to propene.",
+    "hint": "Consider acid-catalyzed dehydration of an alcohol.",
+    "source": {
+      "problemNumber": 38,
+      "page": 13,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(O)C",
+      "svgPath": "structures/pdf-38-reactant.svg",
+      "alt": "Propan-2-ol"
+    },
+    "product": {
+      "smiles": "C=CC",
+      "svgPath": "structures/pdf-38-product.svg",
+      "alt": "Propene"
+    }
+  },
+  {
+    "id": "pdf-39",
+    "category": "alcohol-dehydration",
+    "correctAnswer": "conc. H₂SO₄, Δ",
+    "distractors": [
+      "H₃O⁺",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOH",
+      "KOtBu, Δ"
+    ],
+    "explanation": "This is acid-catalyzed alcohol dehydration. Concentrated acid and heat promote loss of water and formation of the indicated alkene. The displayed transformation converts 2-methylpropan-2-ol to 2-methylpropene.",
+    "hint": "Consider acid-catalyzed dehydration of an alcohol.",
+    "source": {
+      "problemNumber": 39,
+      "page": 13,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)(C)O",
+      "svgPath": "structures/pdf-39-reactant.svg",
+      "alt": "2-methylpropan-2-ol"
+    },
+    "product": {
+      "smiles": "C=C(C)C",
+      "svgPath": "structures/pdf-39-product.svg",
+      "alt": "2-methylpropene"
+    }
+  },
+  {
+    "id": "pdf-40",
+    "category": "alcohol-dehydration",
+    "correctAnswer": "conc. H₃PO₄, Δ",
+    "distractors": [
+      "H₃O⁺",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOH",
+      "KOtBu, Δ"
+    ],
+    "explanation": "This is acid-catalyzed alcohol dehydration. Concentrated acid and heat promote loss of water and formation of the indicated alkene. The displayed transformation converts butan-2-ol to but-2-ene.",
+    "hint": "Consider acid-catalyzed dehydration of an alcohol.",
+    "source": {
+      "problemNumber": 40,
+      "page": 14,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Source explicitly says E + Z; SVG shows a representative E structure with E + Z annotation."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(O)CC",
+      "svgPath": "structures/pdf-40-reactant.svg",
+      "alt": "Butan-2-ol"
+    },
+    "product": {
+      "smiles": "C/C=C/C",
+      "svgPath": "structures/pdf-40-product.svg",
+      "alt": "But-2-ene, E + Z; representative E structure"
+    },
+    "stereochemistry": "E + Z as explicitly labeled in the PDF; representative E structure shown."
+  },
+  {
+    "id": "pdf-41",
+    "category": "alcohol-dehydration",
+    "correctAnswer": "conc. H₂SO₄, Δ",
+    "distractors": [
+      "H₃O⁺",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HBr",
+      "HCl / ZnCl₂",
+      "NaOH",
+      "KOtBu, Δ"
+    ],
+    "explanation": "This is acid-catalyzed alcohol dehydration. Concentrated acid and heat promote loss of water and formation of the indicated alkene. The displayed transformation converts cyclohexanol to cyclohexene.",
+    "hint": "Consider acid-catalyzed dehydration of an alcohol.",
+    "source": {
+      "problemNumber": 41,
+      "page": 14,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "OC1CCCCC1",
+      "svgPath": "structures/pdf-41-reactant.svg",
+      "alt": "Cyclohexanol"
+    },
+    "product": {
+      "smiles": "C1=CCCCC1",
+      "svgPath": "structures/pdf-41-product.svg",
+      "alt": "Cyclohexene"
+    }
+  },
+  {
+    "id": "pdf-42",
+    "category": "alcohol-hbr",
+    "correctAnswer": "HBr",
+    "distractors": [
+      "Br₂, hν",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KBr",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This converts an alcohol to an alkyl bromide. HBr activates the hydroxyl group for departure as water and supplies bromide for substitution. The displayed transformation converts propan-1-ol to 1-bromopropane.",
+    "hint": "Consider substitution of an alcohol hydroxyl group by bromide.",
+    "source": {
+      "problemNumber": 42,
+      "page": 14,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCO",
+      "svgPath": "structures/pdf-42-reactant.svg",
+      "alt": "Propan-1-ol"
+    },
+    "product": {
+      "smiles": "CCCBr",
+      "svgPath": "structures/pdf-42-product.svg",
+      "alt": "1-bromopropane"
+    }
+  },
+  {
+    "id": "pdf-43",
+    "category": "alcohol-hbr",
+    "correctAnswer": "HBr",
+    "distractors": [
+      "Br₂, hν",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KBr",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This converts an alcohol to an alkyl bromide. HBr activates the hydroxyl group for departure as water and supplies bromide for substitution. The displayed transformation converts propan-2-ol to 2-bromopropane.",
+    "hint": "Consider substitution of an alcohol hydroxyl group by bromide.",
+    "source": {
+      "problemNumber": 43,
+      "page": 15,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(O)C",
+      "svgPath": "structures/pdf-43-reactant.svg",
+      "alt": "Propan-2-ol"
+    },
+    "product": {
+      "smiles": "CC(Br)C",
+      "svgPath": "structures/pdf-43-product.svg",
+      "alt": "2-bromopropane"
+    }
+  },
+  {
+    "id": "pdf-44",
+    "category": "alcohol-hbr",
+    "correctAnswer": "HBr",
+    "distractors": [
+      "Br₂, hν",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KBr",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This converts an alcohol to an alkyl bromide. HBr activates the hydroxyl group for departure as water and supplies bromide for substitution. The displayed transformation converts 2-methylpropan-2-ol to 2-bromo-2-methylpropane.",
+    "hint": "Consider substitution of an alcohol hydroxyl group by bromide.",
+    "source": {
+      "problemNumber": 44,
+      "page": 15,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)(C)O",
+      "svgPath": "structures/pdf-44-reactant.svg",
+      "alt": "2-methylpropan-2-ol"
+    },
+    "product": {
+      "smiles": "CC(C)(C)Br",
+      "svgPath": "structures/pdf-44-product.svg",
+      "alt": "2-bromo-2-methylpropane"
+    }
+  },
+  {
+    "id": "pdf-45",
+    "category": "alcohol-hbr",
+    "correctAnswer": "HBr",
+    "distractors": [
+      "Br₂, hν",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HCl / ZnCl₂",
+      "NaOEt, Δ",
+      "KBr",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This converts an alcohol to an alkyl bromide. HBr activates the hydroxyl group for departure as water and supplies bromide for substitution. The displayed transformation converts cyclohexylmethanol to bromomethylcyclohexane.",
+    "hint": "Consider substitution of an alcohol hydroxyl group by bromide.",
+    "source": {
+      "problemNumber": 45,
+      "page": 15,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Source shows direct replacement in cyclohexylmethanol; retain this intended structure without asserting absence of rearrangement under all conditions."
+      ]
+    },
+    "reactant": {
+      "smiles": "OCC1CCCCC1",
+      "svgPath": "structures/pdf-45-reactant.svg",
+      "alt": "Cyclohexylmethanol"
+    },
+    "product": {
+      "smiles": "BrCC1CCCCC1",
+      "svgPath": "structures/pdf-45-product.svg",
+      "alt": "Bromomethylcyclohexane"
+    }
+  },
+  {
+    "id": "pdf-46",
+    "category": "alcohol-hcl-zncl2",
+    "correctAnswer": "HCl, ZnCl₂",
+    "distractors": [
+      "mCPBA",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HBr",
+      "NaCl",
+      "KOtBu, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This converts an alcohol to an alkyl chloride. HCl/ZnCl₂ activates the hydroxyl group and supplies chloride for substitution. The displayed transformation converts 2-methylpropan-2-ol to 2-chloro-2-methylpropane.",
+    "hint": "Consider substitution of an alcohol hydroxyl group by chloride.",
+    "source": {
+      "problemNumber": 46,
+      "page": 16,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)(C)O",
+      "svgPath": "structures/pdf-46-reactant.svg",
+      "alt": "2-methylpropan-2-ol"
+    },
+    "product": {
+      "smiles": "CC(C)(C)Cl",
+      "svgPath": "structures/pdf-46-product.svg",
+      "alt": "2-chloro-2-methylpropane"
+    }
+  },
+  {
+    "id": "pdf-47",
+    "category": "alcohol-hcl-zncl2",
+    "correctAnswer": "HCl, ZnCl₂",
+    "distractors": [
+      "mCPBA",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HBr",
+      "NaCl",
+      "KOtBu, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This converts an alcohol to an alkyl chloride. HCl/ZnCl₂ activates the hydroxyl group and supplies chloride for substitution. The displayed transformation converts propan-2-ol to 2-chloropropane.",
+    "hint": "Consider substitution of an alcohol hydroxyl group by chloride.",
+    "source": {
+      "problemNumber": 47,
+      "page": 16,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(O)C",
+      "svgPath": "structures/pdf-47-reactant.svg",
+      "alt": "Propan-2-ol"
+    },
+    "product": {
+      "smiles": "CC(Cl)C",
+      "svgPath": "structures/pdf-47-product.svg",
+      "alt": "2-chloropropane"
+    }
+  },
+  {
+    "id": "pdf-48",
+    "category": "alcohol-hcl-zncl2",
+    "correctAnswer": "HCl, ZnCl₂",
+    "distractors": [
+      "mCPBA",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HBr",
+      "NaCl",
+      "KOtBu, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This converts an alcohol to an alkyl chloride. HCl/ZnCl₂ activates the hydroxyl group and supplies chloride for substitution. The displayed transformation converts butan-2-ol to 2-chlorobutane.",
+    "hint": "Consider substitution of an alcohol hydroxyl group by chloride.",
+    "source": {
+      "problemNumber": 48,
+      "page": 16,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(O)CC",
+      "svgPath": "structures/pdf-48-reactant.svg",
+      "alt": "Butan-2-ol"
+    },
+    "product": {
+      "smiles": "CC(Cl)CC",
+      "svgPath": "structures/pdf-48-product.svg",
+      "alt": "2-chlorobutane, stereochemistry unspecified"
+    }
+  },
+  {
+    "id": "pdf-49",
+    "category": "alcohol-hcl-zncl2",
+    "correctAnswer": "HCl, ZnCl₂",
+    "distractors": [
+      "mCPBA",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HBr",
+      "NaCl",
+      "KOtBu, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This converts an alcohol to an alkyl chloride. HCl/ZnCl₂ activates the hydroxyl group and supplies chloride for substitution. The displayed transformation converts cyclohexanol to chlorocyclohexane.",
+    "hint": "Consider substitution of an alcohol hydroxyl group by chloride.",
+    "source": {
+      "problemNumber": 49,
+      "page": 17,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "OC1CCCCC1",
+      "svgPath": "structures/pdf-49-reactant.svg",
+      "alt": "Cyclohexanol"
+    },
+    "product": {
+      "smiles": "ClC1CCCCC1",
+      "svgPath": "structures/pdf-49-product.svg",
+      "alt": "Chlorocyclohexane"
+    }
+  },
+  {
+    "id": "pdf-50",
+    "category": "alcohol-hcl-zncl2",
+    "correctAnswer": "HCl, ZnCl₂",
+    "distractors": [
+      "mCPBA",
+      "Cl₂, hν",
+      "NBS, hν",
+      "HBr",
+      "NaCl",
+      "KOtBu, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This converts an alcohol to an alkyl chloride. HCl/ZnCl₂ activates the hydroxyl group and supplies chloride for substitution. The displayed transformation converts 2-methylbutan-2-ol to 2-chloro-2-methylbutane.",
+    "hint": "Consider substitution of an alcohol hydroxyl group by chloride.",
+    "source": {
+      "problemNumber": 50,
+      "page": 17,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCC(C)(C)O",
+      "svgPath": "structures/pdf-50-reactant.svg",
+      "alt": "2-methylbutan-2-ol"
+    },
+    "product": {
+      "smiles": "CCC(C)(C)Cl",
+      "svgPath": "structures/pdf-50-product.svg",
+      "alt": "2-chloro-2-methylbutane"
+    }
+  },
+  {
+    "id": "pdf-51",
+    "category": "sn2",
+    "correctAnswer": "NaC≡CH",
+    "distractors": [
+      "NaOH",
+      "KCN",
+      "NaN₃",
+      "NaSCH₃",
+      "PPh₃",
+      "NMe₃",
+      "CH₃CO₂Na"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromopropane to pent-1-yne.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 51,
+      "page": 18,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCBr",
+      "svgPath": "structures/pdf-51-reactant.svg",
+      "alt": "1-bromopropane"
+    },
+    "product": {
+      "smiles": "CCCC#C",
+      "svgPath": "structures/pdf-51-product.svg",
+      "alt": "Pent-1-yne"
+    }
+  },
+  {
+    "id": "pdf-52",
+    "category": "sn2",
+    "correctAnswer": "NaC≡CCH₃",
+    "distractors": [
+      "NaSCH₃",
+      "PPh₃",
+      "NMe₃",
+      "CH₃CO₂Na",
+      "KOtBu",
+      "DIPEA",
+      "H₂O, Δ"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromo-2-methylpropane to 5-methylhex-2-yne.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 52,
+      "page": 18,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)CBr",
+      "svgPath": "structures/pdf-52-reactant.svg",
+      "alt": "1-bromo-2-methylpropane"
+    },
+    "product": {
+      "smiles": "CC#CCC(C)C",
+      "svgPath": "structures/pdf-52-product.svg",
+      "alt": "5-methylhex-2-yne"
+    }
+  },
+  {
+    "id": "pdf-53",
+    "category": "sn2",
+    "correctAnswer": "PPh₃",
+    "distractors": [
+      "NaC≡CH",
+      "KOtBu",
+      "DIPEA",
+      "H₂O, Δ",
+      "conc. H₂SO₄, Δ",
+      "NaBr",
+      "EtOH, Δ"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromopropane to propyltriphenylphosphonium cation; counterion omitted as in source.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 53,
+      "page": 18,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Phosphonium positive charge retained; bromide counterion is omitted in the source structure and remains omitted."
+      ]
+    },
+    "reactant": {
+      "smiles": "CCCBr",
+      "svgPath": "structures/pdf-53-reactant.svg",
+      "alt": "1-bromopropane"
+    },
+    "product": {
+      "smiles": "CCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+      "svgPath": "structures/pdf-53-product.svg",
+      "alt": "Propyltriphenylphosphonium cation; counterion omitted as in source"
+    }
+  },
+  {
+    "id": "pdf-54",
+    "category": "sn2",
+    "correctAnswer": "NMe₃",
+    "distractors": [
+      "H₂O, Δ",
+      "conc. H₂SO₄, Δ",
+      "NaBr",
+      "EtOH, Δ",
+      "NaOCH₃",
+      "NaSH",
+      "NaCl"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromo-2-methylpropane to isobutyltrimethylammonium cation; counterion omitted as in source.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 54,
+      "page": 19,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Ammonium positive charge retained; bromide counterion is omitted in the source structure and remains omitted."
+      ]
+    },
+    "reactant": {
+      "smiles": "CC(C)CBr",
+      "svgPath": "structures/pdf-54-reactant.svg",
+      "alt": "1-bromo-2-methylpropane"
+    },
+    "product": {
+      "smiles": "CC(C)C[N+](C)(C)C",
+      "svgPath": "structures/pdf-54-product.svg",
+      "alt": "Isobutyltrimethylammonium cation; counterion omitted as in source"
+    }
+  },
+  {
+    "id": "pdf-55",
+    "category": "sn2",
+    "correctAnswer": "CH₃CH₂CO₂Na",
+    "distractors": [
+      "NaBr",
+      "EtOH, Δ",
+      "NaOCH₃",
+      "NaSH",
+      "NaCl",
+      "HBr",
+      "NaOH"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromopropane to propyl propanoate.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 55,
+      "page": 19,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCBr",
+      "svgPath": "structures/pdf-55-reactant.svg",
+      "alt": "1-bromopropane"
+    },
+    "product": {
+      "smiles": "CCC(=O)OCCC",
+      "svgPath": "structures/pdf-55-product.svg",
+      "alt": "Propyl propanoate"
+    }
+  },
+  {
+    "id": "pdf-56",
+    "category": "sn2",
+    "correctAnswer": "KCN",
+    "distractors": [
+      "NaCl",
+      "HBr",
+      "NaOH",
+      "NaN₃",
+      "NaSCH₃",
+      "PPh₃",
+      "NMe₃"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromopropane to butanenitrile.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 56,
+      "page": 19,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCBr",
+      "svgPath": "structures/pdf-56-reactant.svg",
+      "alt": "1-bromopropane"
+    },
+    "product": {
+      "smiles": "CCCC#N",
+      "svgPath": "structures/pdf-56-product.svg",
+      "alt": "Butanenitrile"
+    }
+  },
+  {
+    "id": "pdf-57",
+    "category": "sn2",
+    "correctAnswer": "NaN₃",
+    "distractors": [
+      "KCN",
+      "NaSCH₃",
+      "PPh₃",
+      "NMe₃",
+      "CH₃CO₂Na",
+      "NaC≡CH",
+      "KOtBu"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromo-2-methylpropane to isobutyl azide.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 57,
+      "page": 20,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CC(C)CBr",
+      "svgPath": "structures/pdf-57-reactant.svg",
+      "alt": "1-bromo-2-methylpropane"
+    },
+    "product": {
+      "smiles": "CC(C)CN=[N+]=[N-]",
+      "svgPath": "structures/pdf-57-product.svg",
+      "alt": "Isobutyl azide, with formal charges"
+    }
+  },
+  {
+    "id": "pdf-58",
+    "category": "sn2",
+    "correctAnswer": "NaSCH₃",
+    "distractors": [
+      "NMe₃",
+      "CH₃CO₂Na",
+      "NaC≡CH",
+      "KOtBu",
+      "DIPEA",
+      "H₂O, Δ",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts 1-bromopropane to methyl propyl sulfide.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 58,
+      "page": 20,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "CCCBr",
+      "svgPath": "structures/pdf-58-reactant.svg",
+      "alt": "1-bromopropane"
+    },
+    "product": {
+      "smiles": "CCCSC",
+      "svgPath": "structures/pdf-58-product.svg",
+      "alt": "Methyl propyl sulfide"
+    }
+  },
+  {
+    "id": "pdf-59",
+    "category": "sn2",
+    "correctAnswer": "NaN₃",
+    "distractors": [
+      "KOtBu",
+      "DIPEA",
+      "H₂O, Δ",
+      "conc. H₂SO₄, Δ",
+      "NaBr",
+      "EtOH, Δ",
+      "NaOCH₃"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts (s)-2-bromobutane to (r)-2-azidobutane.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 59,
+      "page": 20,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "C[C@H](Br)CC",
+      "svgPath": "structures/pdf-59-reactant.svg",
+      "alt": "(S)-2-bromobutane, hashed methyl bond as in source"
+    },
+    "product": {
+      "smiles": "C[C@@H](N=[N+]=[N-])CC",
+      "svgPath": "structures/pdf-59-product.svg",
+      "alt": "(R)-2-azidobutane, inverted reacting stereocenter"
+    },
+    "stereochemistry": "SN2 inversion: source reacting center S → R; wedges/dashes preserved in regenerated depiction."
+  },
+  {
+    "id": "pdf-60",
+    "category": "sn2",
+    "correctAnswer": "NaSCH₃",
+    "distractors": [
+      "conc. H₂SO₄, Δ",
+      "NaBr",
+      "EtOH, Δ",
+      "NaOCH₃",
+      "NaSH",
+      "NaCl",
+      "HBr"
+    ],
+    "explanation": "This is SN2 substitution. Backside attack displaces the halide in one step, with inversion when the reacting carbon is stereogenic. The displayed transformation converts (s)-2-bromobutane to (r)-2-(methylthio)butane.",
+    "hint": "Consider SN2 substitution.",
+    "source": {
+      "problemNumber": 60,
+      "page": 21,
+      "document": "Organic_Reaction_Reagents_60_Problems.pdf"
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "smiles": "C[C@H](Br)CC",
+      "svgPath": "structures/pdf-60-reactant.svg",
+      "alt": "(S)-2-bromobutane, hashed methyl bond as in source"
+    },
+    "product": {
+      "smiles": "C[C@@H](SC)CC",
+      "svgPath": "structures/pdf-60-product.svg",
+      "alt": "(R)-2-(methylthio)butane, inverted reacting stereocenter"
+    },
+    "stereochemistry": "SN2 inversion: source reacting center S → R; wedges/dashes preserved in regenerated depiction."
+  }
+]

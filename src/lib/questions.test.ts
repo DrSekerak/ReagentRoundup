@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { filterQuestions } from './questions';
 import type { ReactionQuestion } from '../types/question';
 import { reactionCategories, reactionGroups } from '../data/categories';
-import { questions } from '../data/questions';
+import { questionBank, questions } from '../data/questions';
 
 // Synthetic metadata fixtures only; never published as chemistry questions.
 const fixtures = [
@@ -24,7 +24,16 @@ describe('question foundation', () => {
     expect(reactionCategories).toHaveLength(11);
     expect(new Set(reactionCategories.map(({ id }) => id)).size).toBe(11);
   });
-  it('contains no fabricated production questions', () => expect(questions).toEqual([]));
+  it('retains all sixty source questions and excludes held questions from practice', () => {
+    expect(questionBank).toHaveLength(60);
+    expect(questions).toHaveLength(57);
+    expect(questionBank.filter(({ review }) => review.status === 'needs-review').map(({ id }) => id)).toEqual(['pdf-35', 'pdf-36', 'pdf-37']);
+    expect(questions.every(({ review }) => review.status === 'prepared')).toBe(true);
+  });
+  it('counts the prepared bank correctly for each reaction group', () => {
+    expect(reactionGroups.map(({ categories }) => filterQuestions(questions, categories).length)).toEqual([14, 29, 14]);
+    expect(filterQuestions(questions, reactionCategories.map(({ id }) => id))).toHaveLength(57);
+  });
   it('filters by any combination without mutating source data', () => {
     expect(filterQuestions(fixtures, [])).toEqual([]);
     expect(filterQuestions(fixtures, ['sn2']).map(({ id }) => id)).toEqual(['fixture-a']);

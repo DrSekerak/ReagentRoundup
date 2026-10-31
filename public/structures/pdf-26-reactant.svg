@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg role="img" version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='640px' height='300px' viewBox='0 0 640 300'>
+<title>Bromoethane</title>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:#FFFFFF;stroke:none' width='640.0' height='300.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 117.2,197.3 L 307.5,87.5' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 307.5,87.5 L 394.2,137.6' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 394.2,137.6 L 480.9,187.6' style='fill:none;fill-rule:evenodd;stroke:#7F4C19;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 298.0,93.0 L 307.5,87.5 L 311.8,90.0' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 501.9 196.6
+Q 504.6 197.4, 506.0 199.1
+Q 507.4 200.7, 507.4 203.1
+Q 507.4 207.1, 504.8 209.3
+Q 502.4 211.5, 497.6 211.5
+L 488.1 211.5
+L 488.1 183.2
+L 496.5 183.2
+Q 501.3 183.2, 503.8 185.1
+Q 506.2 187.1, 506.2 190.7
+Q 506.2 195.0, 501.9 196.6
+M 491.9 186.4
+L 491.9 195.3
+L 496.5 195.3
+Q 499.3 195.3, 500.7 194.1
+Q 502.2 193.0, 502.2 190.7
+Q 502.2 186.4, 496.5 186.4
+L 491.9 186.4
+M 497.6 208.3
+Q 500.4 208.3, 501.9 207.0
+Q 503.4 205.7, 503.4 203.1
+Q 503.4 200.8, 501.7 199.7
+Q 500.1 198.5, 497.0 198.5
+L 491.9 198.5
+L 491.9 208.3
+L 497.6 208.3
+' fill='#7F4C19'/>
+<path class='atom-2' d='M 513.8 190.9
+L 514.2 193.8
+Q 516.4 190.6, 519.9 190.6
+Q 521.0 190.6, 522.6 191.0
+L 522.0 194.3
+Q 520.2 193.9, 519.3 193.9
+Q 517.6 193.9, 516.5 194.6
+Q 515.4 195.3, 514.5 196.8
+L 514.5 211.5
+L 510.8 211.5
+L 510.8 190.9
+L 513.8 190.9
+' fill='#7F4C19'/>
+</svg>

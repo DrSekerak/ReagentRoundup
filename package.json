@@ -9,7 +9,8 @@
     "preview": "vite preview --configLoader native",
     "lint": "eslint .",
     "test": "vitest run --configLoader native --pool threads",
-    "validate": "tsc -b"
+    "validate": "tsc -b && node tools/validate-questions.mjs",
+    "validate:questions": "node tools/validate-questions.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

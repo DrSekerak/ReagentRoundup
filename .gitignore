@@ -3,3 +3,6 @@ dist/
 *.tsbuildinfo
 coverage/
 *.local
+tmp/
+__pycache__/
+.venv/

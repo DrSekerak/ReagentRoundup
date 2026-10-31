@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg role="img" version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='640px' height='300px' viewBox='0 0 640 300'>
+<title>1-bromo-2-methylpropane</title>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:#FFFFFF;stroke:none' width='640.0' height='300.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 131.7,48.0 L 248.9,115.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 248.9,115.7 L 248.9,251.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 248.9,115.7 L 366.1,48.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 366.1,48.0 L 417.7,77.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 417.7,77.8 L 469.2,107.5' style='fill:none;fill-rule:evenodd;stroke:#7F4C19;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 360.2,51.4 L 366.1,48.0 L 368.7,49.5' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-4' d='M 487.4 114.9
+Q 490.2 115.7, 491.5 117.4
+Q 492.9 119.0, 492.9 121.5
+Q 492.9 125.4, 490.4 127.6
+Q 487.9 129.8, 483.2 129.8
+L 473.7 129.8
+L 473.7 101.5
+L 482.0 101.5
+Q 486.9 101.5, 489.3 103.5
+Q 491.8 105.4, 491.8 109.0
+Q 491.8 113.3, 487.4 114.9
+M 477.5 104.7
+L 477.5 113.6
+L 482.0 113.6
+Q 484.8 113.6, 486.3 112.5
+Q 487.8 111.3, 487.8 109.0
+Q 487.8 104.7, 482.0 104.7
+L 477.5 104.7
+M 483.2 126.6
+Q 486.0 126.6, 487.4 125.3
+Q 488.9 124.0, 488.9 121.5
+Q 488.9 119.1, 487.3 118.0
+Q 485.7 116.8, 482.6 116.8
+L 477.5 116.8
+L 477.5 126.6
+L 483.2 126.6
+' fill='#7F4C19'/>
+<path class='atom-4' d='M 499.3 109.3
+L 499.8 112.1
+Q 501.9 108.9, 505.5 108.9
+Q 506.6 108.9, 508.1 109.3
+L 507.5 112.7
+Q 505.8 112.3, 504.8 112.3
+Q 503.1 112.3, 502.0 112.9
+Q 500.9 113.6, 500.1 115.1
+L 500.1 129.8
+L 496.3 129.8
+L 496.3 109.3
+L 499.3 109.3
+' fill='#7F4C19'/>
+</svg>
