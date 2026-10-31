@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { filterQuestions } from './questions';
 import type { ReactionQuestion } from '../types/question';
-import { reactionCategories } from '../data/categories';
+import { reactionCategories, reactionGroups } from '../data/categories';
 import { questions } from '../data/questions';
 
 // Synthetic metadata fixtures only; never published as chemistry questions.
@@ -11,6 +11,15 @@ const fixtures = [
 ] as ReactionQuestion[];
 
 describe('question foundation', () => {
+  it('groups all eleven categories exactly once with the requested memberships', () => {
+    expect(reactionGroups.map(({ categories }) => [...categories])).toEqual([
+      ['radical-chlorination', 'radical-bromination-br2', 'radical-bromination-nbs'],
+      ['sn1', 'sn2', 'alcohol-hbr', 'alcohol-hcl-zncl2'],
+      ['e1', 'e2-zaitsev', 'e2-hofmann', 'alcohol-dehydration'],
+    ]);
+    const grouped = reactionGroups.flatMap(({ categories }) => [...categories]);
+    expect([...grouped].sort()).toEqual(reactionCategories.map(({ id }) => id).sort());
+  });
   it('defines eleven unique category IDs', () => {
     expect(reactionCategories).toHaveLength(11);
     expect(new Set(reactionCategories.map(({ id }) => id)).size).toBe(11);

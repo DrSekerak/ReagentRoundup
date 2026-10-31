@@ -2,7 +2,15 @@
 
 Organic chemistry reagent practice for Cedarville University. **Stage 1: Foundation only.**
 
-Includes a React/TypeScript/Vite application, all eleven reaction categories, typed question schema, responsive introduction, category checkboxes, Select All/Clear All, question filtering and counts, and a GitHub Pages workflow.
+Includes a React/TypeScript/Vite application, all eleven reaction categories, typed question schema, responsive introduction, three grouped category checkboxes, Select All/Clear All, question filtering and counts, and a GitHub Pages workflow.
+
+The introduction groups the categories as follows:
+
+- **Radical Halogenation:** radical chlorination, radical bromination using Br₂, and radical bromination using NBS.
+- **Nucleophilic Substitution:** SN1 with water or alcohol, SN2, alcohols to alkyl bromides using HBr, and alcohols to alkyl chlorides using HCl/ZnCl₂.
+- **Elimination:** E1 with water or alcohol, E2 Zaitsev, E2 Hofmann, and dehydration of alcohols.
+
+Each checkbox selects or deselects every category in its group. Any combination of groups can be selected; question counts use the underlying category IDs.
 
 The production question bank is intentionally empty. The source PDF has been supplied for future Stage 2 work and has not been transcribed. Start Now remains disabled even after category selection because no questions are available and the practice flow belongs to Stage 3. The foundation notice distinguishes the requested introductory instructions from future functionality. Saving and results belong to Stage 4; selections reset on refresh in this stage.
 
@@ -25,11 +33,11 @@ pnpm build
 pnpm preview
 ```
 
-Manually select individual categories, verify the mixed Select All state, select all eleven, and clear the selection. Check the selection count, keyboard Space activation, visible focus, and narrow mobile layout. Zero questions and disabled Start Now are expected.
+Manually select the three groups, verify the mixed Select All state, select all three, and clear the selection. Check the selection count, keyboard Space activation, visible focus, and narrow mobile layout. Zero questions and disabled Start Now are expected.
 
 ## Project structure
 
-- `src/data/categories.ts`: stable category IDs and display labels.
+- `src/data/categories.ts`: stable category IDs, display labels, and group memberships.
 - `src/types/question.ts`: question and molecular-structure schema.
 - `src/data/questions.ts`: separate, currently empty question database.
 - `src/lib/questions.ts`: category filtering, independent of UI.
@@ -59,7 +67,7 @@ const reviewedQuestion: ReactionQuestion = {
 };
 ```
 
-Generate SVGs with a reliable chemistry renderer during preparation, verify wedges/dashes, charges, E/Z and SN2 inversion against the PDF, and put assets under `public/structures/`. SVG paths omit `public/` and leading slashes. Future UI must prefix paths with `import.meta.env.BASE_URL`. Use Unicode subscripts and superscripts (Br₂, ZnCl₂), Δ, and hν in plain text reagent labels. After review, add the record to `questions`; category counts automatically update. A new category needs only an entry in the category catalog. Do not enable practice until Stage 3 is implemented.
+Generate SVGs with a reliable chemistry renderer during preparation, verify wedges/dashes, charges, E/Z and SN2 inversion against the PDF, and put assets under `public/structures/`. SVG paths omit `public/` and leading slashes. Future UI must prefix paths with `import.meta.env.BASE_URL`. Use Unicode subscripts and superscripts (Br₂, ZnCl₂), Δ, and hν in plain text reagent labels. After review, add the record to `questions`; category counts automatically update. Add a new category to the category catalog and to its appropriate group in reactionGroups. Do not enable practice until Stage 3 is implemented.
 
 ## GitHub Pages
 
@@ -76,6 +84,6 @@ Stage 2: authoritative question transcription, SVG preparation, data validation,
 
 ## Verification status
 
-TypeScript validation, lint, six automated tests, and the production Vite build passed locally. Native config loading and threaded test workers support the restricted Windows environment without spawning helper processes.
+TypeScript validation, lint, automated tests, and the production Vite build passed locally. Native config loading and threaded test workers support the restricted Windows environment without spawning helper processes.
 
 TypeScript is pinned to 6.0.3, within typescript-eslint's supported range (`>=4.8.4 <6.1.0`). This resolves the previous TypeScript 7 API incompatibility without replacing the linter or bypassing checks. The lockfile records the compatible dependencies. No deployment or browser visual verification has been completed.

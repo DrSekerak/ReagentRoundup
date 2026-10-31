@@ -1,19 +1,20 @@
 import { useRef, useEffect, useState } from 'react';
-import { reactionCategories, type ReactionCategory } from './data/categories';
+import { reactionGroups, type ReactionGroup } from './data/categories';
 import { questions } from './data/questions';
 import { filterQuestions } from './lib/questions';
 
 export default function App() {
-  const [selected, setSelected] = useState<ReactionCategory[]>([]);
+  const [selected, setSelected] = useState<ReactionGroup[]>([]);
   const selectAll = useRef<HTMLInputElement>(null);
-  const allSelected = selected.length === reactionCategories.length;
-  const available = filterQuestions(questions, selected).length;
+  const allSelected = selected.length === reactionGroups.length;
+  const selectedCategories = reactionGroups.filter(({ id }) => selected.includes(id)).flatMap(({ categories }) => [...categories]);
+  const available = filterQuestions(questions, selectedCategories).length;
 
   useEffect(() => {
     if (selectAll.current) selectAll.current.indeterminate = selected.length > 0 && !allSelected;
   }, [selected, allSelected]);
 
-  function toggle(id: ReactionCategory) {
+  function toggle(id: ReactionGroup) {
     setSelected((current) => current.includes(id) ? current.filter((value) => value !== id) : [...current, id]);
   }
 
@@ -32,9 +33,9 @@ export default function App() {
         </section>
         <section className="selection-panel" aria-labelledby="selection-title">
           <div className="panel-heading"><p className="eyebrow">BUILD YOUR PRACTICE</p><h2 id="selection-title">Choose reaction categories</h2><p>Select any combination to focus your review.</p></div>
-          <div className="selection-tools"><label><input ref={selectAll} type="checkbox" checked={allSelected} onChange={() => setSelected(allSelected ? [] : reactionCategories.map(({ id }) => id))} /> Select All</label><button className="text-button" onClick={() => setSelected([])} disabled={selected.length === 0}>Clear All</button></div>
-          <fieldset><legend className="sr-only">Reaction categories</legend><div className="category-grid">{reactionCategories.map(({ id, label }) => <label className={`category-option ${selected.includes(id) ? 'selected' : ''}`} key={id}><input type="checkbox" checked={selected.includes(id)} onChange={() => toggle(id)} /><span>{label}</span></label>)}</div></fieldset>
-          <div className="start-area"><p role="status"><strong>{available}</strong> questions available <span>· {selected.length} of {reactionCategories.length} categories selected</span></p><button className="start-button" disabled={selected.length === 0 || available === 0} aria-describedby="availability-note">Start Now <span aria-hidden="true">→</span></button><p id="availability-note" className="availability-note">The question bank awaits Stage 2 preparation and instructor review. Practice is not available in this Stage 1 preview.</p></div>
+          <div className="selection-tools"><label><input ref={selectAll} type="checkbox" checked={allSelected} onChange={() => setSelected(allSelected ? [] : reactionGroups.map(({ id }) => id))} /> Select All</label><button className="text-button" onClick={() => setSelected([])} disabled={selected.length === 0}>Clear All</button></div>
+          <fieldset><legend className="sr-only">Reaction categories</legend><div className="category-grid">{reactionGroups.map(({ id, label }) => <label className={`category-option ${selected.includes(id) ? 'selected' : ''}`} key={id}><input type="checkbox" checked={selected.includes(id)} onChange={() => toggle(id)} /><span>{label}</span></label>)}</div></fieldset>
+          <div className="start-area"><p role="status"><strong>{available}</strong> questions available <span>· {selected.length} of {reactionGroups.length} groups selected</span></p><button className="start-button" disabled={selected.length === 0 || available === 0} aria-describedby="availability-note">Start Now <span aria-hidden="true">→</span></button><p id="availability-note" className="availability-note">The question bank awaits Stage 2 preparation and instructor review. Practice is not available in this Stage 1 preview.</p></div>
         </section>
       </main>
       <footer>Choose your focus. Build your confidence.</footer>

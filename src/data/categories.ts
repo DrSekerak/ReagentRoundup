@@ -13,3 +13,23 @@ export const reactionCategories = [
 ] as const;
 
 export type ReactionCategory = (typeof reactionCategories)[number]['id'];
+
+export const reactionGroups = [
+  {
+    id: 'radical-halogenation',
+    label: 'Radical Halogenation',
+    categories: ['radical-chlorination', 'radical-bromination-br2', 'radical-bromination-nbs'],
+  },
+  {
+    id: 'nucleophilic-substitution',
+    label: 'Nucleophilic Substitution',
+    categories: ['sn1', 'sn2', 'alcohol-hbr', 'alcohol-hcl-zncl2'],
+  },
+  {
+    id: 'elimination',
+    label: 'Elimination',
+    categories: ['e1', 'e2-zaitsev', 'e2-hofmann', 'alcohol-dehydration'],
+  },
+] as const satisfies readonly { id: string; label: string; categories: readonly ReactionCategory[] }[];
+
+export type ReactionGroup = (typeof reactionGroups)[number]['id'];
