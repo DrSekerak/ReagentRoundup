@@ -63,6 +63,7 @@ describe('static molecular structure integrity', () => {
     for (const item of manifest.structures) {
       const q = bank.find(q => q.id === item.questionId);
       const svg = readFileSync(resolve('public', q[item.role].svgPath));
+      expect(svg.toString()).not.toContain('\r'); // canonical LF on every platform
       expect(createHash('sha256').update(svg).digest('hex')).toBe(item.svgSha256);
       expect(svg.toString()).toContain('<title>');
       expect(svg.toString()).toContain('viewBox=');

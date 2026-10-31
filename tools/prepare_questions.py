@@ -113,7 +113,8 @@ for row, structure in zip(evidence,structures):
         svg=drawer.GetDrawingText().replace('<svg ', '<svg role="img" ')
         svg=svg.replace('<!-- END OF HEADER -->', '<title>'+html.escape(name)+'</title>\n<!-- END OF HEADER -->')
         path=output/f'{qid}-{role}.svg'
-        path.write_text(svg,encoding='utf-8')
+        # Hash the same bytes on Windows and Linux, including after Git checkout.
+        path.write_text(svg,encoding='utf-8',newline='\n')
         q[role]=dict(smiles=smiles,svgPath=f'structures/{path.name}',alt=name)
         manifest.append(dict(questionId=qid,role=role,smiles=smiles,formula=rdMolDescriptors.CalcMolFormula(mol),
                              chiralCenters=Chem.FindMolChiralCenters(mol,includeUnassigned=True),
