@@ -23,5 +23,12 @@ export interface ReactionQuestion {
     status: 'prepared' | 'needs-review';
     issues: string[];
     notes: string[];
+    approval?: {
+      date: string;
+      by: string;
+      decision: string;
+      source: string;
+      previousIssues: string[];
+    };
   };
 }

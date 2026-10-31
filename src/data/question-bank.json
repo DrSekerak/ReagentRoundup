@@ -1266,7 +1266,7 @@
       "HBr",
       "HCl / ZnCl₂"
     ],
-    "explanation": "The instructor labels this an E2 Hofmann elimination from 2-chloropentane to pent-1-ene. The stated base and conditions require instructor review before this question can be used for practice.",
+    "explanation": "This instructor-approved E2 Hofmann example converts 2-chloropentane to pent-1-ene using DIPEA. Loss of a beta hydrogen and chloride forms the displayed terminal double bond.",
     "hint": "Consider E2 elimination favoring the Hofmann product.",
     "source": {
       "problemNumber": 35,
@@ -1274,11 +1274,20 @@
       "document": "Organic_Reaction_Reagents_60_Problems.pdf"
     },
     "review": {
-      "status": "needs-review",
-      "issues": [
-        "Confirm that DIPEA with the secondary chloride gives the intended terminal alkene under the intended conditions; no solvent or temperature is supplied. Preserve the instructor answer pending review."
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Instructor approved this question as supplied on 2026-10-31. Original answer, distractors, structures, and category retained."
       ],
-      "notes": []
+      "approval": {
+        "date": "2026-10-31",
+        "by": "instructor",
+        "decision": "Approved as supplied",
+        "source": "Instructor confirmation in project chat: I approve these as the instructor",
+        "previousIssues": [
+          "Confirm that DIPEA with the secondary chloride gives the intended terminal alkene under the intended conditions; no solvent or temperature is supplied. Preserve the instructor answer pending review."
+        ]
+      }
     },
     "reactant": {
       "smiles": "CC(Cl)CCC",
@@ -1304,7 +1313,7 @@
       "HBr",
       "HCl / ZnCl₂"
     ],
-    "explanation": "The instructor labels this an E2 Hofmann elimination from 2-iodohexane to hex-1-ene. The stated base and conditions require instructor review before this question can be used for practice.",
+    "explanation": "This instructor-approved E2 Hofmann example converts 2-iodohexane to hex-1-ene using diisopropylamine. Loss of a beta hydrogen and iodide forms the displayed terminal double bond.",
     "hint": "Consider E2 elimination favoring the Hofmann product.",
     "source": {
       "problemNumber": 36,
@@ -1312,11 +1321,20 @@
       "document": "Organic_Reaction_Reagents_60_Problems.pdf"
     },
     "review": {
-      "status": "needs-review",
-      "issues": [
-        "Confirm diisopropylamine (the neutral amine, not an amide anion) and the required conditions for elimination of the secondary iodide to hex-1-ene. Do not silently replace this reagent."
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Instructor approved this question as supplied on 2026-10-31. Original answer, distractors, structures, and category retained."
       ],
-      "notes": []
+      "approval": {
+        "date": "2026-10-31",
+        "by": "instructor",
+        "decision": "Approved as supplied",
+        "source": "Instructor confirmation in project chat: I approve these as the instructor",
+        "previousIssues": [
+          "Confirm diisopropylamine (the neutral amine, not an amide anion) and the required conditions for elimination of the secondary iodide to hex-1-ene. Do not silently replace this reagent."
+        ]
+      }
     },
     "reactant": {
       "smiles": "CC(I)CCCC",
@@ -1342,7 +1360,7 @@
       "HBr",
       "HCl / ZnCl₂"
     ],
-    "explanation": "The instructor labels this an E2 Hofmann elimination from 1-bromo-3-methylbutane to 3-methylbut-1-ene. The stated base and conditions require instructor review before this question can be used for practice.",
+    "explanation": "This instructor-approved elimination converts 1-bromo-3-methylbutane to 3-methylbut-1-ene using 2,6-lutidine. Loss of a beta hydrogen and bromide forms the displayed terminal double bond; the instructor retains the source Hofmann category.",
     "hint": "Consider E2 elimination favoring the Hofmann product.",
     "source": {
       "problemNumber": 37,
@@ -1350,11 +1368,20 @@
       "document": "Organic_Reaction_Reagents_60_Problems.pdf"
     },
     "review": {
-      "status": "needs-review",
-      "issues": [
-        "Confirm 2,6-lutidine and the intended conditions for elimination of the revised primary bromide. The visible revised substrate has only one beta-carbon position, so a Hofmann-versus-Zaitsev choice is not illustrated."
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Instructor approved this question as supplied on 2026-10-31. Original answer, distractors, structures, and category retained."
       ],
-      "notes": []
+      "approval": {
+        "date": "2026-10-31",
+        "by": "instructor",
+        "decision": "Approved as supplied",
+        "source": "Instructor confirmation in project chat: I approve these as the instructor",
+        "previousIssues": [
+          "Confirm 2,6-lutidine and the intended conditions for elimination of the revised primary bromide. The visible revised substrate has only one beta-carbon position, so a Hofmann-versus-Zaitsev choice is not illustrated."
+        ]
+      }
     },
     "reactant": {
       "smiles": "CC(C)CCBr",

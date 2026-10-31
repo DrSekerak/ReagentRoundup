@@ -26,13 +26,21 @@ describe('question foundation', () => {
   });
   it('retains all sixty source questions and excludes held questions from practice', () => {
     expect(questionBank).toHaveLength(60);
-    expect(questions).toHaveLength(57);
-    expect(questionBank.filter(({ review }) => review.status === 'needs-review').map(({ id }) => id)).toEqual(['pdf-35', 'pdf-36', 'pdf-37']);
+    expect(questions).toHaveLength(60);
+    expect(questionBank.filter(({ review }) => review.status === 'needs-review')).toEqual([]);
+    for (const id of ['pdf-35', 'pdf-36', 'pdf-37']) {
+      const q = questions.find(q => q.id === id)!;
+      expect(q.review.approval?.by).toBe('instructor');
+      expect(q.review.approval?.date).toBe('2026-10-31');
+      expect(q.review.approval?.previousIssues.length).toBeGreaterThan(0);
+      expect(q.review.issues).toEqual([]);
+      expect(q.explanation).not.toContain('require instructor review');
+    }
     expect(questions.every(({ review }) => review.status === 'prepared')).toBe(true);
   });
   it('counts the prepared bank correctly for each reaction group', () => {
-    expect(reactionGroups.map(({ categories }) => filterQuestions(questions, categories).length)).toEqual([14, 29, 14]);
-    expect(filterQuestions(questions, reactionCategories.map(({ id }) => id))).toHaveLength(57);
+    expect(reactionGroups.map(({ categories }) => filterQuestions(questions, categories).length)).toEqual([14, 29, 17]);
+    expect(filterQuestions(questions, reactionCategories.map(({ id }) => id))).toHaveLength(60);
   });
   it('filters by any combination without mutating source data', () => {
     expect(filterQuestions(fixtures, [])).toEqual([]);

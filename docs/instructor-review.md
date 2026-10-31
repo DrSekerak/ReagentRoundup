@@ -1,12 +1,15 @@
 # Stage 2 instructor review
 
-60 questions transcribed; 120 RDKit SVGs generated. **57 prepared, 3 held.** Prepared does not mean instructor-approved. The original answer key and seven distractors are retained for every record; only chemical typography is normalized.
+60 questions transcribed; 120 RDKit SVGs generated. **60 prepared, 0 held.** Questions 35–37 were explicitly approved as supplied by the instructor on October 31, 2026. Prepared does not mean instructor-approved. The original answer key and seven distractors are retained for every record; only chemical typography is normalized.
 
-## Held questions (excluded from available practice count)
+## Instructor approval
 
-- **pdf-35, PDF page 12:** Confirm that DIPEA with the secondary chloride gives the intended terminal alkene under the intended conditions; no solvent or temperature is supplied. Preserve the instructor answer pending review.
-- **pdf-36, PDF page 12:** Confirm diisopropylamine (the neutral amine, not an amide anion) and the required conditions for elimination of the secondary iodide to hex-1-ene. Do not silently replace this reagent.
-- **pdf-37, PDF page 13:** Confirm 2,6-lutidine and the intended conditions for elimination of the revised primary bromide. The visible revised substrate has only one beta-carbon position, so a Hofmann-versus-Zaitsev choice is not illustrated.
+Questions 35–37: approved as supplied on 2026-10-31 by the instructor in the project chat. Original answers, distractors, structures, and categories retained. Approval is recorded in tools/instructor-approvals.json; previous concerns remain in each record as resolved history.
+
+## Held questions
+
+None.
+
 
 ## Additional instructor notes
 
@@ -23,6 +26,9 @@
 - **pdf-30, PDF page 10:** Source explicitly says E + Z; SVG shows a representative E structure with E + Z annotation.
 - **pdf-32, PDF page 11:** Source explicitly says E + Z; SVG shows a representative E structure with E + Z annotation.
 - **pdf-33, PDF page 11:** Source draws Z-3-methylpent-2-ene without an E + Z label. Confirm whether one stereoisomer or a mixture is intended; the drawn Z structure is retained.
+- **pdf-35, PDF page 12:** Instructor approved this question as supplied on 2026-10-31. Original answer, distractors, structures, and category retained.
+- **pdf-36, PDF page 12:** Instructor approved this question as supplied on 2026-10-31. Original answer, distractors, structures, and category retained.
+- **pdf-37, PDF page 13:** Instructor approved this question as supplied on 2026-10-31. Original answer, distractors, structures, and category retained.
 - **pdf-40, PDF page 14:** Source explicitly says E + Z; SVG shows a representative E structure with E + Z annotation.
 - **pdf-45, PDF page 15:** Source shows direct replacement in cyclohexylmethanol; retain this intended structure without asserting absence of rearrangement under all conditions.
 - **pdf-53, PDF page 18:** Phosphonium positive charge retained; bromide counterion is omitted in the source structure and remains omitted.

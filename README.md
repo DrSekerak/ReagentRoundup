@@ -2,7 +2,7 @@
 
 Organic chemistry reagent practice for Cedarville University. **Stages 1 and 2 implemented.**
 
-The React/TypeScript/Vite application includes the introduction, grouped category selection, and all 60 source questions with correct answers, seven distractors, explanations, hints, SMILES, source references, and 120 pre-generated RDKit SVGs. **57 questions are prepared; questions 35–37 are held for instructor review.** Prepared means transcribed and checked, not instructor-approved.
+The React/TypeScript/Vite application includes the introduction, grouped category selection, and all 60 source questions with correct answers, seven distractors, explanations, hints, SMILES, source references, and 120 pre-generated RDKit SVGs. **All 60 questions are available. Questions 35–37 were approved as supplied by the instructor on October 31, 2026.** Prepared means transcribed and checked, not instructor-approved.
 
 Interactive practice belongs to Stage 3. Start Now remains disabled while selection shows available question counts. Saving/results belong to Stage 4. No backend, student-data transmission, authentication integration, or cross-device saving is implemented.
 
@@ -20,7 +20,7 @@ pnpm build
 pnpm preview
 ```
 
-Open Vite's local URL. Select groups individually and in combination, use Select All/Clear All, and check keyboard Space activation. Expected available counts: Radical Halogenation **14**, Nucleophilic Substitution **29**, Elimination **14**, all groups **57**. There are 17 source elimination questions, including the 3 held questions. Selection resets on refresh until Stage 4.
+Open Vite's local URL. Select groups individually and in combination, use Select All/Clear All, and check keyboard Space activation. Expected available counts: Radical Halogenation **14**, Nucleophilic Substitution **29**, Elimination **17**, all groups **60**. No questions are currently held. Selection resets on refresh until Stage 4.
 
 `validate` runs TypeScript and database checks; `validate:questions` checks just the bank. Tests cover group filtering, schema failures, source revisions, 120 SVG checksums, static assets, stereochemistry metadata, formula characters, and review exclusion. Validation cannot establish experimental feasibility or regioselectivity; instructor judgment remains necessary.
 
@@ -53,9 +53,9 @@ Each group selects all its category IDs. Categories remain separate from questio
 
 Open `docs/instructor-review-standalone.html` (or `docs/instructor-review.html`) in a browser. All 240 source/prepared structure previews are embedded PNGs, so the file can be moved or shared on its own. Compare each source drawing with the rendered SVG preview and review the answers, distractors, explanation, and hint. The application retains vector SVG assets. These docs are local/repository material; Vite does not deploy the docs directory.
 
-Questions 35–37 retain DIPEA, diisopropylamine, and 2,6-lutidine respectively. Their stated elimination conditions need confirmation; question 37's revised substrate also has only one beta-carbon position, so its Hofmann classification needs review. No reagent has been replaced based on a mechanism assumption. Additional notes address radical regioisomers, heated solvolysis competition, E/Z intent, omitted counterions, and rearrangement.
+Questions 35–37 retain DIPEA, diisopropylamine, and 2,6-lutidine respectively. The instructor approved these questions as supplied on October 31, 2026, including their source classifications. Previous concerns are retained as resolved history in review.approval.previousIssues, with the approval recorded in tools/instructor-approvals.json. No reagent has been replaced based on a mechanism assumption. Additional notes address radical regioisomers, heated solvolysis competition, E/Z intent, omitted counterions, and rearrangement.
 
-Record instructor decisions in the preparation inputs and report, regenerate, and run all checks. A held question needs its issues resolved and status changed to prepared in the generator before inclusion. Do not silently remove flags or edit only generated outputs.
+Record instructor decisions in tools/instructor-approvals.json and the preparation inputs/report, regenerate, and run all checks. The current approvals are applied by tools/apply_instructor_approval.py, which is also used by the question generator. A held question needs its issues resolved and status changed to prepared in the generator before inclusion. Do not silently remove flags or edit only generated outputs.
 
 ## Adding or changing questions
 

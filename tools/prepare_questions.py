@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 import re
 import sys
+from apply_instructor_approval import apply_approval
 
 sys.path.insert(0, str(Path('tmp/pythondeps').resolve()))
 from rdkit import Chem, rdBase
@@ -124,7 +125,8 @@ for row, structure in zip(evidence,structures):
     elif n in [59,60]: q['stereochemistry']='SN2 inversion: source reacting center S → R; wedges/dashes preserved in regenerated depiction.'
     elif n==29: q['stereochemistry']='E alkene as drawn; source does not explicitly state a mixture.'
     elif n==33: q['stereochemistry']='Z alkene as drawn; source does not explicitly state a mixture.'
-    questions.append(q)
+    questions.append(apply_approval(q))
 (ROOT/'src/data/question-bank.json').write_text(json.dumps(questions,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (ROOT/'tools/structure-manifest.json').write_text(json.dumps(dict(rdkitVersion=rdBase.rdkitVersion,structures=manifest),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print(f'Prepared {len(questions)} records and {len(manifest)} SVGs; {len(issues)} records held for instructor review.')
+held = sum(q['review']['status'] == 'needs-review' for q in questions)
+print(f'Prepared {len(questions)} records and {len(manifest)} SVGs; {held} records held for instructor review.')
