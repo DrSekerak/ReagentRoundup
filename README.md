@@ -1,10 +1,10 @@
 # Reagent Roundup
 
-Organic chemistry reagent practice for Cedarville University. **Stages 1 and 2 implemented.**
+Organic chemistry reagent practice for Cedarville University. **Stages 1, 2, and 3 implemented.**
 
 The React/TypeScript/Vite application includes the introduction, grouped category selection, and all 60 source questions with correct answers, seven distractors, explanations, hints, SMILES, source references, and 120 pre-generated RDKit SVGs. **All 60 questions are available. Questions 35–37 were approved as supplied by the instructor on October 31, 2026.** Prepared means transcribed and checked, not instructor-approved.
 
-Interactive practice belongs to Stage 3. Start Now remains disabled while selection shows available question counts. Saving/results belong to Stage 4. No backend, student-data transmission, authentication integration, or cross-device saving is implemented.
+Stage 3 practice is interactive: Start Now creates a shuffled session containing the chosen number of questions from the selected groups, with eight independently shuffled answer choices. Saving, scoring, and detailed results belong to Stage 4. No backend, student-data transmission, authentication integration, or cross-device saving is implemented.
 
 ## Development and verification
 
@@ -96,4 +96,20 @@ The purple Stage 1 deployment succeeded and the site returned HTTP 200 before St
 
 Vite uses relative URLs (`base: './'`) for repository subdirectories. TypeScript 6.0.3 remains compatible with typescript-eslint; the lockfile ensures reproducible installs. Native config loading and threaded tests work in the restricted Windows environment.
 
-Stage 3 (practice interaction) and Stage 4 (saving/scoring/results) require approval before implementation.
+Stage 4 (saving/scoring/results) requires approval before implementation.
+
+## Stage 3 practice
+
+Select one or more groups, then choose 5, 10, 15, 20, or All available (the default). Numbers above the available count are disabled and gray. If changing groups makes the selected number unavailable, selection returns to All available. Start Now samples the requested number from the entire shuffled eligible pool without repeats. Question order and each answer order are shuffled once at session creation and remain fixed while that session is open.
+
+Drag a reagent choice by its dotted handle onto the reaction arrow. The arrow highlights during a valid hover; dropping outside it or cancelling a drag does not submit. Mouse dragging uses a movement threshold; touch dragging uses a short hold on the handle, leaving the rest of the page available for scrolling. Alternatively, select a reagent with mouse, touch, or keyboard Space/Enter and activate Submit Selected Answer. Both paths share the same state transition logic.
+
+Each question allows three attempts. Wrong answers become disabled. After a mistake, Show Hint is optional, costs no attempt, and stays visible once requested. A correct answer or the third mistake locks the question and reveals the answer, reaction category, and explanation. Category names remain hidden beforehand except in requested hints. Next Question moves forward; Finish Practice opens a simple completion message, with scoring/results deferred to Stage 4. Leaving unfinished practice asks for confirmation and retains category selection on return.
+
+Progress is in memory only. Refreshing or closing the page clears the session; Stage 3 does not yet restore shuffled order or attempts after a refresh. The introduction states this limitation. No localStorage or university authentication is used.
+
+Implementation: `src/lib/practice.ts` owns immutable session creation, shuffling, and guarded transitions; `src/components/Practice.tsx` owns question display and dnd-kit interaction. Structure paths use Vite's base URL for GitHub Pages subdirectories.
+
+Manual checks: select a group and start; drag a wrong answer onto the arrow; drop another outside the target and verify attempts do not change; request a hint; submit a correct answer through the keyboard alternative; verify locking and next-question focus. Try three distinct wrong answers to verify delayed answer revelation, and return to the introduction to test confirmation. Desktop/tablet/phone layouts and real mouse drops were checked in the in-app browser. A physical touchscreen still needs device testing.
+
+Stage 3 changes are local until committed and pushed. The instructor-approved source questions, answer sets, and molecular SVGs are unchanged.
