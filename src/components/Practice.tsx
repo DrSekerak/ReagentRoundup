@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { DndContext, DragOverlay, MouseSensor, TouchSensor, useDraggable, useDroppable, useSensor, useSensors, type DragEndEvent } from '@dnd-kit/core';
 import { reactionCategories } from '../data/categories';
 import { isComplete, type PracticeEntry, type PracticeSession, type PracticeAction } from '../lib/practice';
+import Results from './Results';
 
 function AnswerChoice({ answer, index, selected, disabled, onSelect }: { answer: string; index: number; selected: boolean; disabled: boolean; onSelect: () => void }) {
   const { attributes, listeners, setNodeRef, setActivatorNodeRef, isDragging } = useDraggable({ id: `choice-${index}`, data: { answer }, disabled });
@@ -22,7 +23,7 @@ function ReactionArrow({ entry }: { entry: PracticeEntry }) {
 export default function Practice({ session, dispatch, onReturn }: { session: PracticeSession; dispatch: (action: PracticeAction) => void; onReturn: () => void }) {
   const entry = session.entries[session.currentIndex];
   return <main className="practice-main">{entry ? <Question key={entry.question.id} entry={entry} number={session.currentIndex + 1} total={session.entries.length} dispatch={dispatch} onReturn={onReturn} /> :
-    <section className="completion-panel"><h1>Practice complete</h1><p>You completed all {session.entries.length} questions in this session.</p><p>Scoring, detailed results, and saved progress will be added in Stage 4.</p><button className="primary-button" onClick={onReturn}>Return to Introduction</button></section>}</main>;
+    <Results session={session} onReturn={onReturn} />}</main>;
 }
 
 function Question({ entry, number, total, dispatch, onReturn }: { entry: PracticeEntry; number: number; total: number; dispatch: (action: PracticeAction) => void; onReturn: () => void }) {
@@ -50,9 +51,9 @@ function Question({ entry, number, total, dispatch, onReturn }: { entry: Practic
     <div className="progress-row"><progress aria-label="Questions completed" value={number - 1 + Number(done)} max={total} /><strong>{3 - entry.attempts.length} attempts remaining</strong></div>
     <DndContext sensors={sensors} onDragStart={({ active }) => setDragged(String(active.data.current?.answer ?? ''))} onDragEnd={drop} onDragCancel={() => setDragged(null)} accessibility={{ screenReaderInstructions: { draggable: 'Select an answer button, then activate Submit Selected Answer. Drag handles support mouse and touch.' } }}>
       <div className="reaction-layout">
-        <figure><figcaption>Starting material</figcaption><img src={import.meta.env.BASE_URL + question.reactant.svgPath} alt={question.reactant.alt.split(',')[0]} /></figure>
+        <figure><figcaption>Starting material</figcaption><img src={import.meta.env.BASE_URL + question.reactant.svgPath} alt={question.reactant.alt.split(/,\s/)[0]} /></figure>
         <ReactionArrow entry={entry} />
-        <figure><figcaption>Product</figcaption><img src={import.meta.env.BASE_URL + question.product.svgPath} alt={question.product.alt.split(',')[0]} /></figure>
+        <figure><figcaption>Product</figcaption><img src={import.meta.env.BASE_URL + question.product.svgPath} alt={question.product.alt.split(/,\s/)[0]} /></figure>
       </div>
       <p id="answer-instructions" className="practice-instructions">Drag an answer by its handle onto the arrow, or select an answer and use Submit Selected Answer.</p>
       <div className="answer-grid" role="group" aria-label="Answer choices" aria-describedby="answer-instructions">{entry.choices.map((answer, index) => <AnswerChoice key={answer} answer={answer} index={index} selected={selected === answer} disabled={done || entry.attempts.includes(answer)} onSelect={() => setSelected(answer)} />)}</div>

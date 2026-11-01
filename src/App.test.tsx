@@ -25,18 +25,19 @@ describe('introduction', () => {
     await user.click(screen.getByRole('button', { name: /Start Now/ }));
     expect(screen.getByRole('heading', { name: 'Question 1 of 14' })).toBeVisible();
   });
-  it('starts only the selected group and confirms discarding an unfinished session', async () => {
-    const user = userEvent.setup();
-    render(<App />);
+  it('preserves unfinished practice on return and confirms before starting a new session', async () => {
+    const user = userEvent.setup(); render(<App />);
     await user.click(screen.getByRole('checkbox', { name: 'Radical Halogenation' }));
-    expect(screen.getByRole('button', { name: /Start Now/ })).toBeEnabled();
     await user.click(screen.getByRole('button', { name: /Start Now/ }));
     expect(screen.getByRole('heading', { name: 'Question 1 of 14' })).toBeVisible();
+    await user.click(screen.getByRole('button', { name: 'Return to Introduction' }));
+    expect(screen.getByRole('button', { name: 'Resume Previous Session' })).toBeVisible();
     const confirm = vi.spyOn(window, 'confirm').mockReturnValue(false);
-    await user.click(screen.getByRole('button', { name: 'Return to Introduction' }));
-    expect(screen.getByRole('heading', { name: 'Question 1 of 14' })).toBeVisible();
+    await user.click(screen.getByRole('button', { name: 'Start New Session' }));
+    expect(screen.getByRole('button', { name: 'Resume Previous Session' })).toBeVisible();
     confirm.mockReturnValue(true);
-    await user.click(screen.getByRole('button', { name: 'Return to Introduction' }));
+    await user.click(screen.getByRole('button', { name: 'Start New Session' }));
+    expect(screen.queryByRole('button', { name: 'Resume Previous Session' })).not.toBeInTheDocument();
     expect(screen.getByRole('checkbox', { name: 'Radical Halogenation' })).toBeChecked();
     expect(screen.getByRole('checkbox', { name: 'Select All' })).toBePartiallyChecked();
     confirm.mockRestore();
@@ -47,7 +48,7 @@ describe('introduction', () => {
     expect(screen.getAllByRole('checkbox')).toHaveLength(4);
     expect(screen.getByRole('button', { name: /Start Now/ })).toBeDisabled();
     expect(screen.getByRole('status')).toHaveTextContent('0 questions available');
-    expect(screen.getByText(/Refreshing or closing this page clears/)).toBeVisible();
+    expect(screen.getByText(/does not sync across devices/)).toBeVisible();
   });
 
   it('supports individual selection, mixed Select All, all selection, and clearing', async () => {

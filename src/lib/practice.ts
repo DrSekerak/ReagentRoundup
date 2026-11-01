@@ -1,4 +1,5 @@
 import type { ReactionQuestion } from '../types/question';
+import type { ReactionCategory } from '../data/categories';
 
 export interface PracticeEntry {
   question: ReactionQuestion;
@@ -7,7 +8,8 @@ export interface PracticeEntry {
   hintUsed: boolean;
   correct: boolean;
 }
-export interface PracticeSession { entries: PracticeEntry[]; currentIndex: number }
+export interface PracticeSession { entries: PracticeEntry[]; currentIndex: number; categories: ReactionCategory[] }
+export function sessionFinished(session: PracticeSession): boolean { return session.currentIndex === session.entries.length; }
 export type PracticeAction =
   | { type: 'submit'; questionId: string; answer: string }
   | { type: 'hint'; questionId: string }
@@ -25,6 +27,7 @@ export function createSession(questions: readonly ReactionQuestion[], random = M
   if (!Number.isInteger(count) || count < 0 || count > questions.length) throw new RangeError('Session length must be an integer within the available question count.');
   return {
     currentIndex: 0,
+    categories: [...new Set(questions.map(question => question.category))],
     entries: shuffle(questions, random).slice(0, count).map(question => ({
       question, choices: shuffle([question.correctAnswer, ...question.distractors], random),
       attempts: [], hintUsed: false, correct: false,

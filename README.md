@@ -1,10 +1,10 @@
 # Reagent Roundup
 
-Organic chemistry reagent practice for Cedarville University. **Stages 1, 2, and 3 implemented.**
+Organic chemistry reagent practice for Cedarville University. **Stages 1–4 implemented.**
 
 The React/TypeScript/Vite application includes the introduction, grouped category selection, and all 60 source questions with correct answers, seven distractors, explanations, hints, SMILES, source references, and 120 pre-generated RDKit SVGs. **All 60 questions are available. Questions 35–37 were approved as supplied by the instructor on October 31, 2026.** Prepared means transcribed and checked, not instructor-approved.
 
-Stage 3 practice is interactive: Start Now creates a shuffled session containing the chosen number of questions from the selected groups, with eight independently shuffled answer choices. Saving, scoring, and detailed results belong to Stage 4. No backend, student-data transmission, authentication integration, or cross-device saving is implemented.
+Stage 3 practice is interactive: Start Now creates a shuffled session containing the chosen number of questions from the selected groups, with eight independently shuffled answer choices. Stage 4 saves progress automatically and provides scoring, category summaries, and detailed reviews. No backend, student-data transmission, authentication integration, or cross-device saving is implemented.
 
 ## Development and verification
 
@@ -20,7 +20,7 @@ pnpm build
 pnpm preview
 ```
 
-Open Vite's local URL. Select groups individually and in combination, use Select All/Clear All, and check keyboard Space activation. Expected available counts: Radical Halogenation **14**, Nucleophilic Substitution **29**, Elimination **17**, all groups **60**. No questions are currently held. Selection resets on refresh until Stage 4.
+Open Vite's local URL. Select groups individually and in combination, use Select All/Clear All, and check keyboard Space activation. Expected available counts: Radical Halogenation **14**, Nucleophilic Substitution **29**, Elimination **17**, all groups **60**. No questions are currently held. Selections, session length, and practice progress are restored in the same browser/profile after refresh.
 
 `validate` runs TypeScript and database checks; `validate:questions` checks just the bank. Tests cover group filtering, schema failures, source revisions, 120 SVG checksums, static assets, stereochemistry metadata, formula characters, and review exclusion. Validation cannot establish experimental feasibility or regioselectivity; instructor judgment remains necessary.
 
@@ -96,7 +96,7 @@ The purple Stage 1 deployment succeeded and the site returned HTTP 200 before St
 
 Vite uses relative URLs (`base: './'`) for repository subdirectories. TypeScript 6.0.3 remains compatible with typescript-eslint; the lockfile ensures reproducible installs. Native config loading and threaded tests work in the restricted Windows environment.
 
-Stage 4 (saving/scoring/results) requires approval before implementation.
+Stage 5 (final testing and deployment verification) remains a separate stage.
 
 ## Stage 3 practice
 
@@ -104,12 +104,24 @@ Select one or more groups, then choose 5, 10, 15, 20, or All available (the defa
 
 Drag a reagent choice by its dotted handle onto the reaction arrow. The arrow highlights during a valid hover; dropping outside it or cancelling a drag does not submit. Mouse dragging uses a movement threshold; touch dragging uses a short hold on the handle, leaving the rest of the page available for scrolling. Alternatively, select a reagent with mouse, touch, or keyboard Space/Enter and activate Submit Selected Answer. Both paths share the same state transition logic.
 
-Each question allows three attempts. Wrong answers become disabled. After a mistake, Show Hint is optional, costs no attempt, and stays visible once requested. A correct answer or the third mistake locks the question and reveals the answer, reaction category, and explanation. Category names remain hidden beforehand except in requested hints. Next Question moves forward; Finish Practice opens a simple completion message, with scoring/results deferred to Stage 4. Leaving unfinished practice asks for confirmation and retains category selection on return.
+Each question allows three attempts. Wrong answers become disabled. After a mistake, Show Hint is optional, costs no attempt, and stays visible once requested. A correct answer or the third mistake locks the question and reveals the answer, reaction category, and explanation. Category names remain hidden beforehand except in requested hints. Next Question moves forward; Finish Practice opens the scored session summary. Returning to the introduction keeps unfinished progress; replacing it through Start New Session or Start Now requires confirmation.
 
-Progress is in memory only. Refreshing or closing the page clears the session; Stage 3 does not yet restore shuffled order or attempts after a refresh. The introduction states this limitation. No localStorage or university authentication is used.
+Progress is saved to localStorage in the current browser and browser profile. Refreshing or reopening the page offers Resume Previous Session; completed sessions offer Review Previous Results. There is no cross-device synchronization or university authentication integration.
 
 Implementation: `src/lib/practice.ts` owns immutable session creation, shuffling, and guarded transitions; `src/components/Practice.tsx` owns question display and dnd-kit interaction. Structure paths use Vite's base URL for GitHub Pages subdirectories.
 
-Manual checks: select a group and start; drag a wrong answer onto the arrow; drop another outside the target and verify attempts do not change; request a hint; submit a correct answer through the keyboard alternative; verify locking and next-question focus. Try three distinct wrong answers to verify delayed answer revelation, and return to the introduction to test confirmation. Desktop/tablet/phone layouts and real mouse drops were checked in the in-app browser. A physical touchscreen still needs device testing.
+Manual checks: select a group and start; drag a wrong answer onto the arrow; drop another outside the target and verify attempts do not change; request a hint; submit a correct answer through the keyboard alternative; verify locking and next-question focus. Try three distinct wrong answers to verify delayed answer revelation, and return to the introduction, then start a new session to test replacement confirmation. Desktop/tablet/phone layouts and real mouse drops were checked in the in-app browser. A physical touchscreen still needs device testing.
 
-Stage 3 changes are local until committed and pushed. The instructor-approved source questions, answer sets, and molecular SVGs are unchanged.
+Stage 4 changes are local until committed and pushed. The instructor-approved source questions, answer sets, and molecular SVGs are unchanged.
+
+## Stage 4 progress and results
+
+`src/lib/progress.ts` defines a storage repository interface and its localStorage implementation. The versioned key is `reagent-roundup.progress.v1`. Stored data includes selected groups and categories, chosen session length, question IDs/order, content revisions, shuffled answer order, current question, submitted answers, attempts used, hint use, correctness, correct-attempt number, completed count, and completion status. Restored IDs are rebound to current authoritative bank records; serialized copies are never used as question definitions.
+
+On refresh or return, the introduction offers Resume Previous Session and Start New Session for unfinished practice. Returning to the introduction does not discard progress. Both Start New Session and starting fresh through Start Now require confirmation when unfinished work exists. Cancelling preserves the saved session. Starting another practice session after completion returns to category selection; saved results remain reviewable until replaced.
+
+Restoration validates storage version, category/group IDs, unique question IDs, question content revisions, eight unique answer choices, valid attempts, hints, counters, and navigation consistency. Changed/missing questions or malformed data produce a notice and preserve the original stored value until replacement is explicitly confirmed. Blocked storage and quota failures show a warning while allowing practice to continue in memory. Saving applies only to the same browser, browser profile, and site origin; local development and GitHub Pages have separate saves. Clearing browser data removes progress. No backend, authentication, or student information is transmitted. The repository boundary permits a future authenticated storage adapter without changing practice/scoring logic.
+
+`src/lib/scoring.ts` contains the instructor-adjustable 3/2/1/0 point model and summaries. Hints never reduce points. Completed results include first/second/third-attempt counts, unsuccessful questions, hints used, eventual accuracy, points out of maximum, and all eleven categories with attempted/correct/percentage columns. Unattempted categories display a dash for percentage. Review Results reveals the optional table of correct and submitted answers, attempts, hints, and final outcome. Category information remains hidden during active questions except in requested hints and completed explanations.
+
+Stage 4 checks: start five questions, submit a wrong answer and request a hint, refresh, resume, and verify identical question/answer order, remaining attempts, and disabled wrong answer. Return to the introduction and cancel replacement to confirm nothing is discarded. Finish practice, check point totals and category rows, expand Review Results, then refresh and reopen the previous results. Automated tests cover these flows plus damaged/obsolete saves, inaccessible/full storage, completion invariants, all scoring outcomes, and zero-denominator summaries. Browser testing verified refresh/resume and a complete five-question session with one hint: four first-attempt answers and one second-attempt answer yielded 100.0% eventual accuracy and 14/15 points.
