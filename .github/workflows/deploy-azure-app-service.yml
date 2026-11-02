@@ -32,6 +32,9 @@ jobs:
             npm install
           fi
 
+      - name: Build application and server validation bundle
+        run: npm run build
+
       - name: Azure login (attempt 1)
         id: azure_login_first
         continue-on-error: true
