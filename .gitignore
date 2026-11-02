@@ -6,3 +6,8 @@ coverage/
 tmp/
 __pycache__/
 .venv/
+dist-server/
+.env
+.env.*
+!.env.example
+.pnpm-store/

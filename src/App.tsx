@@ -3,6 +3,7 @@ import { reactionGroups, type ReactionGroup } from './data/categories';
 import { questions } from './data/questions';
 import { filterQuestions } from './lib/questions';
 import Practice from './components/Practice';
+import AccountProgress from './components/AccountProgress';
 import { createSession, transition, sessionFinished, type PracticeSession } from './lib/practice';
 import { createLocalProgressRepository, type QuestionCount } from './lib/progress';
 
@@ -62,6 +63,10 @@ export default function App() {
   return (
     <>
       <header className="site-header"><span className="brand-mark" aria-hidden="true">Rr</span><div><strong>Reagent Roundup</strong><span>Cedarville University · Organic Chemistry</span></div></header>
+      <AccountProgress progress={{ selectedGroups: selected, questionCount, session }} canSave={!needsReplacementConfirmation} onLoad={progress => {
+        setSelected(progress.selectedGroups); setQuestionCount(progress.questionCount); setSession(progress.session);
+        setNeedsReplacementConfirmation(false); setPracticing(false);
+      }} />
       {storageNotice && <div className="storage-notice" role="alert">{storageNotice}</div>}
       {practicing && session ? <Practice session={session} dispatch={action => setSession(current => current ? transition(current, action) : current)} onReturn={() => setPracticing(false)} /> : <main>
         <section className="introduction" aria-labelledby="page-title">
@@ -70,7 +75,7 @@ export default function App() {
           <p className="lead">Examine the starting material and product for each reaction. Select the reagents and conditions that would accomplish the transformation.</p>
           <p>Drag your chosen answer onto the reaction arrow.</p>
           <p>You have up to three attempts per question. After an incorrect answer, you may request a hint. When you answer correctly or use all three attempts, you will see the correct answer and an explanation.</p>
-          <aside className="stage-note"><strong>Automatic progress saving</strong><p>Your progress is saved automatically in this browser and browser profile. It does not sync across devices or connect to your CU Launch account.</p></aside>
+          <aside className="stage-note"><strong>Automatic progress saving</strong><p>Your progress is saved automatically in this browser and browser profile. Use Save to account to store a copy with your Cedarville sign-in, then Load from account to continue on another device.</p></aside>
         </section>
         <section className="selection-panel" aria-labelledby="selection-title">
           <div className="panel-heading"><p className="eyebrow">BUILD YOUR PRACTICE</p><h2 id="selection-title">Choose reaction categories</h2><p>Select any combination to focus your review.</p></div>

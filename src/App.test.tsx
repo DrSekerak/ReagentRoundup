@@ -48,7 +48,7 @@ describe('introduction', () => {
     expect(screen.getAllByRole('checkbox')).toHaveLength(4);
     expect(screen.getByRole('button', { name: /Start Now/ })).toBeDisabled();
     expect(screen.getByRole('status')).toHaveTextContent('0 questions available');
-    expect(screen.getByText(/does not sync across devices/)).toBeVisible();
+    expect(screen.getByText(/then Load from account to continue on another device/)).toBeVisible();
   });
 
   it('supports individual selection, mixed Select All, all selection, and clearing', async () => {

@@ -4,11 +4,11 @@ Organic chemistry reagent practice for Cedarville University. **Stages 1–4 imp
 
 The React/TypeScript/Vite application includes the introduction, grouped category selection, and all 60 source questions with correct answers, seven distractors, explanations, hints, SMILES, source references, and 120 pre-generated RDKit SVGs. **All 60 questions are available. Questions 35–37 were approved as supplied by the instructor on October 31, 2026.** Prepared means transcribed and checked, not instructor-approved.
 
-Stage 3 practice is interactive: Start Now creates a shuffled session containing the chosen number of questions from the selected groups, with eight independently shuffled answer choices. Stage 4 saves progress automatically and provides scoring, category summaries, and detailed reviews. No backend, student-data transmission, authentication integration, or cross-device saving is implemented.
+Stage 3 practice is interactive: Start Now creates a shuffled session containing the chosen number of questions from the selected groups, with eight independently shuffled answer choices. Stage 4 saves progress automatically and provides scoring, category summaries, and detailed reviews. An Express server now requires Cedarville Microsoft Entra sign-in and offers explicit PostgreSQL account saves alongside the existing browser storage.
 
 ## Development and verification
 
-Use Node.js 24 and pnpm 11.25.0 (`npm install --global pnpm@11.25.0` if needed).
+Use Node.js 24 and pnpm 11.25.0. The Codex bundled workspace runtimes are supported. See [server setup](docs/server-services.md) for the environment-variable names. CU Launch supplies production values; do not paste secrets into chat or commit populated environment files. `pnpm dev`, `pnpm start`, and `pnpm preview` all run the protected Express server. Running Vite directly bypasses the server and is unsuitable for publishing.
 
 ```sh
 pnpm install --frozen-lockfile
@@ -85,18 +85,11 @@ Extraction uses page positions and final rendered crops: revised PDF text/images
 
 Validation checks unique IDs/source numbers, valid categories, both structures and alt descriptions, exactly seven distractors, eight nonduplicate answers, explanation/hint presence, positive source references, safe existing SVG paths, static SVG content, and consistent review states. All source records remain reviewable.
 
-## GitHub Pages
+## Managed server hosting
 
-The purple Stage 1 deployment succeeded and the site returned HTTP 200 before Stage 2 began. Stage 2 changes have not been published automatically.
+The supported source of truth is `https://github.com/cu-app-portal-repos/reagentroundup`, with the original source remote preserved. The existing workflow now validates TypeScript/data, lint, tests and both production bundles. Its GitHub Pages deployment step was removed because static hosting cannot enforce the requested sign-in or run PostgreSQL access.
 
-1. Commit and push to main when ready.
-2. GitHub Settings → Pages → Build and deployment → Source: GitHub Actions.
-3. The workflow installs locked dependencies, validates TypeScript/data, lints, tests, builds, and deploys. Pull requests run checks without deployment. Manual runs can deploy main.
-4. Published URL: [Reagent Roundup](https://drsekerak.github.io/ReagentRoundup/). This HTTPS link can be placed in CU Launch; it does not integrate account authentication.
-
-Vite uses relative URLs (`base: './'`) for repository subdirectories. TypeScript 6.0.3 remains compatible with typescript-eslint; the lockfile ensures reproducible installs. Native config loading and threaded tests work in the restricted Windows environment.
-
-Stage 5 (final testing and deployment verification) remains a separate stage.
+CU Launch manages hosting and production settings. Build with `pnpm build` and run with `pnpm start`; use the root Express application rather than serving `dist` directly. No deployment manifest or Azure publishing workflow has been created locally. Portal-generated publishing files must be reviewed when available. Any previously deployed GitHub Pages copy is a separate historical site; this change does not remove it or make it private.
 
 ## Stage 3 practice
 
@@ -106,13 +99,13 @@ Drag a reagent choice by its dotted handle onto the reaction arrow. The arrow hi
 
 Each question allows three attempts. Wrong answers become disabled. After a mistake, Show Hint is optional, costs no attempt, and stays visible once requested. A correct answer or the third mistake locks the question and reveals the answer, reaction category, and explanation. Category names remain hidden beforehand except in requested hints. Next Question moves forward; Finish Practice opens the scored session summary. Returning to the introduction keeps unfinished progress; replacing it through Start New Session or Start Now requires confirmation.
 
-Progress is saved to localStorage in the current browser and browser profile. Refreshing or reopening the page offers Resume Previous Session; completed sessions offer Review Previous Results. There is no cross-device synchronization or university authentication integration.
+Progress is saved to localStorage in the current browser and browser profile. Refreshing or reopening the page offers Resume Previous Session; completed sessions offer Review Previous Results. Save to account and Load from account explicitly transfer a copy to or from PostgreSQL using the verified Cedarville session. No account data is fetched or uploaded automatically.
 
 Implementation: `src/lib/practice.ts` owns immutable session creation, shuffling, and guarded transitions; `src/components/Practice.tsx` owns question display and dnd-kit interaction. Structure paths use Vite's base URL for GitHub Pages subdirectories.
 
 Manual checks: select a group and start; drag a wrong answer onto the arrow; drop another outside the target and verify attempts do not change; request a hint; submit a correct answer through the keyboard alternative; verify locking and next-question focus. Try three distinct wrong answers to verify delayed answer revelation, and return to the introduction, then start a new session to test replacement confirmation. Desktop/tablet/phone layouts and real mouse drops were checked in the in-app browser. A physical touchscreen still needs device testing.
 
-Stage 4 changes are local until committed and pushed. The instructor-approved source questions, answer sets, and molecular SVGs are unchanged.
+The instructor-approved source questions, answer sets, and molecular SVGs are unchanged by the server integration.
 
 ## Stage 4 progress and results
 
@@ -120,7 +113,7 @@ Stage 4 changes are local until committed and pushed. The instructor-approved so
 
 On refresh or return, the introduction offers Resume Previous Session and Start New Session for unfinished practice. Returning to the introduction does not discard progress. Both Start New Session and starting fresh through Start Now require confirmation when unfinished work exists. Cancelling preserves the saved session. Starting another practice session after completion returns to category selection; saved results remain reviewable until replaced.
 
-Restoration validates storage version, category/group IDs, unique question IDs, question content revisions, eight unique answer choices, valid attempts, hints, counters, and navigation consistency. Changed/missing questions or malformed data produce a notice and preserve the original stored value until replacement is explicitly confirmed. Blocked storage and quota failures show a warning while allowing practice to continue in memory. Saving applies only to the same browser, browser profile, and site origin; local development and GitHub Pages have separate saves. Clearing browser data removes progress. No backend, authentication, or student information is transmitted. The repository boundary permits a future authenticated storage adapter without changing practice/scoring logic.
+Restoration validates storage version, category/group IDs, unique question IDs, question content revisions, eight unique answer choices, valid attempts, hints, counters, and navigation consistency. Changed/missing questions or malformed data produce a notice and preserve the original stored value until replacement is explicitly confirmed. Blocked storage and quota failures show a warning while allowing practice to continue in memory. Automatic saving applies only to the same browser, browser profile, and site origin; clearing browser data removes that local copy. Explicit account saving transmits practice progress to the protected server, associated with an immutable tenant/object identifier. The same validation runs on the server before storing it. Account saves are personal practice records, not authoritative grades. See [server services](docs/server-services.md) for data and verification boundaries.
 
 `src/lib/scoring.ts` contains the instructor-adjustable 3/2/1/0 point model and summaries. Hints never reduce points. Completed results include first/second/third-attempt counts, unsuccessful questions, hints used, eventual accuracy, points out of maximum, and all eleven categories with attempted/correct/percentage columns. Unattempted categories display a dash for percentage. Review Results reveals the optional table of correct and submitted answers, attempts, hints, and final outcome. Category information remains hidden during active questions except in requested hints and completed explanations.
 
