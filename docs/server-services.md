@@ -1,6 +1,6 @@
 # Server services
 
-Reagent Roundup uses its existing React/TypeScript/Vite UI behind a root Express server. The server handles Microsoft Entra OIDC through Auth.js and PostgreSQL through node-postgres. Node.js 24 and pnpm 11.25.0 are required. `pnpm dev` starts Vite as protected Express middleware; `pnpm build` checks types and builds both the browser application and shared server validation bundle; `pnpm start` serves production. Never publish with Vite preview, a static file server, or GitHub Pages.
+Reagent Roundup uses its existing React/TypeScript/Vite UI behind a root Express server. The server handles Microsoft Entra OIDC through Auth.js and PostgreSQL through node-postgres. Node.js 24 and npm are required. `npm run dev` starts Vite as protected Express middleware; `npm run build` checks types and builds both the browser application and shared server validation bundle; `npm start` serves production. Never publish with Vite preview, a static file server, or GitHub Pages.
 
 ## Settings
 
@@ -36,6 +36,6 @@ Browser automatic saving is preserved with its original key and validation. No e
 
 ## Verification
 
-Run `pnpm validate`, `pnpm lint`, `pnpm test` and `pnpm build`. The server suite uses a disposable PGlite PostgreSQL instance, never `DATABASE_URL`, to test SQL migrations, data preservation, account isolation, validation, conflict handling, anonymous denial, authenticated access, CSRF/origin checks, return URLs and health during service failure. Auth tests use synthetic identities, never production credentials.
+Run `npm run validate`, `npm run lint`, `npm test` and `npm run build`. The server suite uses a disposable PGlite PostgreSQL instance, never `DATABASE_URL`, to test SQL migrations, data preservation, account isolation, validation, conflict handling, anonymous denial, authenticated access, CSRF/origin checks, return URLs and health during service failure. Auth tests use synthetic identities, never production credentials.
 
 Live PostgreSQL connectivity, provisioned database permissions/TLS, Entra redirects, consent and actual Cedarville sign-in still require the provisioned environment. Passing local tests does not establish live integration. Publishing is a separate authorized CU Launch action. No Azure resources or production migrations were run by this implementation.

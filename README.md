@@ -8,16 +8,16 @@ Stage 3 practice is interactive: Start Now creates a shuffled session containing
 
 ## Development and verification
 
-Use Node.js 24 and pnpm 11.25.0. The Codex bundled workspace runtimes are supported. See [server setup](docs/server-services.md) for the environment-variable names. CU Launch supplies production values; do not paste secrets into chat or commit populated environment files. `pnpm dev`, `pnpm start`, and `pnpm preview` all run the protected Express server. Running Vite directly bypasses the server and is unsuitable for publishing.
+Use Node.js 24 and npm. The Codex bundled workspace runtimes are supported. See [server setup](docs/server-services.md) for the environment-variable names. CU Launch supplies production values; do not paste secrets into chat or commit populated environment files. `npm run dev`, `npm start`, and `npm run preview` all run the protected Express server. Running Vite directly bypasses the server and is unsuitable for publishing.
 
 ```sh
-pnpm install --frozen-lockfile
-pnpm dev
-pnpm validate
-pnpm lint
-pnpm test
-pnpm build
-pnpm preview
+npm install
+npm run dev
+npm run validate
+npm run lint
+npm test
+npm run build
+npm run preview
 ```
 
 Open Vite's local URL. Select groups individually and in combination, use Select All/Clear All, and check keyboard Space activation. Expected available counts: Radical Halogenation **14**, Nucleophilic Substitution **29**, Elimination **17**, all groups **60**. No questions are currently held. Selections, session length, and practice progress are restored in the same browser/profile after refresh.
@@ -75,10 +75,10 @@ python tools/inspect_source.py /path/to/Organic_Reaction_Reagents_60_Problems.pd
 # Compare tmp/pdfs/extracted.json with tools/source-evidence.json before replacing evidence.
 python tools/prepare_questions.py
 python tools/review_questions.py /path/to/Organic_Reaction_Reagents_60_Problems.pdf
-pnpm validate
-pnpm lint
-pnpm test
-pnpm build
+npm run validate
+npm run lint
+npm test
+npm run build
 ```
 
 Extraction uses page positions and final rendered crops: revised PDF text/images may remain underneath overlays, so plain text extraction misorders revised answers. Inspect review material after meaningful edits. Temporary files and virtual environments are ignored by Git.
@@ -89,7 +89,7 @@ Validation checks unique IDs/source numbers, valid categories, both structures a
 
 The supported source of truth is `https://github.com/cu-app-portal-repos/reagentroundup`, with the original source remote preserved. The existing workflow now validates TypeScript/data, lint, tests and both production bundles. Its GitHub Pages deployment step was removed because static hosting cannot enforce the requested sign-in or run PostgreSQL access.
 
-CU Launch manages hosting and production settings. Build with `pnpm build` and run with `pnpm start`; use the root Express application rather than serving `dist` directly. No deployment manifest or Azure publishing workflow has been created locally. Portal-generated publishing files must be reviewed when available. Any previously deployed GitHub Pages copy is a separate historical site; this change does not remove it or make it private.
+CU Launch manages hosting and production settings. Build with `npm run build` and run with `npm start`; use the root Express application rather than serving `dist` directly. No deployment manifest or Azure publishing workflow has been created locally. Portal-generated publishing files must be reviewed when available. Any previously deployed GitHub Pages copy is a separate historical site; this change does not remove it or make it private.
 
 ## Stage 3 practice
 

@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "pnpm build:server && node --env-file-if-exists=.env.local server/index.mjs --dev",
-    "build": "tsc -b && vite build --configLoader native && pnpm build:server",
+    "dev": "vite build --configLoader native --ssr server/progress-schema.ts --outDir dist-server && node --env-file-if-exists=.env.local server/index.mjs --dev",
+    "build": "tsc -b && vite build --configLoader native && vite build --configLoader native --ssr server/progress-schema.ts --outDir dist-server",
     "build:server": "vite build --configLoader native --ssr server/progress-schema.ts --outDir dist-server",
     "start": "node --env-file-if-exists=.env.local server/index.mjs",
-    "preview": "pnpm start",
+    "preview": "node --env-file-if-exists=.env.local server/index.mjs",
     "lint": "eslint .",
     "test": "vitest run --configLoader native --pool threads",
     "validate": "tsc -b && node tools/validate-questions.mjs",
@@ -17,7 +17,6 @@
   "engines": {
     "node": ">=24 <25"
   },
-  "packageManager": "pnpm@11.25.0",
   "dependencies": {
     "@auth/express": "^0.12.3",
     "@dnd-kit/core": "^6.3.1",

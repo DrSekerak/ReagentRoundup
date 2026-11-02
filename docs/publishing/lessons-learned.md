@@ -10,3 +10,11 @@
 - Missing development commands can use the bundled workspace runtime. Package installation uses the existing pnpm store with command-scoped settings; no global package/cache configuration was changed.
 - Live Entra and PostgreSQL checks remain pending provisioned settings. Do not claim the app is protected on a live service merely because local code passes checks.
 - Verification passed: all 91 tests (including 14 server/database/authentication tests), lint, TypeScript/question/SVG validation, both production bundles, and a real production-server startup/health check with database and authentication settings absent. The old introduction assertion was updated to reflect explicit account transfer support; its focused rerun passed.
+
+## CU Launch v1 npm compatibility
+
+- CU Launch rejected preparation because v1 accepts an npm package lock or `npm install` fallback, not pnpm repositories. The earlier integration retained pnpm and missed this constraint.
+- Removed `pnpm-lock.yaml` and the pnpm `packageManager` declaration. Build, development and preview scripts no longer invoke pnpm. Updated the validation workflow and current setup documentation to npm.
+- This repository intentionally uses CU Launch's supported `npm install` fallback without a lockfile. The workflow does not request lockfile-based npm caching or `npm ci`. A future npm-generated `package-lock.json` can replace this fallback after a clean install has been verified; do not fabricate a lockfile or rename the pnpm lockfile.
+- System and bundled dependency locations were checked for npm; only the bundled Node/pnpm tools are available locally. No development runtime or package manager was downloaded. Local checks use the existing dependencies and bundled runner; a fresh npm dependency installation and portal preparation remain environment checks.
+- After removing the pnpm requirements, all 91 tests, lint, TypeScript/question/SVG validation and both production bundles passed. No application behavior, authentication policy, database schema, or portal settings changed in this compatibility fix.
