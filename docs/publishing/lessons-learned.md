@@ -2,6 +2,13 @@
 
 Record manual fixes and deployment blockers here.
 
+## 2026-11-03: Login button blocked by browser policy
+
+- Users reported that clicking **Sign in with Cedarville** left them on the login page. Reproduced against the live app in an isolated Edge browser: the console reported that the form submission violated `form-action 'self'`, and the URL stayed at `/login`. The public health and CSRF endpoints returned HTTP 200.
+- Chromium applies the login page's `form-action` policy to the Auth.js redirect to Microsoft. Added only `https://login.microsoftonline.com` to that directive and clarified that the button opens Microsoft's sign-in page. The existing single-tenant checks, CSRF, PKCE, state, nonce, session protection, and portal-managed callback/settings remain unchanged.
+- A regression test exercises the real Auth.js sign-in POST with isolated OIDC discovery, verifies CSRF rejection, the exact CSP destinations, Microsoft authorization URL, callback, scopes, PKCE, state, and nonce. All 92 tests passed, as did lint, TypeScript/question/SVG validation and both production builds. Isolated local Edge and Chrome tests confirmed that the fixed button navigates to Microsoft without a CSP violation. No credentials were entered; completing actual user sign-in remains a live verification step.
+- CU Launch reports the existing deployment as successful. Runtime diagnostics and logs through CU Launch require portal administrator access and were unavailable to this account. The managed repository's `main` matches the checked-out starting revision. The user explicitly authorized deploying this fix on 2026-11-03; pushing the verified change to managed `main` triggers the existing Azure deployment workflow.
+
 ## Selected services and generated workflow review
 
 - Reviewed CU Launch's merged setup against the app code. The manifest selects Node.js 24 / Express, PostgreSQL via `DATABASE_URL`, and Microsoft Entra via `/api/auth/callback/microsoft-entra-id`. These match the implementation; no portal-managed settings or callback paths were changed.

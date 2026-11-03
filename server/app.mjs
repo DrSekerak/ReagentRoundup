@@ -38,10 +38,12 @@ export function createApp({ settings, authConfig, readSession, store, validatePr
     if (!settings) return res.status(503).type('html').send('<h1>Reagent Roundup</h1><p>Cedarville sign-in is not configured yet. Please try again after setup is complete.</p>');
     const nonce = randomBytes(18).toString('base64');
     const returnTo = safeReturnTo(req.query.returnTo || req.query.callbackUrl, settings.origin);
-    res.set('Content-Security-Policy', `default-src 'none'; script-src 'nonce-${nonce}'; style-src 'nonce-${nonce}'; connect-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'`);
+    // Chromium also applies form-action to the OAuth redirect after the local POST.
+    // Permit the configured provider's Microsoft login host without opening other destinations.
+    res.set('Content-Security-Policy', `default-src 'none'; script-src 'nonce-${nonce}'; style-src 'nonce-${nonce}'; connect-src 'self'; form-action 'self' https://login.microsoftonline.com; base-uri 'none'; frame-ancestors 'none'`);
     res.type('html').send(`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sign in · Reagent Roundup</title>
       <style nonce="${nonce}">body{font:18px system-ui;max-width:38rem;margin:12vh auto;padding:2rem;background:#f6f8fb;color:#183446}button{font:inherit;padding:1rem;background:#174c64;color:white;border:0;border-radius:.4rem}p{line-height:1.6}</style>
-      <h1>Reagent Roundup</h1><p>Sign in with your Cedarville University Microsoft account to continue.</p>${req.query.error ? '<p role="alert">Sign-in was unsuccessful. Please use your Cedarville account and try again.</p>' : ''}
+      <h1>Reagent Roundup</h1><p>Sign in with your Cedarville University Microsoft account to continue. The button opens Microsoft’s secure sign-in page.</p>${req.query.error ? '<p role="alert">Sign-in was unsuccessful. Please use your Cedarville account and try again.</p>' : ''}
       <form method="post" action="/api/auth/signin/microsoft-entra-id"><input type="hidden" name="csrfToken" id="csrf"><input type="hidden" name="callbackUrl" value="${escapeHtml(settings.origin + returnTo)}"><button disabled>Sign in with Cedarville</button></form><p id="notice" role="status"></p>
       <script nonce="${nonce}">fetch('/api/auth/csrf',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(d=>{if(!d.csrfToken)throw Error();document.getElementById('csrf').value=d.csrfToken;document.querySelector('button').disabled=false}).catch(()=>{document.getElementById('notice').textContent='Sign-in is unavailable. Please reload to try again.'})</script></html>`);
   });

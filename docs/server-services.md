@@ -24,6 +24,8 @@ The app consumes the provisioned issuer without changing the app registration. N
 
 Sessions use encrypted, HttpOnly, same-site cookies with Secure enabled on HTTPS and an eight-hour lifetime. Server middleware verifies sessions and the tenant before returning app HTML, assets, or API data. Auth.js manages CSRF for authentication actions; progress writes require the canonical Origin and JSON. Return destinations are restricted to the canonical origin. Missing or invalid sign-in configuration fails closed. No development or production authentication bypass exists.
 
+The login page permits form submissions to the app and `https://login.microsoftonline.com` in its Content Security Policy. Chromium applies `form-action` to the redirect following the local sign-in POST, so allowing only `'self'` blocks the button from opening Microsoft login. The other CSP restrictions, CSRF checks, and provisioned callback remain in place. See [MDN's form-action reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/form-action).
+
 Only exact `GET /api/health`, the exact login page, and the allowlisted Auth.js sign-in/session/CSRF/sign-out/callback endpoints are anonymous. Unknown authentication endpoints fall through to protection. The health response reports process health and does not contact PostgreSQL or Entra. API failures do not reveal credentials or provider responses. The reverse proxy is trusted for one hop, and authentication request hosts are pinned to the configured app origin.
 
 ## Database and existing data

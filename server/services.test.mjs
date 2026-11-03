@@ -162,6 +162,38 @@ describe('Cedarville OIDC and login boundaries', () => {
     expect((await request(app).get('/')).status).toBe(303);
     expect((await request(app).get('/api/progress').set('Cookie', '__Secure-authjs.session-token=forged')).status).toBe(401);
   });
+  it('allows the CSRF-protected sign-in form to redirect only to Microsoft login', async () => {
+    const config = createAuthConfig(env, settings);
+    const issuer = env.AUTH_MICROSOFT_ENTRA_ID_ISSUER;
+    const discovery = vi.spyOn(globalThis, 'fetch').mockImplementation(async input => {
+      expect(String(input)).toBe(issuer + '/.well-known/openid-configuration');
+      return globalThis.Response.json({ issuer, authorization_endpoint: `https://login.microsoftonline.com/${tenant}/oauth2/v2.0/authorize`,
+        token_endpoint: `https://login.microsoftonline.com/${tenant}/oauth2/v2.0/token`,
+        jwks_uri: `https://login.microsoftonline.com/${tenant}/discovery/v2.0/keys` });
+    });
+    try {
+      const app = appAs(null, { authConfig: config, readSession: sessionReader(config) });
+      const login = await request(app).get('/login?returnTo=/?practice=1');
+      const formAction = login.headers['content-security-policy'].split(';').find(value => value.trim().startsWith('form-action')).trim();
+      expect(formAction).toBe("form-action 'self' https://login.microsoftonline.com");
+      const csrf = await request(app).get('/api/auth/csrf');
+      const cookies = csrf.headers['set-cookie'].map(value => value.split(';')[0]);
+      const submit = body => request(app).post('/api/auth/signin/microsoft-entra-id').set('Cookie', cookies).type('form').send(body);
+      const denied = await submit({ callbackUrl: settings.origin });
+      expect(denied.headers.location).not.toMatch(/^https:\/\/login\.microsoftonline\.com\//);
+      const result = await submit({ csrfToken: csrf.body.csrfToken, callbackUrl: settings.origin + '/?practice=1' });
+      expect(result.status).toBe(302);
+      const destination = new URL(result.headers.location);
+      expect(destination.origin).toBe('https://login.microsoftonline.com');
+      expect(destination.pathname).toBe(`/${tenant}/oauth2/v2.0/authorize`);
+      expect(destination.searchParams.get('redirect_uri')).toBe(settings.origin + '/api/auth/callback/microsoft-entra-id');
+      expect(destination.searchParams.get('scope')).toBe('openid profile email');
+      expect(destination.searchParams.get('state')).toBeTruthy();
+      expect(destination.searchParams.get('nonce')).toBeTruthy();
+      expect(destination.searchParams.get('code_challenge_method')).toBe('S256');
+      expect(destination.searchParams.get('code_challenge')).toBeTruthy();
+    } finally { discovery.mockRestore(); }
+  });
   it('verifies real encrypted session cookies for protected pages and APIs', async () => {
     const config = createAuthConfig(env, settings);
     const app = appAs(null, { authConfig: config, readSession: sessionReader(config) });
