@@ -2,7 +2,7 @@ import express from 'express';
 import { ExpressAuth } from '@auth/express';
 import { randomBytes } from 'node:crypto';
 import { resolve } from 'node:path';
-import { authorizedSession, safeReturnTo } from './auth.mjs';
+import { authorizedSession, safeReturnTo, loginAction } from './auth.mjs';
 
 const asyncRoute = handler => (req, res, next) => Promise.resolve(handler(req, res, next)).catch(next);
 const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -34,19 +34,37 @@ export function createApp({ settings, authConfig, readSession, store, validatePr
     next();
   }, ExpressAuth(authConfig));
 
-  app.get('/login', (req, res) => {
-    if (!settings) return res.status(503).type('html').send('<h1>Reagent Roundup</h1><p>Cedarville sign-in is not configured yet. Please try again after setup is complete.</p>');
+  app.get('/login', asyncRoute(async (req, res) => {
+    if (!settings || !authConfig) return res.status(503).type('html').send('<h1>Reagent Roundup</h1><p>Cedarville sign-in is not configured yet. Please try again after setup is complete.</p>');
+    const csrf = await loginAction(authConfig, settings, req);
+    if (csrf.status !== 200) throw new Error('Sign-in is unavailable');
+    const { csrfToken } = await csrf.json();
+    if (typeof csrfToken !== 'string' || !csrfToken) throw new Error('Sign-in is unavailable');
+    for (const cookie of csrf.headers.getSetCookie()) res.append('Set-Cookie', cookie);
     const nonce = randomBytes(18).toString('base64');
     const returnTo = safeReturnTo(req.query.returnTo || req.query.callbackUrl, settings.origin);
     // Chromium also applies form-action to the OAuth redirect after the local POST.
     // Permit the configured provider's Microsoft login host without opening other destinations.
-    res.set('Content-Security-Policy', `default-src 'none'; script-src 'nonce-${nonce}'; style-src 'nonce-${nonce}'; connect-src 'self'; form-action 'self' https://login.microsoftonline.com; base-uri 'none'; frame-ancestors 'none'`);
+    res.set('Content-Security-Policy', `default-src 'none'; style-src 'nonce-${nonce}'; form-action 'self' https://login.microsoftonline.com; base-uri 'none'; frame-ancestors 'none'`);
     res.type('html').send(`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sign in · Reagent Roundup</title>
       <style nonce="${nonce}">body{font:18px system-ui;max-width:38rem;margin:12vh auto;padding:2rem;background:#f6f8fb;color:#183446}button{font:inherit;padding:1rem;background:#174c64;color:white;border:0;border-radius:.4rem}p{line-height:1.6}</style>
       <h1>Reagent Roundup</h1><p>Sign in with your Cedarville University Microsoft account to continue. The button opens Microsoft’s secure sign-in page.</p>${req.query.error ? '<p role="alert">Sign-in was unsuccessful. Please use your Cedarville account and try again.</p>' : ''}
-      <form method="post" action="/api/auth/signin/microsoft-entra-id"><input type="hidden" name="csrfToken" id="csrf"><input type="hidden" name="callbackUrl" value="${escapeHtml(settings.origin + returnTo)}"><button disabled>Sign in with Cedarville</button></form><p id="notice" role="status"></p>
-      <script nonce="${nonce}">fetch('/api/auth/csrf',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(d=>{if(!d.csrfToken)throw Error();document.getElementById('csrf').value=d.csrfToken;document.querySelector('button').disabled=false}).catch(()=>{document.getElementById('notice').textContent='Sign-in is unavailable. Please reload to try again.'})</script></html>`);
-  });
+      <form method="post" action="/login"><input type="hidden" name="csrfToken" value="${escapeHtml(csrfToken)}"><input type="hidden" name="callbackUrl" value="${escapeHtml(settings.origin + returnTo)}"><button>Sign in with Cedarville</button></form></html>`);
+  }));
+  app.post('/login', (req, res, next) => {
+    if (!settings || !authConfig) return res.status(503).send('Cedarville sign-in is not configured yet.');
+    if (req.get('origin') !== settings.origin || !req.is('application/x-www-form-urlencoded')) return res.sendStatus(403);
+    next();
+  }, express.urlencoded({ extended: false, limit: '8kb', parameterLimit: 3 }), asyncRoute(async (req, res) => {
+    const response = await loginAction(authConfig, settings, req, req.body);
+    const location = response.headers.get('location');
+    if (!location || ![302, 303].includes(response.status)) throw new Error('Sign-in is unavailable');
+    const destination = new URL(location);
+    if (destination.origin !== 'https://login.microsoftonline.com' &&
+        !(destination.origin === settings.origin && destination.pathname === '/login')) throw new Error('Invalid sign-in destination');
+    for (const cookie of response.headers.getSetCookie()) res.append('Set-Cookie', cookie);
+    res.redirect(303, destination.href);
+  }));
 
   app.use(asyncRoute(async (req, res, next) => {
     if (!settings || !readSession) return res.status(503).send('Cedarville sign-in is not configured yet.');

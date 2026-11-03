@@ -2,6 +2,17 @@
 
 Record manual fixes and deployment blockers here.
 
+## 2026-11-03: Chrome warning at the provider sign-in action
+
+- The user supplied Chrome's Dangerous site warning text and identified the exact affected URL as `https://app-reagent-roundup-cmvx7adt.azurewebsites.net/api/auth/signin/microsoft-entra-id`. The warning was not reproduced in an isolated Chrome session with phishing detection enabled. Google's public site-status page reported no unsafe content found, with a last-update date of 2026-11-02; this does not disprove the user's context-dependent warning or establish the status of that exact action URL.
+- Replaced the browser form POST to the provider API action with a server-rendered, exact `/login` form and a server action using the existing Auth.js core. The browser only visits `/login` and Microsoft to start sign-in. Auth.js still creates and verifies CSRF tokens, PKCE, state, and nonce; every OAuth cookie is forwarded unchanged. Login POSTs additionally require the canonical Origin and form content type, and only Microsoft or the local error page can be redirect destinations. The portal-managed callback, Entra configuration, tenant restriction, protected app content, and public health endpoint are unchanged. Moved the existing pinned Auth.js core package from development dependencies to runtime dependencies.
+- All 93 tests, lint, TypeScript/question/SVG validation, and both production bundles passed. Tests cover rendered CSRF, missing/tampered tokens and cookies, cross-site posts, safe return destinations, preserved OAuth cookies, and the provisioned callback. Isolated Edge and Chrome tests with JavaScript disabled confirmed that the browser uses only `GET /login` and `POST /login` before navigating to Microsoft. This follow-up uses the user's existing authorization to deploy the sign-in fix through managed `main`.
+- This change addresses the browser-facing sign-in pattern and does not certify the site or remove Google's classification. If a warning remains, a verified owner should use Search Console's Security Issues report, inspect all reported issues, and request review. Google also accepts suspected false positives at `https://safebrowsing.google.com/safebrowsing/report_error/`. No report has been submitted on the user's behalf, and no warning or protection has been bypassed.
+
+Suggested review text, to use only after deploying and checking the reported issues:
+
+> Chrome displayed a Dangerous site warning at https://app-reagent-roundup-cmvx7adt.azurewebsites.net/api/auth/signin/microsoft-entra-id. This is Reagent Roundup, a chemistry practice app. Its sign-in uses Cedarville University's single-tenant Microsoft Entra OIDC configuration through Auth.js; passwords are entered only on Microsoft's login site. We changed the sign-in entry to a server-rendered /login form and server-side Auth.js action, preserving CSRF, PKCE, state, nonce, secure HttpOnly cookies, and the registered callback. The browser no longer submits to the provider sign-in API action. Please re-evaluate the reported URL and the app's sign-in flow.
+
 ## 2026-11-03: Login button blocked by browser policy
 
 - Users reported that clicking **Sign in with Cedarville** left them on the login page. Reproduced against the live app in an isolated Edge browser: the console reported that the form submission violated `form-action 'self'`, and the URL stayed at `/login`. The public health and CSRF endpoints returned HTTP 200.

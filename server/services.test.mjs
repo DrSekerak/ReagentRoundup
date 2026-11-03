@@ -152,7 +152,11 @@ describe('Cedarville OIDC and login boundaries', () => {
     const app = appAs(null, { authConfig: config, readSession: sessionReader(config) });
     const login = await request(app).get('/login?returnTo=https://attacker.example');
     expect(login.status).toBe(200);
-    expect(login.text).toContain('action="/api/auth/signin/microsoft-entra-id"');
+    expect(login.text).toContain('action="/login"');
+    expect(login.text).not.toContain('/api/auth/signin');
+    expect(login.text).not.toContain('<script');
+    expect(login.text).not.toContain('<button disabled');
+    expect(login.text).toMatch(/name="csrfToken" value="[a-f0-9]+"/);
     expect(login.text).not.toContain('attacker.example');
     const csrf = await request(app).get('/api/auth/csrf');
     expect(csrf.status).toBe(200);
@@ -176,13 +180,14 @@ describe('Cedarville OIDC and login boundaries', () => {
       const login = await request(app).get('/login?returnTo=/?practice=1');
       const formAction = login.headers['content-security-policy'].split(';').find(value => value.trim().startsWith('form-action')).trim();
       expect(formAction).toBe("form-action 'self' https://login.microsoftonline.com");
-      const csrf = await request(app).get('/api/auth/csrf');
-      const cookies = csrf.headers['set-cookie'].map(value => value.split(';')[0]);
-      const submit = body => request(app).post('/api/auth/signin/microsoft-entra-id').set('Cookie', cookies).type('form').send(body);
+      const csrfToken = login.text.match(/name="csrfToken" value="([^"]+)"/)[1];
+      const cookies = login.headers['set-cookie'].map(value => value.split(';')[0]);
+      const submit = body => request(app).post('/login').set('Origin', settings.origin).set('Cookie', cookies).type('form').send(body);
       const denied = await submit({ callbackUrl: settings.origin });
+      expect(denied.status).toBe(303);
       expect(denied.headers.location).not.toMatch(/^https:\/\/login\.microsoftonline\.com\//);
-      const result = await submit({ csrfToken: csrf.body.csrfToken, callbackUrl: settings.origin + '/?practice=1' });
-      expect(result.status).toBe(302);
+      const result = await submit({ csrfToken, callbackUrl: settings.origin + '/?practice=1' });
+      expect(result.status).toBe(303);
       const destination = new URL(result.headers.location);
       expect(destination.origin).toBe('https://login.microsoftonline.com');
       expect(destination.pathname).toBe(`/${tenant}/oauth2/v2.0/authorize`);
@@ -192,7 +197,39 @@ describe('Cedarville OIDC and login boundaries', () => {
       expect(destination.searchParams.get('nonce')).toBeTruthy();
       expect(destination.searchParams.get('code_challenge_method')).toBe('S256');
       expect(destination.searchParams.get('code_challenge')).toBeTruthy();
+      for (const name of ['__Secure-authjs.state', '__Secure-authjs.nonce', '__Secure-authjs.pkce.code_verifier']) {
+        const cookie = result.headers['set-cookie'].find(value => value.startsWith(name + '='));
+        expect(cookie).toMatch(/HttpOnly/i);
+        expect(cookie).toMatch(/Secure/i);
+        expect(cookie).toMatch(/SameSite=Lax/i);
+        expect(cookie).toMatch(/Path=\//i);
+      }
+      expect(decodeURIComponent(result.headers['set-cookie'].find(value => value.startsWith('__Secure-authjs.callback-url=')))).toContain(settings.origin + '/?practice=1');
+      const unsafeReturn = await submit({ csrfToken, callbackUrl: 'https://attacker.example' });
+      expect(decodeURIComponent(unsafeReturn.headers['set-cookie'].find(value => value.startsWith('__Secure-authjs.callback-url=')))).toContain(settings.origin + '/;');
     } finally { discovery.mockRestore(); }
+  });
+  it('rejects cross-site login posts, missing cookies and tampered CSRF tokens', async () => {
+    const config = createAuthConfig(env, settings);
+    const app = appAs(null, { authConfig: config, readSession: sessionReader(config) });
+    const login = await request(app).get('/login');
+    const csrfToken = login.text.match(/name="csrfToken" value="([^"]+)"/)[1];
+    const cookies = login.headers['set-cookie'].map(value => value.split(';')[0]);
+    for (const origin of ['', 'https://attacker.example']) {
+      expect((await request(app).post('/login').set('Origin', origin).set('Cookie', cookies).type('form').send({ csrfToken })).status).toBe(403);
+    }
+    expect((await request(app).post('/login').set('Origin', settings.origin).send({ csrfToken })).status).toBe(403);
+    for (const path of ['/login/', '/LOGIN']) {
+      expect((await request(app).post(path).set('Origin', settings.origin).set('Cookie', cookies).type('form').send({ csrfToken })).headers.location).toMatch(/^\/login\?returnTo=/);
+    }
+    for (const [cookie, token] of [[[], csrfToken], [cookies, 'tampered']]) {
+      const denied = await request(app).post('/login').set('Origin', settings.origin).set('Cookie', cookie).type('form').send({ csrfToken: token });
+      expect(denied.status).toBe(303);
+      const destination = new URL(denied.headers.location);
+      expect(destination.origin).toBe(settings.origin);
+      expect(destination.pathname).toBe('/login');
+      expect(destination.searchParams.get('error')).toBe('MissingCSRF');
+    }
   });
   it('verifies real encrypted session cookies for protected pages and APIs', async () => {
     const config = createAuthConfig(env, settings);

@@ -1,4 +1,5 @@
 import { getSession } from '@auth/express';
+import { Auth } from '@auth/core';
 import MicrosoftEntraID from '@auth/express/providers/microsoft-entra-id';
 
 const guid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
@@ -86,4 +87,22 @@ export function authorizedSession(session, tenant) {
 
 export function sessionReader(config) {
   return request => getSession(request, config);
+}
+
+// Run Auth.js inside the server so the browser submits only to the public /login page.
+// Preserve its double-submit CSRF verification and all OAuth cookies and checks.
+export function loginAction(config, settings, request, form) {
+  const action = form ? 'signin/microsoft-entra-id' : 'csrf';
+  const headers = { cookie: request.headers.cookie || '' };
+  let body;
+  if (form) {
+    headers['content-type'] = 'application/x-www-form-urlencoded';
+    body = new globalThis.URLSearchParams({
+      csrfToken: typeof form.csrfToken === 'string' ? form.csrfToken : '',
+      callbackUrl: settings.origin + safeReturnTo(form.callbackUrl, settings.origin),
+    });
+  }
+  return Auth(new globalThis.Request(`${settings.origin}/api/auth/${action}`, {
+    method: form ? 'POST' : 'GET', headers, body,
+  }), { ...config, basePath: '/api/auth' });
 }
