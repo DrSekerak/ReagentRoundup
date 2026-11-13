@@ -4,6 +4,7 @@ import { questions } from './data/questions';
 import { filterQuestions } from './lib/questions';
 import Practice from './components/Practice';
 import AccountProgress from './components/AccountProgress';
+import ChemistryRabbit from './components/ChemistryRabbit';
 import { createSession, transition, sessionFinished, type PracticeSession } from './lib/practice';
 import { createLocalProgressRepository, type QuestionCount } from './lib/progress';
 
@@ -90,6 +91,7 @@ export default function App() {
         </section>
       </main>}
       <footer>Choose your focus. Build your confidence.</footer>
+      <ChemistryRabbit />
     </>
   );
 }

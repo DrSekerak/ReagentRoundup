@@ -12,7 +12,7 @@ describe('practice sessions', () => {
     for (const entry of session.entries) expect(new Set(entry.choices)).toEqual(new Set([entry.question.correctAnswer, ...entry.question.distractors]));
   });
   it('rejects lengths outside the available pool', () => {
-    for (const count of [-1, 1.5, 61]) expect(() => createSession(questionBank, Math.random, count)).toThrow(RangeError);
+    for (const count of [-1, 1.5, questionBank.length + 1]) expect(() => createSession(questionBank, Math.random, count)).toThrow(RangeError);
   });
   it('shuffles copies without omissions or repeats and independently shuffles all eight choices', () => {
     const eligible = questionBank.slice(0, 14);
