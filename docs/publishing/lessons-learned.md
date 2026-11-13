@@ -2,6 +2,13 @@
 
 Record manual fixes and deployment blockers here.
 
+## 2026-11-12: Azure deployment attempted from the original repository
+
+- Unit 4 commit `57a7cf5` passed validation and built in `DrSekerak/ReagentRoundup`, but Azure login failed because the required client/tenant inputs were absent in that repository. Failed run: `https://github.com/DrSekerak/ReagentRoundup/actions/runs/43343403430`.
+- CU Launch provisions deployment credentials in `cu-app-portal-repos/reagentroundup`, the supported production source of truth. The local branch still tracked `origin/main`, so the requested push went to the original repository instead of deploying the update.
+- Restricted the Azure job to the managed repository; ordinary validation still runs in both. Deploy the tested commits through `git push portal main` and make local `main` track `portal/main`. Preserve the original remote as a mirror. No credentials or Azure resources need to be copied or changed.
+- Verify the managed workflow and public `/api/health` endpoint after the push. The earlier validation succeeded for all 140 questions and 280 diagrams; local TypeScript and question validation also pass for this recovery.
+
 ## 2026-11-03: Chrome warning at the provider sign-in action
 
 - The user supplied Chrome's Dangerous site warning text and identified the exact affected URL as `https://app-reagent-roundup-cmvx7adt.azurewebsites.net/api/auth/signin/microsoft-entra-id`. The warning was not reproduced in an isolated Chrome session with phishing detection enabled. Google's public site-status page reported no unsafe content found, with a last-update date of 2026-11-02; this does not disprove the user's context-dependent warning or establish the status of that exact action URL.

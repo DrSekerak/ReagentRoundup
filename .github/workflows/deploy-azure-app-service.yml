@@ -11,6 +11,8 @@ env:
 
 jobs:
   deploy:
+    # Azure identity and deployment settings belong to the CU Launch repository.
+    if: github.repository == 'cu-app-portal-repos/reagentroundup'
     runs-on: ubuntu-latest
     permissions:
       contents: read
