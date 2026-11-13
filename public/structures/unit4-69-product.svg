@@ -1,0 +1,39 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>Two molecules of ethanal</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M40 342H330V422H40Z" clip-rule="evenodd"/>
+</clipPath>
+<path id="font_2_12" d="M.47705079 .6269531V.37109376H.7319336V.25585938H.47705079V0H.36083985V.25585938H.10595703V.37109376H.36083985V.6269531H.47705079Z"/>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 437"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 427"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M41.7 120.1 171.3 45.3"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M171.3 45.3 227.1 77.5"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M227.1 77.5 282.9 109.7"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M171.3 71.2 215.9 96.9"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M215.9 96.9 271.7 129.1"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M164.8 49 171.3 45.3 174.1 46.9"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" d="M282.3 129.9C282.3 125.3667 283.4 121.8333 285.6 119.3 287.8667 116.7667 291.1 115.5 295.3 115.5 299.5 115.5 302.7 116.7667 304.9 119.3 307.1667 121.8333 308.3 125.3667 308.3 129.9 308.3 134.4333 307.1667 138.0333 304.9 140.7 302.6333 143.2333 299.4333 144.5 295.3 144.5 291.1 144.5 287.8667 143.2333 285.6 140.7 283.4 138.1 282.3 134.5 282.3 129.9ZM295.3 141.3C298.1667 141.3 300.3667 140.3667 301.9 138.5 303.5 136.5 304.3 133.6333 304.3 129.9 304.3 126.1667 303.5 123.3667 301.9 121.5 300.3667 119.6333 298.1667 118.7 295.3 118.7 292.4333 118.7 290.2 119.6333 288.6 121.5 287.0667 123.3667 286.3 126.1667 286.3 129.9 286.3 133.7 287.0667 136.5667 288.6 138.5 290.2 140.3667 292.4333 141.3 295.3 141.3Z" fill="#ff0000" fill-rule="evenodd"/>
+<use data-text="+" xlink:href="#font_2_12" transform="matrix(12,0,0,-12,137.4727,37)" fill="#173550"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M41.7 120.1 171.3 45.3"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M171.3 45.3 227.1 77.5"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M227.1 77.5 282.9 109.7"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M171.3 71.2 215.9 96.9"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M215.9 96.9 271.7 129.1"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M164.8 49 171.3 45.3 174.1 46.9"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" d="M282.3 129.9C282.3 125.3667 283.4 121.8333 285.6 119.3 287.8667 116.7667 291.1 115.5 295.3 115.5 299.5 115.5 302.7 116.7667 304.9 119.3 307.1667 121.8333 308.3 125.3667 308.3 129.9 308.3 134.4333 307.1667 138.0333 304.9 140.7 302.6333 143.2333 299.4333 144.5 295.3 144.5 291.1 144.5 287.8667 143.2333 285.6 140.7 283.4 138.1 282.3 134.5 282.3 129.9ZM295.3 141.3C298.1667 141.3 300.3667 140.3667 301.9 138.5 303.5 136.5 304.3 133.6333 304.3 129.9 304.3 126.1667 303.5 123.3667 301.9 121.5 300.3667 119.6333 298.1667 118.7 295.3 118.7 292.4333 118.7 290.2 119.6333 288.6 121.5 287.0667 123.3667 286.3 126.1667 286.3 129.9 286.3 133.7 287.0667 136.5667 288.6 138.5 290.2 140.3667 292.4333 141.3 295.3 141.3Z" fill="#ff0000" fill-rule="evenodd"/>
+<g clip-path="url(#clip_3)">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M350 337H498V525H350Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,-40,422)" d="M521 412.07H750V429.07H521Z" fill="#ffffff" fill-rule="evenodd"/>
+</g>
+</g>
+</svg>

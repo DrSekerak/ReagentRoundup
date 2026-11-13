@@ -1,0 +1,49 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>cis-But-2-ene</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M40 444H330V524H40Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 547V331"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 74.4H311.5"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 115.4H311.5"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 437"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 427"/>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M521 434.07H750V451.07H521Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,-40,524)" d="M40 444H330V524H40Z" fill="#ffffff" fill-rule="evenodd"/>
+<g transform="matrix(1.2800001,0,0,1.28,104.600009,8)">
+<image id="image_3" width="60" height="50" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAADwAAAAyCAAAAAAlnefeAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAAA70lEQVR4nO2VURHDIBBEYwELsRALWIiFWMACFrCAhViIBSxggd6l
+/eNot5vpR2dy37xZuFv2pnahphu+4e/g5PtaULikvny8cu2psvDeWvQkXFXWHaRy
+XFs7ZhI+ZZdEwllky+DU524v0rOwkfApa48LmLMPYj3TZ4i3VXbeSVhdcjgSbq7I
+5Y1xQfCuskbPsP+sLgkrCVc95jppMEk2cUnuzqIx5F4vp+B24dpSoc8EHKZHJbUa
+OYjC5pdG4TnzcDZjDIT1a7Bw7H0Nw3WwNCBYg4iFi5UiKEyvG6k02ja/XbHPHKDh
+Qacx+E39KfwA8DhdpGEnQfMAAAAASUVORK5CYII="/>
+</g>
+</g>
+<g clip-path="url(#clip_4)">
+</g>
+<g clip-path="url(#clip_5)">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M40 444H330V524H40Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.971429,0,0,-.971429,157.5714,40)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-40 26H-10"/>
+<path transform="matrix(.971429,0,0,-.971429,157.5714,40)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-11.58525 24.78058 8.414752-1.219422"/>
+<path transform="matrix(.971429,0,0,-.971429,157.5714,40)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-8.414752 27.21942 11.58525 1.219422"/>
+<path transform="matrix(.971429,0,0,-.971429,157.5714,40)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M10 0-5-26"/>
+</g>
+</g>
+</svg>

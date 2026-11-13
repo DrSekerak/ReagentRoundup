@@ -1,0 +1,32 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>Sodium isopropoxide, with sodium counterion</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M40 342H330V422H40Z" clip-rule="evenodd"/>
+</clipPath>
+<path id="font_2_12" d="M.47705079 .6269531V.37109376H.7319336V.25585938H.47705079V0H.36083985V.25585938H.10595703V.37109376H.36083985V.6269531H.47705079Z"/>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 437"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 427"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M97 168.9 175 123.9"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M175 123.9 253 168.9"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M175 123.9V87"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M175 87V50.1"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" d="M163.3 33.9C163.3 29.76667 164.3 26.56667 166.3 24.3 168.3 22.03333 171.2 20.9 175 20.9 178.8 20.9 181.7 22.03333 183.7 24.3 185.7 26.56667 186.7 29.76667 186.7 33.9 186.7 38.03333 185.6667 41.26667 183.6 43.6 181.6 45.93333 178.7333 47.1 175 47.1 171.2667 47.1 168.3667 45.93333 166.3 43.6 164.3 41.26667 163.3 38.03333 163.3 33.9ZM175 44.2C177.6 44.2 179.6 43.33333 181 41.6 182.4 39.86667 183.1 37.3 183.1 33.9 183.1 30.56667 182.4 28.03333 181 26.3 179.6 24.63333 177.6 23.8 175 23.8 172.4 23.8 170.4 24.63333 169 26.3 167.6 27.96667 166.9 30.5 166.9 33.9 166.9 37.3 167.6 39.86667 169 41.6 170.4 43.33333 172.4 44.2 175 44.2Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,2.9357606)" d="M190.3 25.1H199.1V27H190.3V25.1Z" fill="#ff0000" fill-rule="evenodd"/>
+<use data-text="+" xlink:href="#font_2_12" transform="matrix(12,0,0,-12,137.4727,37)" fill="#173550"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" d="M149 80.5 158.3 95.5C158.9 96.5 159.7 97.9 160.7 99.7 161.7 101.4333 162.2333 102.3667 162.3 102.5V80.5H166V108.8H162.1L152.2 92.4C151.4 91.13333 150.6 89.76667 149.8 88.3 149 86.83333 148.4667 85.86667 148.2 85.4V108.8H144.5V80.5H149Z" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" d="M171.2 103.3C171.2 101.1 172.1 99.4 173.9 98.2 175.6333 97 178.1333 96.4 181.4 96.4H184.4V95.6C184.4 93.86667 184.0333 92.63333 183.3 91.9 182.6333 91.23333 181.4333 90.9 179.7 90.9 178.6333 90.9 177.6667 91 176.8 91.2 175.9333 91.4 174.8333 91.76667 173.5 92.3L172.4 89.7C174.9333 88.5 177.4 87.9 179.8 87.9 182.7333 87.9 184.8667 88.53333 186.2 89.8 187.5333 91 188.2 92.96667 188.2 95.7V108.8H185.2C185.2 108.7333 185.1667 108.5 185.1 108.1 185.0333 107.6333 184.9 107.0667 184.7 106.4 182.7667 108.3333 180.5333 109.3 178 109.3 175.9333 109.3 174.3 108.7667 173.1 107.7 171.8333 106.5667 171.2 105.1 171.2 103.3ZM175 103.2C175 104.2 175.3333 104.9667 176 105.5 176.6 106.0333 177.5 106.3 178.7 106.3 179.7667 106.3 180.8 106.0667 181.8 105.6 182.8667 105.1333 183.7333 104.4667 184.4 103.6V99.2H181.6C179.4 99.2 177.7333 99.53333 176.6 100.2 175.5333 100.8667 175 101.8667 175 103.2Z" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,2.9357606)" d="M193.1 89.1H198.1V83.8H200.3V89.1H205.5V91H200.3V96.2H198.1V91H193.1V89.1Z" fill-rule="evenodd"/>
+<g clip-path="url(#clip_3)">
+</g>
+</g>
+</svg>

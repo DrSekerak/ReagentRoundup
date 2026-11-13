@@ -1,0 +1,4340 @@
+[
+  {
+    "id": "unit4-01",
+    "category": "alkoxide-formation",
+    "correctAnswer": "NaH",
+    "distractors": [
+      "HBr, ROOR",
+      "NaCl",
+      "NBS, hν",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "HCl",
+      "Br₂, H₂O",
+      "NaOH"
+    ],
+    "explanation": "The stated hydride or alkali metal converts the alcohol to its alkoxide. Hydrogen gas is released; the carbon skeleton is retained.",
+    "hint": "Consider removing the alcohol proton.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 1,
+      "page": 1
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-01-reactant.svg",
+      "alt": "Ethanol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 1,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-01-product.svg",
+      "alt": "Sodium ethoxide, with sodium counterion",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 1,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-02",
+    "category": "alkoxide-formation",
+    "correctAnswer": "NaH",
+    "distractors": [
+      "NaOEt",
+      "Cl₂",
+      "H₂, Pt",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "mCPBA",
+      "1. O₃ 2. (CH₃)₂S",
+      "NaOH"
+    ],
+    "explanation": "The stated hydride or alkali metal converts the alcohol to its alkoxide. Hydrogen gas is released; the carbon skeleton is retained.",
+    "hint": "Consider removing the alcohol proton.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 2,
+      "page": 1
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-02-reactant.svg",
+      "alt": "Propan-1-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 1,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-02-product.svg",
+      "alt": "Sodium propoxide, with sodium counterion",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 1,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-03",
+    "category": "alkoxide-formation",
+    "correctAnswer": "Na⁰",
+    "distractors": [
+      "H₂, Pd/C",
+      "NBS, hν",
+      "conc. H₂SO₄, Δ",
+      "KMnO₄ (cold, dilute), NaOH",
+      "PBr₃",
+      "KBr",
+      "NaOH"
+    ],
+    "explanation": "The stated hydride or alkali metal converts the alcohol to its alkoxide. Hydrogen gas is released; the carbon skeleton is retained.",
+    "hint": "Consider removing the alcohol proton.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 3,
+      "page": 2
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-03-reactant.svg",
+      "alt": "Propan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 2,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-03-product.svg",
+      "alt": "Sodium isopropoxide, with sodium counterion",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 2,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-04",
+    "category": "alkoxide-formation",
+    "correctAnswer": "K⁰",
+    "distractors": [
+      "Br₂, H₂O",
+      "Grubbs catalyst",
+      "HBr, ROOR",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "KMnO₄ (cold, dilute), NaOH",
+      "Cl₂",
+      "KOH"
+    ],
+    "explanation": "The stated hydride or alkali metal converts the alcohol to its alkoxide. Hydrogen gas is released; the carbon skeleton is retained.",
+    "hint": "Consider removing the alcohol proton.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 4,
+      "page": 2
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-04-reactant.svg",
+      "alt": "Cyclohexanol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 2,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-04-product.svg",
+      "alt": "Potassium cyclohexoxide, with potassium counterion",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 2,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-05",
+    "category": "alkene-hx",
+    "correctAnswer": "HBr",
+    "distractors": [
+      "KOtBu",
+      "HBr, ROOR",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "H₂O₂",
+      "KBr",
+      "OsO₄, H₂O₂",
+      "CHBr₃, KOH"
+    ],
+    "explanation": "HX adds across the alkene. The halide is bonded to the more substituted carbon in the displayed product; carbocation rearrangement can occur.",
+    "hint": "Consider Markovnikov addition of HX.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 5,
+      "page": 3
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-05-reactant.svg",
+      "alt": "Propene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 3,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-05-product.svg",
+      "alt": "2-Bromopropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 3,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-06",
+    "category": "alkene-hx",
+    "correctAnswer": "HBr",
+    "distractors": [
+      "KOtBu",
+      "HBr, ROOR",
+      "H₃O⁺",
+      "NaH",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "conc. H₂SO₄, Δ",
+      "Br₂, H₂O"
+    ],
+    "explanation": "HX adds across the alkene. The halide is bonded to the more substituted carbon in the displayed product; carbocation rearrangement can occur.",
+    "hint": "Consider Markovnikov addition of HX.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 6,
+      "page": 3
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Rearranged product retained exactly as drawn in the revised source."
+      ]
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-06-reactant.svg",
+      "alt": "3-Methylbut-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 3,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-06-product.svg",
+      "alt": "2-Bromo-2-methylbutane, rearranged product",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 3,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-07",
+    "category": "alkene-hx",
+    "correctAnswer": "HBr",
+    "distractors": [
+      "HBr, ROOR",
+      "H₂, Pd/C",
+      "conc. H₂SO₄, Δ",
+      "NaH",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "KBr",
+      "Br₂"
+    ],
+    "explanation": "HX adds across the alkene. The halide is bonded to the more substituted carbon in the displayed product; carbocation rearrangement can occur.",
+    "hint": "Consider Markovnikov addition of HX.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 7,
+      "page": 4
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-07-reactant.svg",
+      "alt": "Hex-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 4,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-07-product.svg",
+      "alt": "2-Bromohexane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 4,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-08",
+    "category": "alkene-hx",
+    "correctAnswer": "HCl",
+    "distractors": [
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "NaCl",
+      "CH₂N₂, hν",
+      "Cl₂, Δ",
+      "mCPBA",
+      "NaH",
+      "Cl₂, H₂O"
+    ],
+    "explanation": "HX adds across the alkene. The halide is bonded to the more substituted carbon in the displayed product; carbocation rearrangement can occur.",
+    "hint": "Consider Markovnikov addition of HX.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 8,
+      "page": 4
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-08-reactant.svg",
+      "alt": "2-Methylpropene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 4,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-08-product.svg",
+      "alt": "2-Chloro-2-methylpropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 4,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-09",
+    "category": "alkene-hbr-peroxide",
+    "correctAnswer": "HBr, ROOR",
+    "distractors": [
+      "CHBr₃, KOH",
+      "NaH",
+      "NBS, hν",
+      "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+      "HBr",
+      "Br₂",
+      "1. BH₃·THF 2. H₂O₂, NaOH"
+    ],
+    "explanation": "HBr with ROOR adds by a radical chain, placing bromine at the less substituted alkene carbon to give the anti-Markovnikov product.",
+    "hint": "Consider radical addition of HBr with a peroxide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 9,
+      "page": 5
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-09-reactant.svg",
+      "alt": "Propene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 5,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-09-product.svg",
+      "alt": "1-Bromopropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 5,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-10",
+    "category": "alkene-hbr-peroxide",
+    "correctAnswer": "HBr, ROOR",
+    "distractors": [
+      "NBS, hν",
+      "CHBr₃, KOH",
+      "KBr",
+      "conc. H₂SO₄, Δ",
+      "PBr₃",
+      "HBr",
+      "Grubbs catalyst"
+    ],
+    "explanation": "HBr with ROOR adds by a radical chain, placing bromine at the less substituted alkene carbon to give the anti-Markovnikov product.",
+    "hint": "Consider radical addition of HBr with a peroxide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 10,
+      "page": 5
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-10-reactant.svg",
+      "alt": "But-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 5,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-10-product.svg",
+      "alt": "1-Bromobutane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 5,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-11",
+    "category": "alkene-hbr-peroxide",
+    "correctAnswer": "HBr, ROOR",
+    "distractors": [
+      "CHBr₃, KOH",
+      "H₂, Pt",
+      "NaSH",
+      "NBS, hν",
+      "HBr",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "Br₂"
+    ],
+    "explanation": "HBr with ROOR adds by a radical chain, placing bromine at the less substituted alkene carbon to give the anti-Markovnikov product.",
+    "hint": "Consider radical addition of HBr with a peroxide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 11,
+      "page": 6
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-11-reactant.svg",
+      "alt": "Methylenecyclohexane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 6,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-11-product.svg",
+      "alt": "Bromomethylcyclohexane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 6,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-12",
+    "category": "alkene-hbr-peroxide",
+    "correctAnswer": "HBr, ROOR",
+    "distractors": [
+      "CHBr₃, KOH",
+      "CH₂I₂, Zn(Cu)",
+      "NBS, hν",
+      "NaN₃",
+      "1. O₃ 2. (CH₃)₂S",
+      "Br₂",
+      "HBr"
+    ],
+    "explanation": "HBr with ROOR adds by a radical chain, placing bromine at the less substituted alkene carbon to give the anti-Markovnikov product.",
+    "hint": "Consider radical addition of HBr with a peroxide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 12,
+      "page": 6
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-12-reactant.svg",
+      "alt": "5,5-Dimethylhex-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 6,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-12-product.svg",
+      "alt": "1-Bromo-5,5-dimethylhexane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 6,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-13",
+    "category": "alkene-acid-hydration",
+    "correctAnswer": "H₃O⁺, Δ",
+    "distractors": [
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "OsO₄, H₂O₂",
+      "KOH",
+      "Br₂, H₂O",
+      "SOCl₂",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "conc. H₃PO₄, Δ"
+    ],
+    "explanation": "Aqueous acid adds water across the alkene through a carbocation intermediate. Markovnikov hydration and possible carbocation rearrangement account for the displayed alcohol.",
+    "hint": "Consider acid-catalyzed hydration.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 13,
+      "page": 7
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-13-reactant.svg",
+      "alt": "Methylenecyclohexane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 7,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-13-product.svg",
+      "alt": "1-Methylcyclohexan-1-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 7,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-14",
+    "category": "alkene-acid-hydration",
+    "correctAnswer": "H₃O⁺, Δ",
+    "distractors": [
+      "OsO₄, H₂O₂",
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "SOCl₂",
+      "conc. H₂SO₄, Δ",
+      "Cl₂",
+      "NaOH",
+      "NBS, hν"
+    ],
+    "explanation": "Aqueous acid adds water across the alkene through a carbocation intermediate. Markovnikov hydration and possible carbocation rearrangement account for the displayed alcohol.",
+    "hint": "Consider acid-catalyzed hydration.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 14,
+      "page": 7
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-14-reactant.svg",
+      "alt": "But-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 7,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-14-product.svg",
+      "alt": "Butan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 7,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-15",
+    "category": "alkene-acid-hydration",
+    "correctAnswer": "H₃O⁺, Δ",
+    "distractors": [
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "conc. H₂SO₄, Δ",
+      "H₂, Pt",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "1. O₃ 2. (CH₃)₂S",
+      "KOtBu"
+    ],
+    "explanation": "Aqueous acid adds water across the alkene through a carbocation intermediate. Markovnikov hydration and possible carbocation rearrangement account for the displayed alcohol.",
+    "hint": "Consider acid-catalyzed hydration.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 15,
+      "page": 8
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Rearranged product retained exactly as drawn in the revised source."
+      ]
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-15-reactant.svg",
+      "alt": "Allylbenzene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 8,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-15-product.svg",
+      "alt": "1-Phenylpropan-1-ol, rearranged benzylic alcohol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 8,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-16",
+    "category": "alkene-acid-hydration",
+    "correctAnswer": "H₃O⁺, Δ",
+    "distractors": [
+      "NaOH",
+      "H₂, Pd/C",
+      "NBS, hν",
+      "conc. H₃PO₄, Δ",
+      "Na, metal",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "CH₂N₂, hν"
+    ],
+    "explanation": "Aqueous acid adds water across the alkene through a carbocation intermediate. Markovnikov hydration and possible carbocation rearrangement account for the displayed alcohol.",
+    "hint": "Consider acid-catalyzed hydration.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 16,
+      "page": 8
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-16-reactant.svg",
+      "alt": "2-Methylpropene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 8,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-16-product.svg",
+      "alt": "2-Methylpropan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 8,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-17",
+    "category": "oxymercuration",
+    "correctAnswer": "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+    "distractors": [
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "NaOH",
+      "NaN₃",
+      "H₃O⁺, Δ",
+      "NaCl",
+      "conc. H₂SO₄, Δ",
+      "KOtBu"
+    ],
+    "explanation": "Oxymercuration in water followed by NaBH₄ gives the Markovnikov alcohol without a free carbocation rearrangement. The source drawing specifies the depicted product stereochemistry.",
+    "hint": "Consider hydration without carbocation rearrangement.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 17,
+      "page": 9
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-17-reactant.svg",
+      "alt": "Allylbenzene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 9,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-17-product.svg",
+      "alt": "1-Phenylpropan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 9,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-18",
+    "category": "oxymercuration",
+    "correctAnswer": "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+    "distractors": [
+      "NaOH",
+      "H₂, Pt",
+      "conc. H₃PO₄, Δ",
+      "Grubbs catalyst",
+      "KCN",
+      "1. O₃ 2. (CH₃)₂S",
+      "1. Hg(OAc)₂, PrOH 2. NaBH₄"
+    ],
+    "explanation": "Oxymercuration in water followed by NaBH₄ gives the Markovnikov alcohol without a free carbocation rearrangement. The source drawing specifies the depicted product stereochemistry.",
+    "hint": "Consider hydration without carbocation rearrangement.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 18,
+      "page": 9
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-18-reactant.svg",
+      "alt": "But-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 9,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-18-product.svg",
+      "alt": "Butan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 9,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-19",
+    "category": "oxymercuration",
+    "correctAnswer": "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+    "distractors": [
+      "NaH",
+      "H₂, Pt",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "H₂O₂",
+      "H₃O⁺, Δ",
+      "PBr₃",
+      "OsO₄, H₂O₂"
+    ],
+    "explanation": "Oxymercuration in water followed by NaBH₄ gives the Markovnikov alcohol without a free carbocation rearrangement. The source drawing specifies the depicted product stereochemistry.",
+    "hint": "Consider hydration without carbocation rearrangement.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 19,
+      "page": 10
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-19-reactant.svg",
+      "alt": "1,2-Dimethylcyclohex-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 10,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-19-product.svg",
+      "alt": "1,2-Dimethylcyclohexan-1-ol, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 10,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-20",
+    "category": "oxymercuration",
+    "correctAnswer": "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+    "distractors": [
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "KOH",
+      "KMnO₄ (cold, dilute), NaOH",
+      "H₂, Pd/C",
+      "NaOH",
+      "Br₂, H₂O",
+      "OsO₄, H₂O₂"
+    ],
+    "explanation": "Oxymercuration in water followed by NaBH₄ gives the Markovnikov alcohol without a free carbocation rearrangement. The source drawing specifies the depicted product stereochemistry.",
+    "hint": "Consider hydration without carbocation rearrangement.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 20,
+      "page": 10
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-20-reactant.svg",
+      "alt": "2-Methylpropene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 10,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-20-product.svg",
+      "alt": "2-Methylpropan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 10,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-21",
+    "category": "alkoxymercuration",
+    "correctAnswer": "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+    "distractors": [
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "NaH",
+      "H₂, Pt",
+      "MeOH, Δ",
+      "HBr",
+      "H₃O⁺, Δ",
+      "NaOMe"
+    ],
+    "explanation": "Alkoxymercuration in the stated alcohol followed by NaBH₄ gives the Markovnikov ether without carbocation rearrangement.",
+    "hint": "Consider Markovnikov addition of an alcohol.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 21,
+      "page": 11
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-21-reactant.svg",
+      "alt": "Propene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 11,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-21-product.svg",
+      "alt": "2-Methoxypropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 11,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-22",
+    "category": "alkoxymercuration",
+    "correctAnswer": "1. Hg(OAc)₂, iPrOH 2. NaBH₄",
+    "distractors": [
+      "diisopropylamine",
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "iPrOH, Δ",
+      "H₂O₂",
+      "conc. H₂SO₄, Δ",
+      "KMnO₄ (cold, dilute), NaOH",
+      "NaOiPr"
+    ],
+    "explanation": "Alkoxymercuration in the stated alcohol followed by NaBH₄ gives the Markovnikov ether without carbocation rearrangement.",
+    "hint": "Consider Markovnikov addition of an alcohol.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 22,
+      "page": 11
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-22-reactant.svg",
+      "alt": "Allylbenzene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 11,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-22-product.svg",
+      "alt": "1-Phenyl-2-isopropoxypropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 11,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-23",
+    "category": "alkoxymercuration",
+    "correctAnswer": "1. Hg(OAc)₂, EtOH 2. NaBH₄",
+    "distractors": [
+      "EtOH, Δ",
+      "CH₂N₂, hν",
+      "SOCl₂",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "NBS, hν",
+      "EtBr",
+      "KOtBu"
+    ],
+    "explanation": "Alkoxymercuration in the stated alcohol followed by NaBH₄ gives the Markovnikov ether without carbocation rearrangement.",
+    "hint": "Consider Markovnikov addition of an alcohol.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 23,
+      "page": 12
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-23-reactant.svg",
+      "alt": "1,2-Dimethylcyclohex-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 12,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-23-product.svg",
+      "alt": "1-Ethoxy-1,2-dimethylcyclohexane, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 12,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-24",
+    "category": "alkoxymercuration",
+    "correctAnswer": "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+    "distractors": [
+      "MeI",
+      "MeOH, Δ",
+      "PBr₃",
+      "H₂, Pt",
+      "NaOMe",
+      "1. O₃ 2. Me₂S",
+      "KMnO₄ (cold, dilute), NaOH"
+    ],
+    "explanation": "Alkoxymercuration in the stated alcohol followed by NaBH₄ gives the Markovnikov ether without carbocation rearrangement.",
+    "hint": "Consider Markovnikov addition of an alcohol.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 24,
+      "page": 12
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-24-reactant.svg",
+      "alt": "2-Methylpropene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 12,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-24-product.svg",
+      "alt": "2-Methoxy-2-methylpropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 12,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-25",
+    "category": "hydroboration-oxidation",
+    "correctAnswer": "1. BH₃·THF 2. H₂O₂, NaOH",
+    "distractors": [
+      "NBS, hν",
+      "conc. H₂SO₄, Δ",
+      "H₂O₂",
+      "NaOH",
+      "Cl₂",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "KCN"
+    ],
+    "explanation": "Hydroboration followed by peroxide oxidation places OH at the less substituted alkene carbon. H and OH add syn; the source preserves any depicted stereoisomers.",
+    "hint": "Consider anti-Markovnikov hydration with syn addition.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 25,
+      "page": 13
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-25-reactant.svg",
+      "alt": "1-Methylcyclohex-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 13,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-25-product.svg",
+      "alt": "2-Methylcyclohexan-1-ol, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 13,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-26",
+    "category": "hydroboration-oxidation",
+    "correctAnswer": "1. BH₃·THF 2. H₂O₂, NaOH",
+    "distractors": [
+      "H₂, Pt",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "KOH, Δ",
+      "NaH",
+      "CHCl₃, KOH",
+      "H₂O₂",
+      "KMnO₄ (cold, dilute), NaOH"
+    ],
+    "explanation": "Hydroboration followed by peroxide oxidation places OH at the less substituted alkene carbon. H and OH add syn; the source preserves any depicted stereoisomers.",
+    "hint": "Consider anti-Markovnikov hydration with syn addition.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 26,
+      "page": 13
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-26-reactant.svg",
+      "alt": "But-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 13,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-26-product.svg",
+      "alt": "Butan-1-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 13,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-27",
+    "category": "hydroboration-oxidation",
+    "correctAnswer": "1. BH₃·THF 2. H₂O₂, NaOH",
+    "distractors": [
+      "H₃O⁺",
+      "CH₂N₂, hν",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "CH₂I₂, Zn(Cu)",
+      "mCPBA",
+      "SOCl₂",
+      "KMnO₄ (cold, dilute), NaOH"
+    ],
+    "explanation": "Hydroboration followed by peroxide oxidation places OH at the less substituted alkene carbon. H and OH add syn; the source preserves any depicted stereoisomers.",
+    "hint": "Consider anti-Markovnikov hydration with syn addition.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 27,
+      "page": 14
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-27-reactant.svg",
+      "alt": "Allylbenzene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 14,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-27-product.svg",
+      "alt": "3-Phenylpropan-1-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 14,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-28",
+    "category": "hydroboration-oxidation",
+    "correctAnswer": "1. BH₃·THF 2. H₂O₂, NaOH",
+    "distractors": [
+      "OsO₄, H₂O₂",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "KOH",
+      "HBr",
+      "H₃O⁺, Δ",
+      "conc. H₃PO₄, Δ",
+      "KMnO₄ (cold, dilute), NaOH"
+    ],
+    "explanation": "Hydroboration followed by peroxide oxidation places OH at the less substituted alkene carbon. H and OH add syn; the source preserves any depicted stereoisomers.",
+    "hint": "Consider anti-Markovnikov hydration with syn addition.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 28,
+      "page": 14
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-28-reactant.svg",
+      "alt": "3,4-Dimethylhex-3-ene, geometry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 14,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-28-product.svg",
+      "alt": "3,4-Dimethylhexan-3-ol, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 14,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-29",
+    "category": "alkene-halogenation",
+    "correctAnswer": "Br₂",
+    "distractors": [
+      "NaCl",
+      "Br₂, H₂O",
+      "PBr₃",
+      "HBr",
+      "NBS, hν",
+      "mCPBA",
+      "CHBr₃, KOH"
+    ],
+    "explanation": "The dihalogen adds across the alkene through a halonium intermediate to form a vicinal dihalide. Addition is anti where stereochemistry is specified.",
+    "hint": "Consider addition of X₂ across the double bond.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 29,
+      "page": 15
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-29-reactant.svg",
+      "alt": "3-Methylhex-3-ene, geometry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 15,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-29-product.svg",
+      "alt": "3,4-Dibromo-3-methylhexane, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 15,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-30",
+    "category": "alkene-halogenation",
+    "correctAnswer": "Br₂",
+    "distractors": [
+      "Br₂, H₂O",
+      "cold, dilute KMnO₄",
+      "HBr",
+      "PBr₃",
+      "conc. H₂SO₄, Δ",
+      "KBr",
+      "CHBr₃, KOH"
+    ],
+    "explanation": "The dihalogen adds across the alkene through a halonium intermediate to form a vicinal dihalide. Addition is anti where stereochemistry is specified.",
+    "hint": "Consider addition of X₂ across the double bond.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 30,
+      "page": 15
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-30-reactant.svg",
+      "alt": "Propene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 15,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-30-product.svg",
+      "alt": "1,2-Dibromopropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 15,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-31",
+    "category": "alkene-halogenation",
+    "correctAnswer": "Cl₂",
+    "distractors": [
+      "Cl₂, H₂O",
+      "HCl",
+      "NaOEt",
+      "KMnO₄ (conc.), Δ, H₃O⁺",
+      "NaCl",
+      "mCPBA",
+      "CHCl₃, KOH"
+    ],
+    "explanation": "The dihalogen adds across the alkene through a halonium intermediate to form a vicinal dihalide. Addition is anti where stereochemistry is specified.",
+    "hint": "Consider addition of X₂ across the double bond.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 31,
+      "page": 16
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-31-reactant.svg",
+      "alt": "Methylenecyclohexane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 16,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-31-product.svg",
+      "alt": "1-Chloro-1-(chloromethyl)cyclohexane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 16,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-32",
+    "category": "alkene-halogenation",
+    "correctAnswer": "I₂",
+    "distractors": [
+      "I₂, H₂O",
+      "HI",
+      "Br₂",
+      "mCPBA, H₃O⁺",
+      "DIPEA",
+      "CH₂I₂, Zn(Cu)",
+      "CHI₃, KOH"
+    ],
+    "explanation": "The dihalogen adds across the alkene through a halonium intermediate to form a vicinal dihalide. Addition is anti where stereochemistry is specified.",
+    "hint": "Consider addition of X₂ across the double bond.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 32,
+      "page": 16
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Iodine reagent and intended product retained as supplied in the revised instructor source."
+      ]
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-32-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 16,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-32-product.svg",
+      "alt": "trans-1,2-Diiodocyclohexane, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 16,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-33",
+    "category": "halohydrin-formation",
+    "correctAnswer": "I₂, H₂O",
+    "distractors": [
+      "I₂",
+      "CHI₃, KOH",
+      "H₂O₂",
+      "CH₂I₂, Zn(Cu)",
+      "HI",
+      "P/I₂",
+      "1. Hg(OAc)₂, MeOH 2. NaBH₄"
+    ],
+    "explanation": "The halogen forms a halonium intermediate, which water opens. OH is placed at the more substituted carbon when the alkene is unsymmetrical, with anti addition.",
+    "hint": "Consider halogen addition in water.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 33,
+      "page": 17
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Iodine reagent and intended product retained as supplied in the revised instructor source."
+      ]
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-33-reactant.svg",
+      "alt": "1-Methylcyclohex-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 17,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-33-product.svg",
+      "alt": "2-Iodo-1-methylcyclohexan-1-ol, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 17,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-34",
+    "category": "halohydrin-formation",
+    "correctAnswer": "Br₂, H₂O",
+    "distractors": [
+      "Br₂",
+      "HBr",
+      "KMnO₄ (conc.), Δ, H₃O⁺",
+      "CHBr₃, KOH",
+      "KBr",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "PBr₃"
+    ],
+    "explanation": "The halogen forms a halonium intermediate, which water opens. OH is placed at the more substituted carbon when the alkene is unsymmetrical, with anti addition.",
+    "hint": "Consider halogen addition in water.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 34,
+      "page": 17
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-34-reactant.svg",
+      "alt": "But-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 17,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-34-product.svg",
+      "alt": "1-Bromobutan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 17,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-35",
+    "category": "halohydrin-formation",
+    "correctAnswer": "Br₂, H₂O",
+    "distractors": [
+      "Br₂",
+      "NaOH",
+      "EtBr",
+      "HBr",
+      "CHBr₃, KOH",
+      "KBr",
+      "PBr₃"
+    ],
+    "explanation": "The halogen forms a halonium intermediate, which water opens. OH is placed at the more substituted carbon when the alkene is unsymmetrical, with anti addition.",
+    "hint": "Consider halogen addition in water.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 35,
+      "page": 18
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-35-reactant.svg",
+      "alt": "3,4-Dimethylhex-3-ene, geometry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 18,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-35-product.svg",
+      "alt": "4-Bromo-3,4-dimethylhexan-3-ol, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 18,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-36",
+    "category": "halohydrin-formation",
+    "correctAnswer": "Cl₂, H₂O",
+    "distractors": [
+      "Cl₂",
+      "HCl",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "CHCl₃, KOH",
+      "Grubbs catalyst",
+      "NaCl",
+      "mCPBA"
+    ],
+    "explanation": "The halogen forms a halonium intermediate, which water opens. OH is placed at the more substituted carbon when the alkene is unsymmetrical, with anti addition.",
+    "hint": "Consider halogen addition in water.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 36,
+      "page": 18
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-36-reactant.svg",
+      "alt": "2-Methylpropene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 18,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-36-product.svg",
+      "alt": "1-Chloro-2-methylpropan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 18,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-37",
+    "category": "syn-dihydroxylation",
+    "correctAnswer": "OsO₄, H₂O₂",
+    "distractors": [
+      "KMnO₄ (conc.), Δ, H₂O",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "conc. H₂SO₄, Δ",
+      "mCPBA",
+      "mCPBA, H₃O⁺",
+      "NaOH",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄"
+    ],
+    "explanation": "OsO₄ with peroxide or cold, dilute alkaline KMnO₄ gives a vicinal diol by syn addition. These mild conditions retain the carbon-carbon skeleton.",
+    "hint": "Consider adding two OH groups to the same face.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 37,
+      "page": 19
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-37-reactant.svg",
+      "alt": "Hex-3-ene, geometry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 19,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-37-product.svg",
+      "alt": "Hexane-3,4-diol, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 19,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-38",
+    "category": "syn-dihydroxylation",
+    "correctAnswer": "OsO₄, H₂O₂",
+    "distractors": [
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "iPrOH, Δ",
+      "mCPBA, H₃O⁺",
+      "H₃O⁺",
+      "NaOH",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "conc. H₃PO₄, Δ"
+    ],
+    "explanation": "OsO₄ with peroxide or cold, dilute alkaline KMnO₄ gives a vicinal diol by syn addition. These mild conditions retain the carbon-carbon skeleton.",
+    "hint": "Consider adding two OH groups to the same face.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 38,
+      "page": 19
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-38-reactant.svg",
+      "alt": "4-Methylpent-2-ene, geometry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 19,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-38-product.svg",
+      "alt": "4-Methylpentane-2,3-diol, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 19,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-39",
+    "category": "syn-dihydroxylation",
+    "correctAnswer": "KMnO₄ (cold, dilute), NaOH",
+    "distractors": [
+      "H₃O⁺, Δ",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "mCPBA",
+      "KOH",
+      "Br₂, H₂O",
+      "conc. H₃PO₄, Δ",
+      "H₂O₂"
+    ],
+    "explanation": "OsO₄ with peroxide or cold, dilute alkaline KMnO₄ gives a vicinal diol by syn addition. These mild conditions retain the carbon-carbon skeleton.",
+    "hint": "Consider adding two OH groups to the same face.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 39,
+      "page": 20
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-39-reactant.svg",
+      "alt": "But-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 20,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-39-product.svg",
+      "alt": "Butane-1,2-diol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 20,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-40",
+    "category": "syn-dihydroxylation",
+    "correctAnswer": "KMnO₄ (cold, dilute), NaOH",
+    "distractors": [
+      "KCN",
+      "H₂, Pd/C",
+      "H₂O₂",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "H₃O⁺, Δ",
+      "mCPBA, H₃O⁺",
+      "conc. H₂SO₄, Δ"
+    ],
+    "explanation": "OsO₄ with peroxide or cold, dilute alkaline KMnO₄ gives a vicinal diol by syn addition. These mild conditions retain the carbon-carbon skeleton.",
+    "hint": "Consider adding two OH groups to the same face.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 40,
+      "page": 20
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-40-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 20,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-40-product.svg",
+      "alt": "cis-Cyclohexane-1,2-diol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 20,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-41",
+    "category": "peracid-epoxidation",
+    "correctAnswer": "mCPBA",
+    "distractors": [
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "KMnO₄ (cold, dilute), NaOH",
+      "1. O₃ 2. Me₂S",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "H₃O⁺, Δ",
+      "CHCl₃, KOH",
+      "KOH"
+    ],
+    "explanation": "mCPBA transfers oxygen to the alkene in a concerted epoxidation. The relative arrangement of substituents on the alkene is retained in the epoxide.",
+    "hint": "Consider oxygen transfer from a peracid.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 41,
+      "page": 21
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-41-reactant.svg",
+      "alt": "cis-But-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 21,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-41-product.svg",
+      "alt": "cis-2,3-Dimethyloxirane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 21,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-42",
+    "category": "peracid-epoxidation",
+    "correctAnswer": "mCPBA",
+    "distractors": [
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "H₃O⁺, Δ",
+      "KMnO₄ (cold, dilute), NaOH",
+      "mCPBA, H₃O⁺",
+      "KOtBu",
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "H₂, Pt"
+    ],
+    "explanation": "mCPBA transfers oxygen to the alkene in a concerted epoxidation. The relative arrangement of substituents on the alkene is retained in the epoxide.",
+    "hint": "Consider oxygen transfer from a peracid.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 42,
+      "page": 21
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-42-reactant.svg",
+      "alt": "trans-Pent-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 21,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-42-product.svg",
+      "alt": "trans-2-Ethyl-3-methyloxirane, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 21,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-43",
+    "category": "halohydrin-epoxide",
+    "correctAnswer": "1. Br₂, H₂O 2. NaH",
+    "distractors": [
+      "conc. H₂SO₄, Δ",
+      "NBS, hν",
+      "mCPBA, H₃O⁺",
+      "OsO₄, H₂O₂",
+      "KBr",
+      "KMnO₄ (cold, dilute), NaOH",
+      "H₃O⁺, Δ"
+    ],
+    "explanation": "Br₂ in water first forms a halohydrin. NaH deprotonates the halohydrin OH. The resulting alkoxide closes by intramolecular SN2 displacement to form an epoxide, with inversion at the carbon bearing the leaving group.",
+    "hint": "Consider an alkoxide closing onto an adjacent carbon bearing a halide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 43,
+      "page": 22
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-43-reactant.svg",
+      "alt": "But-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 22,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-43-product.svg",
+      "alt": "2-Ethyloxirane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 22,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-44",
+    "category": "halohydrin-epoxide",
+    "correctAnswer": "1. Br₂, H₂O 2. NaH",
+    "distractors": [
+      "Br₂",
+      "H₃O⁺, Δ",
+      "mCPBA, H₃O⁺",
+      "NBS, hν",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "KMnO₄ (cold, dilute), NaOH"
+    ],
+    "explanation": "Br₂ in water first forms a halohydrin. NaH deprotonates the halohydrin OH. The resulting alkoxide closes by intramolecular SN2 displacement to form an epoxide, with inversion at the carbon bearing the leaving group.",
+    "hint": "Consider an alkoxide closing onto an adjacent carbon bearing a halide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 44,
+      "page": 22
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-44-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 22,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-44-product.svg",
+      "alt": "Cyclohexene oxide",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 22,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-45",
+    "category": "epoxide-acid-opening",
+    "correctAnswer": "H₃O⁺",
+    "distractors": [
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "NBS, hν",
+      "CH₂I₂, Zn(Cu)",
+      "H₂, Pt",
+      "HI",
+      "1. O₃ 2. Me₂S",
+      "mCPBA"
+    ],
+    "explanation": "Aqueous acid protonates the epoxide, allowing water to open the ring. Backside attack gives anti opening and the displayed vicinal diol.",
+    "hint": "Consider acid-catalyzed opening of an epoxide by water.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 45,
+      "page": 23
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-45-reactant.svg",
+      "alt": "Cyclohexene oxide",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 23,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-45-product.svg",
+      "alt": "trans-Cyclohexane-1,2-diol, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 23,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-46",
+    "category": "epoxide-acid-opening",
+    "correctAnswer": "H₃O⁺",
+    "distractors": [
+      "KMnO₄ (cold, dilute), NaOH",
+      "H₂, Pd/C",
+      "1. Br₂, H₂O 2. NaH",
+      "CH₂N₂, hν",
+      "NaH",
+      "mCPBA",
+      "NaOEt"
+    ],
+    "explanation": "Aqueous acid protonates the epoxide, allowing water to open the ring. Backside attack gives anti opening and the displayed vicinal diol.",
+    "hint": "Consider acid-catalyzed opening of an epoxide by water.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 46,
+      "page": 23
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-46-reactant.svg",
+      "alt": "Propylene oxide",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 23,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-46-product.svg",
+      "alt": "Propane-1,2-diol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 23,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-47",
+    "category": "epoxidation-hydrolysis",
+    "correctAnswer": "mCPBA, H₃O⁺",
+    "distractors": [
+      "1. O₃ 2. Me₂S",
+      "OsO₄, H₂O₂",
+      "mCPBA",
+      "CHCl₃, KOH",
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "1. Br₂, H₂O 2. NaH",
+      "HBr, ROOR"
+    ],
+    "explanation": "mCPBA first forms an epoxide. Aqueous acid then opens it by backside attack, giving overall anti dihydroxylation of the alkene.",
+    "hint": "Consider epoxidation followed by aqueous acid.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 47,
+      "page": 24
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-47-reactant.svg",
+      "alt": "cis-But-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 24,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-47-product.svg",
+      "alt": "Butane-2,3-diol from anti addition, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 24,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-48",
+    "category": "epoxidation-hydrolysis",
+    "correctAnswer": "mCPBA, H₃O⁺",
+    "distractors": [
+      "1. O₃ 2. Me₂S",
+      "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "1. Br₂, H₂O 2. NaH",
+      "conc. H₂SO₄, Δ",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "OsO₄, H₂O₂"
+    ],
+    "explanation": "mCPBA first forms an epoxide. Aqueous acid then opens it by backside attack, giving overall anti dihydroxylation of the alkene.",
+    "hint": "Consider epoxidation followed by aqueous acid.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 48,
+      "page": 24
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-48-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 24,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-48-product.svg",
+      "alt": "trans-Cyclohexane-1,2-diol, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 24,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-49",
+    "category": "halohydrin-epoxide",
+    "correctAnswer": "NaH",
+    "distractors": [
+      "CH₂I₂, Zn(Cu)",
+      "SOCl₂",
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "HCl",
+      "KOtBu",
+      "mCPBA",
+      "OsO₄, H₂O₂"
+    ],
+    "explanation": "NaH deprotonates the halohydrin OH. The resulting alkoxide closes by intramolecular SN2 displacement to form an epoxide, with inversion at the carbon bearing the leaving group.",
+    "hint": "Consider an alkoxide closing onto an adjacent carbon bearing a halide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 49,
+      "page": 25
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-49-reactant.svg",
+      "alt": "trans-2-Chlorocyclohexan-1-ol, stereochemistry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 25,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-49-product.svg",
+      "alt": "Cyclohexene oxide, stereochemistry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 25,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-50",
+    "category": "halohydrin-epoxide",
+    "correctAnswer": "NaH",
+    "distractors": [
+      "KMnO₄ (cold, dilute), NaOH",
+      "1. O₃ 2. (CH₃)₂S",
+      "OsO₄, H₂O₂",
+      "Br₂, H₂O",
+      "CH₂I₂, Zn(Cu)",
+      "Cl₂",
+      "H₂, Pt"
+    ],
+    "explanation": "NaH deprotonates the halohydrin OH. The resulting alkoxide closes by intramolecular SN2 displacement to form an epoxide, with inversion at the carbon bearing the leaving group.",
+    "hint": "Consider an alkoxide closing onto an adjacent carbon bearing a halide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 50,
+      "page": 25
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-50-reactant.svg",
+      "alt": "1-Bromopropan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 25,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-50-product.svg",
+      "alt": "Propylene oxide",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 25,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-51",
+    "category": "halohydrin-epoxide",
+    "correctAnswer": "NaH",
+    "distractors": [
+      "H₂, Pd/C",
+      "mCPBA",
+      "PBr₃",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "OsO₄, H₂O₂",
+      "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+      "KMnO₄ (conc.), Δ, H₂O"
+    ],
+    "explanation": "NaH deprotonates the halohydrin OH. The resulting alkoxide closes by intramolecular SN2 displacement to form an epoxide, with inversion at the carbon bearing the leaving group.",
+    "hint": "Consider an alkoxide closing onto an adjacent carbon bearing a halide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 51,
+      "page": 26
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-51-reactant.svg",
+      "alt": "2-Bromopentan-3-ol, stereochemistry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 26,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-51-product.svg",
+      "alt": "2-Ethyl-3-methyloxirane, stereochemistry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 26,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-52",
+    "category": "halohydrin-epoxide",
+    "correctAnswer": "NaH",
+    "distractors": [
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "Cl₂",
+      "NaOEt",
+      "CH₂I₂, Zn(Cu)",
+      "KCN",
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "mCPBA"
+    ],
+    "explanation": "NaH deprotonates the halohydrin OH. The resulting alkoxide closes by intramolecular SN2 displacement to form an epoxide, with inversion at the carbon bearing the leaving group.",
+    "hint": "Consider an alkoxide closing onto an adjacent carbon bearing a halide.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 52,
+      "page": 26
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-52-reactant.svg",
+      "alt": "1-Bromo-2-methylpropan-2-ol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 26,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-52-product.svg",
+      "alt": "2,2-Dimethyloxirane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 26,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-53",
+    "category": "alkene-hydrogenation",
+    "correctAnswer": "H₂, Pt",
+    "distractors": [
+      "KOtBu",
+      "Cl₂",
+      "HBr",
+      "NaSH",
+      "NaOH",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "CH₂I₂, Zn(Cu)"
+    ],
+    "explanation": "The stated metal catalyst adds H₂ across the alkene to form an alkane. Addition occurs syn at the catalyst surface.",
+    "hint": "Consider catalytic addition of hydrogen to an alkene.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 53,
+      "page": 27
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-53-reactant.svg",
+      "alt": "3,4-Dimethylhex-3-ene, geometry as drawn",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 27,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-53-product.svg",
+      "alt": "3,4-Dimethylhexane, both source stereoisomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 27,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-54",
+    "category": "alkene-hydrogenation",
+    "correctAnswer": "H₂, Pd/C",
+    "distractors": [
+      "OsO₄, H₂O₂",
+      "conc. H₂SO₄, Δ",
+      "KOtBu",
+      "NBS, hν",
+      "NaH",
+      "CH₂N₂, Δ",
+      "PBr₃"
+    ],
+    "explanation": "The stated metal catalyst adds H₂ across the alkene to form an alkane. Addition occurs syn at the catalyst surface.",
+    "hint": "Consider catalytic addition of hydrogen to an alkene.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 54,
+      "page": 27
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-54-reactant.svg",
+      "alt": "But-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 27,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-54-product.svg",
+      "alt": "Butane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 27,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-55",
+    "category": "alkene-hydrogenation",
+    "correctAnswer": "H₂, Pt",
+    "distractors": [
+      "Grubbs catalyst",
+      "conc. H₂SO₄, Δ",
+      "Br₂",
+      "KCN",
+      "H₂O₂",
+      "NBS, hν",
+      "Na, metal"
+    ],
+    "explanation": "The stated metal catalyst adds H₂ across the alkene to form an alkane. Addition occurs syn at the catalyst surface.",
+    "hint": "Consider catalytic addition of hydrogen to an alkene.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 55,
+      "page": 28
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-55-reactant.svg",
+      "alt": "1,2-Dimethylcyclohex-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 28,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-55-product.svg",
+      "alt": "cis-1,2-Dimethylcyclohexane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 28,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-56",
+    "category": "alkene-hydrogenation",
+    "correctAnswer": "D₂, Pd/C",
+    "distractors": [
+      "mCPBA",
+      "NaD",
+      "NaSD",
+      "Grubbs catalyst",
+      "OsO₄, H₂O₂",
+      "KMnO₄ (conc.), Δ, H₃O⁺",
+      "Br₂, D₂O"
+    ],
+    "explanation": "D₂ with Pd/C adds two deuterium atoms syn across the double bond. The source shows the cis deuterium-labeled cyclohexane.",
+    "hint": "Consider catalytic addition of hydrogen to an alkene.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 56,
+      "page": 28
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-56-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 28,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-56-product.svg",
+      "alt": "cis-1,2-Dideuteriocyclohexane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 28,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-57",
+    "category": "simmons-smith",
+    "correctAnswer": "CH₂I₂, Zn(Cu)",
+    "distractors": [
+      "Grubbs catalyst",
+      "NaH",
+      "H₃O⁺",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "Cl₂",
+      "HI"
+    ],
+    "explanation": "CH₂I₂ with Zn(Cu) transfers a methylene group across the alkene to form a cyclopropane. The relative geometry of alkene substituents is retained.",
+    "hint": "Consider the Simmons-Smith reagent.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 57,
+      "page": 29
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-57-reactant.svg",
+      "alt": "cis-Pent-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 29,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-57-product.svg",
+      "alt": "cis-1-Ethyl-2-methylcyclopropane, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 29,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-58",
+    "category": "simmons-smith",
+    "correctAnswer": "CH₂I₂, Zn(Cu)",
+    "distractors": [
+      "Grubbs catalyst",
+      "Br₂, H₂O",
+      "Na, metal",
+      "OsO₄, H₂O₂",
+      "NaOEt",
+      "conc. H₂SO₄, Δ",
+      "NaH"
+    ],
+    "explanation": "CH₂I₂ with Zn(Cu) transfers a methylene group across the alkene to form a cyclopropane. The relative geometry of alkene substituents is retained.",
+    "hint": "Consider the Simmons-Smith reagent.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 58,
+      "page": 29
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-58-reactant.svg",
+      "alt": "Propene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 29,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-58-product.svg",
+      "alt": "Methylcyclopropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 29,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-59",
+    "category": "simmons-smith",
+    "correctAnswer": "CH₂I₂, Zn(Cu)",
+    "distractors": [
+      "conc. H₂SO₄, Δ",
+      "CHI₃, KOH",
+      "NaCl",
+      "H₃O⁺",
+      "Na, metal",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "Grubbs catalyst"
+    ],
+    "explanation": "CH₂I₂ with Zn(Cu) transfers a methylene group across the alkene to form a cyclopropane. The relative geometry of alkene substituents is retained.",
+    "hint": "Consider the Simmons-Smith reagent.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 59,
+      "page": 30
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-59-reactant.svg",
+      "alt": "trans-Pent-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 30,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-59-product.svg",
+      "alt": "trans-1-Ethyl-2-methylcyclopropane, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 30,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-60",
+    "category": "simmons-smith",
+    "correctAnswer": "CH₂I₂, Zn(Cu)",
+    "distractors": [
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "NaN₃",
+      "Na, metal",
+      "H₃O⁺",
+      "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+      "CHI₃, KOH",
+      "H₂, Pt cat"
+    ],
+    "explanation": "CH₂I₂ with Zn(Cu) transfers a methylene group across the alkene to form a cyclopropane. The relative geometry of alkene substituents is retained.",
+    "hint": "Consider the Simmons-Smith reagent.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 60,
+      "page": 30
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-60-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 30,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-60-product.svg",
+      "alt": "Bicyclo[4.1.0]heptane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 30,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-61",
+    "category": "carbene-alpha-elimination",
+    "correctAnswer": "CHCl₃, KOH",
+    "distractors": [
+      "H₂, Pt",
+      "Cl₂, H₂O",
+      "CH₂N₂, Δ",
+      "OsO₄, H₂O₂",
+      "HCl",
+      "Cl₂, hν",
+      "NaCl"
+    ],
+    "explanation": "Base promotes alpha elimination from the haloform to generate a dihalocarbene. Addition across the alkene forms a cyclopropane bearing two halogens on the new carbon and retains the relative alkene geometry.",
+    "hint": "Consider generating a dihalocarbene from a haloform.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 61,
+      "page": 31
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-61-reactant.svg",
+      "alt": "trans-Pent-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 31,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-61-product.svg",
+      "alt": "1,1-Dichloro-2-ethyl-3-methylcyclopropane, trans substituents, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 31,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-62",
+    "category": "carbene-alpha-elimination",
+    "correctAnswer": "CHBr₃, KOH",
+    "distractors": [
+      "CH₂I₂, Zn(Cu)",
+      "NBS, Δ",
+      "KBr",
+      "Br₂, H₂O",
+      "HBr",
+      "mCPBA",
+      "KMnO₄ (conc.), Δ, H₂O"
+    ],
+    "explanation": "Base promotes alpha elimination from the haloform to generate a dihalocarbene. Addition across the alkene forms a cyclopropane bearing two halogens on the new carbon and retains the relative alkene geometry.",
+    "hint": "Consider generating a dihalocarbene from a haloform.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 62,
+      "page": 31
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-62-reactant.svg",
+      "alt": "Propene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 31,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-62-product.svg",
+      "alt": "1,1-Dibromo-2-methylcyclopropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 31,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-63",
+    "category": "carbene-alpha-elimination",
+    "correctAnswer": "CHI₃, KOH",
+    "distractors": [
+      "NBS, hν",
+      "HI",
+      "H₂, Pt",
+      "KI",
+      "CH₂I₂, Zn(Cu)",
+      "mCPBA",
+      "Na, metal"
+    ],
+    "explanation": "Base promotes alpha elimination from the haloform to generate a dihalocarbene. Addition across the alkene forms a cyclopropane bearing two halogens on the new carbon and retains the relative alkene geometry.",
+    "hint": "Consider generating a dihalocarbene from a haloform.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 63,
+      "page": 32
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "Iodine reagent and intended product retained as supplied in the revised instructor source."
+      ]
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-63-reactant.svg",
+      "alt": "cis-Pent-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 32,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-63-product.svg",
+      "alt": "1,1-Diiodo-2-ethyl-3-methylcyclopropane, cis substituents, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 32,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-64",
+    "category": "carbene-alpha-elimination",
+    "correctAnswer": "CHCl₃, KOH",
+    "distractors": [
+      "HCl",
+      "CH₂N₂, hν",
+      "Cl₂, hν",
+      "KCN",
+      "1. Cl₂, H₂O 2. NaH",
+      "NaCl",
+      "KMnO₄ (conc.), Δ, H₂O"
+    ],
+    "explanation": "Base promotes alpha elimination from the haloform to generate a dihalocarbene. Addition across the alkene forms a cyclopropane bearing two halogens on the new carbon and retains the relative alkene geometry.",
+    "hint": "Consider generating a dihalocarbene from a haloform.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 64,
+      "page": 32
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-64-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 32,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-64-product.svg",
+      "alt": "7,7-Dichlorobicyclo[4.1.0]heptane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 32,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-65",
+    "category": "carbene-diazomethane",
+    "correctAnswer": "CH₂N₂, Δ",
+    "distractors": [
+      "KOtBu",
+      "CHCl₃, KOH",
+      "NaCl",
+      "HI",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "mCPBA",
+      "1. O₃ 2. PPh₃"
+    ],
+    "explanation": "Heat or light releases N₂ from diazomethane, generating a carbene that adds across the alkene to give the displayed cyclopropane.",
+    "hint": "Consider carbene generation by loss of nitrogen.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 65,
+      "page": 33
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-65-reactant.svg",
+      "alt": "cis-Pent-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 33,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-65-product.svg",
+      "alt": "cis-1-Ethyl-2-methylcyclopropane, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 33,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-66",
+    "category": "carbene-diazomethane",
+    "correctAnswer": "CH₂N₂, hν",
+    "distractors": [
+      "cold, dilute KMnO₄",
+      "H₃O⁺",
+      "NaN₃",
+      "NBS, hν",
+      "Br₂, H₂O",
+      "CHBr₃, KOH",
+      "mCPBA, H₃O⁺"
+    ],
+    "explanation": "Heat or light releases N₂ from diazomethane, generating a carbene that adds across the alkene to give the displayed cyclopropane.",
+    "hint": "Consider carbene generation by loss of nitrogen.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 66,
+      "page": 33
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-66-reactant.svg",
+      "alt": "Propene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 33,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-66-product.svg",
+      "alt": "Methylcyclopropane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 33,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-67",
+    "category": "carbene-diazomethane",
+    "correctAnswer": "CH₂N₂, Δ",
+    "distractors": [
+      "H₂, Pd/C",
+      "mCPBA, H₃O⁺",
+      "HBr",
+      "CHBr₃, KOH",
+      "conc. H₂SO₄, Δ",
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "Schrock catalyst"
+    ],
+    "explanation": "Heat or light releases N₂ from diazomethane, generating a carbene that adds across the alkene to give the displayed cyclopropane.",
+    "hint": "Consider carbene generation by loss of nitrogen.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 67,
+      "page": 34
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-67-reactant.svg",
+      "alt": "trans-Pent-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 34,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-67-product.svg",
+      "alt": "trans-1-Ethyl-2-methylcyclopropane, both enantiomers",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 34,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-68",
+    "category": "carbene-diazomethane",
+    "correctAnswer": "CH₂N₂, hν",
+    "distractors": [
+      "mCPBA",
+      "conc. H₂SO₄, Δ",
+      "NaOEt",
+      "Grubbs catalyst",
+      "CHI₃, KOH",
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "Br₂, H₂O"
+    ],
+    "explanation": "Heat or light releases N₂ from diazomethane, generating a carbene that adds across the alkene to give the displayed cyclopropane.",
+    "hint": "Consider carbene generation by loss of nitrogen.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 68,
+      "page": 34
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-68-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 34,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-68-product.svg",
+      "alt": "Bicyclo[4.1.0]heptane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 34,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-69",
+    "category": "alkene-ozonolysis",
+    "correctAnswer": "1. O₃ 2. Me₂S",
+    "distractors": [
+      "KMnO₄ (cold, dilute), NaOH",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "CH₂I₂, Zn(Cu)",
+      "mCPBA, H₃O⁺",
+      "CHI₃, KOH",
+      "Schrock catalyst",
+      "1. B₂H₆ 2. H₂O₂, NaOH"
+    ],
+    "explanation": "Ozone followed by the stated reductive workup cleaves the C=C bond to aldehydes and/or ketones. An alkene carbon bearing a hydrogen gives an aldehyde.",
+    "hint": "Consider cleaving the double bond to carbonyl groups.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 69,
+      "page": 35
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-69-reactant.svg",
+      "alt": "But-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 35,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-69-product.svg",
+      "alt": "Two molecules of ethanal",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 35,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-70",
+    "category": "alkene-ozonolysis",
+    "correctAnswer": "1. O₃ 2. PPh₃",
+    "distractors": [
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "CH₂I₂, Zn(Cu)",
+      "CHI₃, KOH",
+      "mCPBA, H₃O⁺",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "KMnO₄ (cold, dilute), NaOH",
+      "SOCl₂"
+    ],
+    "explanation": "Ozone followed by the stated reductive workup cleaves the C=C bond to aldehydes and/or ketones. An alkene carbon bearing a hydrogen gives an aldehyde.",
+    "hint": "Consider cleaving the double bond to carbonyl groups.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 70,
+      "page": 35
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-70-reactant.svg",
+      "alt": "2-Methylbut-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 35,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-70-product.svg",
+      "alt": "Ethanal and acetone",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 35,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-71",
+    "category": "alkene-ozonolysis",
+    "correctAnswer": "1. O₃ 2. Me₂S",
+    "distractors": [
+      "1. BH₃·THF 2. H₂O₂, NaOH",
+      "Br₂",
+      "KOtBu",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "Grubbs catalyst",
+      "mCPBA, H₃O⁺",
+      "KMnO₄ (cold, dilute), NaOH"
+    ],
+    "explanation": "Ozone followed by the stated reductive workup cleaves the C=C bond to aldehydes and/or ketones. An alkene carbon bearing a hydrogen gives an aldehyde.",
+    "hint": "Consider cleaving the double bond to carbonyl groups.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 71,
+      "page": 36
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-71-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 36,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-71-product.svg",
+      "alt": "Hexane-1,6-dial",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 36,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-72",
+    "category": "alkene-ozonolysis",
+    "correctAnswer": "1. O₃ 2. PPh₃",
+    "distractors": [
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "KMnO₄ (conc.), Δ, H₂O",
+      "HBr",
+      "KMnO₄ (cold, dilute), NaOH",
+      "mCPBA, H₃O⁺",
+      "CH₂I₂, Zn(Cu)",
+      "H₃O⁺"
+    ],
+    "explanation": "Ozone followed by the stated reductive workup cleaves the C=C bond to aldehydes and/or ketones. An alkene carbon bearing a hydrogen gives an aldehyde.",
+    "hint": "Consider cleaving the double bond to carbonyl groups.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 72,
+      "page": 36
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-72-reactant.svg",
+      "alt": "3-Methylhex-3-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 36,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-72-product.svg",
+      "alt": "Butan-2-one and propanal",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 36,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-73",
+    "category": "alkene-oxidative-cleavage",
+    "correctAnswer": "KMnO₄ (conc.), Δ, H₂O",
+    "distractors": [
+      "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "1. O₃ 2. PPh₃",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "conc. H₂SO₄, Δ",
+      "mCPBA, H₃O⁺",
+      "KMnO₄ (cold, dilute), NaOH",
+      "NBS, hν"
+    ],
+    "explanation": "Hot, concentrated KMnO₄ cleaves the alkene. An alkene carbon bearing a hydrogen is oxidized to a carboxylic acid; one bearing no hydrogen gives a ketone.",
+    "hint": "Consider cleavage with hot, concentrated permanganate.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 73,
+      "page": 37
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-73-reactant.svg",
+      "alt": "3-Methylhex-3-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 37,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-73-product.svg",
+      "alt": "Butan-2-one and propanoic acid",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 37,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-74",
+    "category": "alkene-oxidative-cleavage",
+    "correctAnswer": "KMnO₄ (conc.), Δ, H₂O",
+    "distractors": [
+      "1. O₃ 2. PPh₃",
+      "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+      "CH₂I₂, Zn(Cu)",
+      "H₂O₂",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "mCPBA, H₃O⁺",
+      "KMnO₄ (cold, dilute), NaOH"
+    ],
+    "explanation": "Hot, concentrated KMnO₄ cleaves the alkene. An alkene carbon bearing a hydrogen is oxidized to a carboxylic acid; one bearing no hydrogen gives a ketone.",
+    "hint": "Consider cleavage with hot, concentrated permanganate.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 74,
+      "page": 37
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-74-reactant.svg",
+      "alt": "1-Methylcyclopent-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 37,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-74-product.svg",
+      "alt": "5-Oxohexanoic acid",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 37,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-75",
+    "category": "alkene-oxidative-cleavage",
+    "correctAnswer": "KMnO₄ (conc.), Δ, H₂O",
+    "distractors": [
+      "H₃O⁺",
+      "1. O₃ 2. Me₂S",
+      "mCPBA",
+      "OsO₄, H₂O₂",
+      "1. B₂H₆ 2. H₂O₂, NaOH",
+      "HBr",
+      "1. Hg(OAc)₂, MeOH 2. NaBH₄"
+    ],
+    "explanation": "Hot, concentrated KMnO₄ cleaves the alkene. An alkene carbon bearing a hydrogen is oxidized to a carboxylic acid; one bearing no hydrogen gives a ketone.",
+    "hint": "Consider cleavage with hot, concentrated permanganate.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 75,
+      "page": 38
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-75-reactant.svg",
+      "alt": "Cyclohexene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 38,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-75-product.svg",
+      "alt": "Hexanedioic acid",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 38,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-76",
+    "category": "alkene-oxidative-cleavage",
+    "correctAnswer": "KMnO₄ (conc.), Δ, H₂O",
+    "distractors": [
+      "H₂O₂",
+      "1. O₃ 2. Me₂S",
+      "mCPBA, H₃O⁺",
+      "Cl₂",
+      "OsO₄, H₂O₂",
+      "CH₂I₂, Zn(Cu)",
+      "Schrock catalyst"
+    ],
+    "explanation": "Hot, concentrated KMnO₄ cleaves the alkene. An alkene carbon bearing a hydrogen is oxidized to a carboxylic acid; one bearing no hydrogen gives a ketone.",
+    "hint": "Consider cleavage with hot, concentrated permanganate.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 76,
+      "page": 38
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": []
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-76-reactant.svg",
+      "alt": "Pent-2-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 38,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-76-product.svg",
+      "alt": "Ethanoic acid and propanoic acid",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 38,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-77",
+    "category": "olefin-metathesis",
+    "correctAnswer": "Schrock catalyst",
+    "distractors": [
+      "KMnO₄ (conc.), Δ, H₂O",
+      "CH₂I₂, Zn(Cu)",
+      "conc. H₂SO₄, Δ",
+      "HI",
+      "NaN₃",
+      "OsO₄, H₂O₂",
+      "HBr, ROOR"
+    ],
+    "explanation": "The stated Schrock or Grubbs catalyst promotes olefin metathesis, exchanging alkene fragments to form the displayed cross-metathesis product. The PDF specifies E + Z; ethylene coproduct is omitted from its product drawing.",
+    "hint": "Consider exchanging alkene fragments with a metal carbene catalyst.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 77,
+      "page": 39
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "E + Z product label retained; the source omits the ethylene coproduct."
+      ]
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-77-reactant.svg",
+      "alt": "Propene and but-1-ene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 39,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-77-product.svg",
+      "alt": "Pent-2-ene, E + Z",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 39,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-78",
+    "category": "olefin-metathesis",
+    "correctAnswer": "Grubbs catalyst",
+    "distractors": [
+      "HCl",
+      "1. O₃ 2. Me₂S",
+      "CH₂I₂, Zn(Cu)",
+      "PBr₃",
+      "mCPBA",
+      "KMnO₄ (cold, dilute), NaOH",
+      "KCN"
+    ],
+    "explanation": "The stated Schrock or Grubbs catalyst promotes olefin metathesis, exchanging alkene fragments to form the displayed cross-metathesis product. The PDF specifies E + Z; ethylene coproduct is omitted from its product drawing.",
+    "hint": "Consider exchanging alkene fragments with a metal carbene catalyst.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 78,
+      "page": 39
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "E + Z product label retained; the source omits the ethylene coproduct."
+      ]
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-78-reactant.svg",
+      "alt": "But-1-ene and allyl alcohol",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 39,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-78-product.svg",
+      "alt": "Pent-2-en-1-ol, E + Z",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 39,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-79",
+    "category": "olefin-metathesis",
+    "correctAnswer": "Schrock catalyst",
+    "distractors": [
+      "NaSH",
+      "CH₂I₂, Zn(Cu)",
+      "OsO₄, H₂O₂",
+      "KOtBu",
+      "1. O₃ 2. Me₂S",
+      "NaH",
+      "CHCl₃, KOH"
+    ],
+    "explanation": "The stated Schrock or Grubbs catalyst promotes olefin metathesis, exchanging alkene fragments to form the displayed cross-metathesis product. The PDF specifies E + Z; ethylene coproduct is omitted from its product drawing.",
+    "hint": "Consider exchanging alkene fragments with a metal carbene catalyst.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 79,
+      "page": 40
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "E + Z product label retained; the source omits the ethylene coproduct."
+      ]
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-79-reactant.svg",
+      "alt": "Propene and vinylcyclopentane",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 40,
+        "region": [
+          40,
+          88,
+          330,
+          168
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-79-product.svg",
+      "alt": "1-Cyclopentylprop-1-ene, E + Z",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 40,
+        "region": [
+          40,
+          190,
+          330,
+          270
+        ]
+      }
+    }
+  },
+  {
+    "id": "unit4-80",
+    "category": "olefin-metathesis",
+    "correctAnswer": "Grubbs catalyst",
+    "distractors": [
+      "OsO₄, H₂O₂",
+      "HCl",
+      "1. O₃ 2. Me₂S",
+      "CH₂I₂, Zn(Cu)",
+      "NBS, hν",
+      "Br₂",
+      "HBr, ROOR"
+    ],
+    "explanation": "The stated Schrock or Grubbs catalyst promotes olefin metathesis, exchanging alkene fragments to form the displayed cross-metathesis product. The PDF specifies E + Z; ethylene coproduct is omitted from its product drawing.",
+    "hint": "Consider exchanging alkene fragments with a metal carbene catalyst.",
+    "source": {
+      "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+      "problemNumber": 80,
+      "page": 40
+    },
+    "review": {
+      "status": "prepared",
+      "issues": [],
+      "notes": [
+        "E + Z product label retained; the source omits the ethylene coproduct."
+      ]
+    },
+    "reactant": {
+      "svgPath": "structures/unit4-80-reactant.svg",
+      "alt": "Allyl alcohol and styrene",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 40,
+        "region": [
+          40,
+          356,
+          330,
+          436
+        ]
+      }
+    },
+    "product": {
+      "svgPath": "structures/unit4-80-product.svg",
+      "alt": "3-Phenylprop-2-en-1-ol, E + Z",
+      "sourceDepiction": {
+        "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+        "page": 40,
+        "region": [
+          40,
+          458,
+          330,
+          538
+        ]
+      }
+    }
+  }
+]

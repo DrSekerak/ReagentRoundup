@@ -1,0 +1,1393 @@
+{
+  "document": "Organic_Reactions_80_Problems_Revised_v11.pdf",
+  "sha256": "d738ce131aaa781def09a08b143ee15c9787972ee56b62404a8d55e3e2fc8b4f",
+  "questions": [
+    {
+      "number": 1,
+      "page": 1,
+      "correct": "NaH",
+      "distractors": [
+        "HBr, ROOR",
+        "NaCl",
+        "NBS, hν",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "HCl",
+        "Br₂, H₂O",
+        "NaOH"
+      ],
+      "category": "alkoxide-formation",
+      "reactant": "Ethanol",
+      "product": "Sodium ethoxide, with sodium counterion"
+    },
+    {
+      "number": 2,
+      "page": 1,
+      "correct": "NaH",
+      "distractors": [
+        "NaOEt",
+        "Cl₂",
+        "H₂, Pt",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "mCPBA",
+        "1. O₃ 2. (CH₃)₂S",
+        "NaOH"
+      ],
+      "category": "alkoxide-formation",
+      "reactant": "Propan-1-ol",
+      "product": "Sodium propoxide, with sodium counterion"
+    },
+    {
+      "number": 3,
+      "page": 2,
+      "correct": "Na⁰",
+      "distractors": [
+        "H₂, Pd/C",
+        "NBS, hν",
+        "conc. H₂SO₄, Δ",
+        "KMnO₄ (cold, dilute), NaOH",
+        "PBr₃",
+        "KBr",
+        "NaOH"
+      ],
+      "category": "alkoxide-formation",
+      "reactant": "Propan-2-ol",
+      "product": "Sodium isopropoxide, with sodium counterion"
+    },
+    {
+      "number": 4,
+      "page": 2,
+      "correct": "K⁰",
+      "distractors": [
+        "Br₂, H₂O",
+        "Grubbs catalyst",
+        "HBr, ROOR",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "KMnO₄ (cold, dilute), NaOH",
+        "Cl₂",
+        "KOH"
+      ],
+      "category": "alkoxide-formation",
+      "reactant": "Cyclohexanol",
+      "product": "Potassium cyclohexoxide, with potassium counterion"
+    },
+    {
+      "number": 5,
+      "page": 3,
+      "correct": "HBr",
+      "distractors": [
+        "KOtBu",
+        "HBr, ROOR",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "H₂O₂",
+        "KBr",
+        "OsO₄, H₂O₂",
+        "CHBr₃, KOH"
+      ],
+      "category": "alkene-hx",
+      "reactant": "Propene",
+      "product": "2-Bromopropane"
+    },
+    {
+      "number": 6,
+      "page": 3,
+      "correct": "HBr",
+      "distractors": [
+        "KOtBu",
+        "HBr, ROOR",
+        "H₃O⁺",
+        "NaH",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "conc. H₂SO₄, Δ",
+        "Br₂, H₂O"
+      ],
+      "category": "alkene-hx",
+      "reactant": "3-Methylbut-1-ene",
+      "product": "2-Bromo-2-methylbutane, rearranged product",
+      "notes": [
+        "Rearranged product retained exactly as drawn in the revised source."
+      ]
+    },
+    {
+      "number": 7,
+      "page": 4,
+      "correct": "HBr",
+      "distractors": [
+        "HBr, ROOR",
+        "H₂, Pd/C",
+        "conc. H₂SO₄, Δ",
+        "NaH",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "KBr",
+        "Br₂"
+      ],
+      "category": "alkene-hx",
+      "reactant": "Hex-1-ene",
+      "product": "2-Bromohexane"
+    },
+    {
+      "number": 8,
+      "page": 4,
+      "correct": "HCl",
+      "distractors": [
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "NaCl",
+        "CH₂N₂, hν",
+        "Cl₂, Δ",
+        "mCPBA",
+        "NaH",
+        "Cl₂, H₂O"
+      ],
+      "category": "alkene-hx",
+      "reactant": "2-Methylpropene",
+      "product": "2-Chloro-2-methylpropane"
+    },
+    {
+      "number": 9,
+      "page": 5,
+      "correct": "HBr, ROOR",
+      "distractors": [
+        "CHBr₃, KOH",
+        "NaH",
+        "NBS, hν",
+        "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+        "HBr",
+        "Br₂",
+        "1. BH₃·THF 2. H₂O₂, NaOH"
+      ],
+      "category": "alkene-hbr-peroxide",
+      "reactant": "Propene",
+      "product": "1-Bromopropane"
+    },
+    {
+      "number": 10,
+      "page": 5,
+      "correct": "HBr, ROOR",
+      "distractors": [
+        "NBS, hν",
+        "CHBr₃, KOH",
+        "KBr",
+        "conc. H₂SO₄, Δ",
+        "PBr₃",
+        "HBr",
+        "Grubbs catalyst"
+      ],
+      "category": "alkene-hbr-peroxide",
+      "reactant": "But-1-ene",
+      "product": "1-Bromobutane"
+    },
+    {
+      "number": 11,
+      "page": 6,
+      "correct": "HBr, ROOR",
+      "distractors": [
+        "CHBr₃, KOH",
+        "H₂, Pt",
+        "NaSH",
+        "NBS, hν",
+        "HBr",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "Br₂"
+      ],
+      "category": "alkene-hbr-peroxide",
+      "reactant": "Methylenecyclohexane",
+      "product": "Bromomethylcyclohexane"
+    },
+    {
+      "number": 12,
+      "page": 6,
+      "correct": "HBr, ROOR",
+      "distractors": [
+        "CHBr₃, KOH",
+        "CH₂I₂, Zn(Cu)",
+        "NBS, hν",
+        "NaN₃",
+        "1. O₃ 2. (CH₃)₂S",
+        "Br₂",
+        "HBr"
+      ],
+      "category": "alkene-hbr-peroxide",
+      "reactant": "5,5-Dimethylhex-1-ene",
+      "product": "1-Bromo-5,5-dimethylhexane"
+    },
+    {
+      "number": 13,
+      "page": 7,
+      "correct": "H₃O⁺, Δ",
+      "distractors": [
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "OsO₄, H₂O₂",
+        "KOH",
+        "Br₂, H₂O",
+        "SOCl₂",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "conc. H₃PO₄, Δ"
+      ],
+      "category": "alkene-acid-hydration",
+      "reactant": "Methylenecyclohexane",
+      "product": "1-Methylcyclohexan-1-ol"
+    },
+    {
+      "number": 14,
+      "page": 7,
+      "correct": "H₃O⁺, Δ",
+      "distractors": [
+        "OsO₄, H₂O₂",
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "SOCl₂",
+        "conc. H₂SO₄, Δ",
+        "Cl₂",
+        "NaOH",
+        "NBS, hν"
+      ],
+      "category": "alkene-acid-hydration",
+      "reactant": "But-1-ene",
+      "product": "Butan-2-ol"
+    },
+    {
+      "number": 15,
+      "page": 8,
+      "correct": "H₃O⁺, Δ",
+      "distractors": [
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "conc. H₂SO₄, Δ",
+        "H₂, Pt",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "1. O₃ 2. (CH₃)₂S",
+        "KOtBu"
+      ],
+      "category": "alkene-acid-hydration",
+      "reactant": "Allylbenzene",
+      "product": "1-Phenylpropan-1-ol, rearranged benzylic alcohol",
+      "notes": [
+        "Rearranged product retained exactly as drawn in the revised source."
+      ]
+    },
+    {
+      "number": 16,
+      "page": 8,
+      "correct": "H₃O⁺, Δ",
+      "distractors": [
+        "NaOH",
+        "H₂, Pd/C",
+        "NBS, hν",
+        "conc. H₃PO₄, Δ",
+        "Na, metal",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "CH₂N₂, hν"
+      ],
+      "category": "alkene-acid-hydration",
+      "reactant": "2-Methylpropene",
+      "product": "2-Methylpropan-2-ol"
+    },
+    {
+      "number": 17,
+      "page": 9,
+      "correct": "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "distractors": [
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "NaOH",
+        "NaN₃",
+        "H₃O⁺, Δ",
+        "NaCl",
+        "conc. H₂SO₄, Δ",
+        "KOtBu"
+      ],
+      "category": "oxymercuration",
+      "reactant": "Allylbenzene",
+      "product": "1-Phenylpropan-2-ol"
+    },
+    {
+      "number": 18,
+      "page": 9,
+      "correct": "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "distractors": [
+        "NaOH",
+        "H₂, Pt",
+        "conc. H₃PO₄, Δ",
+        "Grubbs catalyst",
+        "KCN",
+        "1. O₃ 2. (CH₃)₂S",
+        "1. Hg(OAc)₂, PrOH 2. NaBH₄"
+      ],
+      "category": "oxymercuration",
+      "reactant": "But-1-ene",
+      "product": "Butan-2-ol"
+    },
+    {
+      "number": 19,
+      "page": 10,
+      "correct": "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "distractors": [
+        "NaH",
+        "H₂, Pt",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "H₂O₂",
+        "H₃O⁺, Δ",
+        "PBr₃",
+        "OsO₄, H₂O₂"
+      ],
+      "category": "oxymercuration",
+      "reactant": "1,2-Dimethylcyclohex-1-ene",
+      "product": "1,2-Dimethylcyclohexan-1-ol, both source stereoisomers"
+    },
+    {
+      "number": 20,
+      "page": 10,
+      "correct": "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+      "distractors": [
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "KOH",
+        "KMnO₄ (cold, dilute), NaOH",
+        "H₂, Pd/C",
+        "NaOH",
+        "Br₂, H₂O",
+        "OsO₄, H₂O₂"
+      ],
+      "category": "oxymercuration",
+      "reactant": "2-Methylpropene",
+      "product": "2-Methylpropan-2-ol"
+    },
+    {
+      "number": 21,
+      "page": 11,
+      "correct": "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+      "distractors": [
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "NaH",
+        "H₂, Pt",
+        "MeOH, Δ",
+        "HBr",
+        "H₃O⁺, Δ",
+        "NaOMe"
+      ],
+      "category": "alkoxymercuration",
+      "reactant": "Propene",
+      "product": "2-Methoxypropane"
+    },
+    {
+      "number": 22,
+      "page": 11,
+      "correct": "1. Hg(OAc)₂, iPrOH 2. NaBH₄",
+      "distractors": [
+        "diisopropylamine",
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "iPrOH, Δ",
+        "H₂O₂",
+        "conc. H₂SO₄, Δ",
+        "KMnO₄ (cold, dilute), NaOH",
+        "NaOiPr"
+      ],
+      "category": "alkoxymercuration",
+      "reactant": "Allylbenzene",
+      "product": "1-Phenyl-2-isopropoxypropane"
+    },
+    {
+      "number": 23,
+      "page": 12,
+      "correct": "1. Hg(OAc)₂, EtOH 2. NaBH₄",
+      "distractors": [
+        "EtOH, Δ",
+        "CH₂N₂, hν",
+        "SOCl₂",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "NBS, hν",
+        "EtBr",
+        "KOtBu"
+      ],
+      "category": "alkoxymercuration",
+      "reactant": "1,2-Dimethylcyclohex-1-ene",
+      "product": "1-Ethoxy-1,2-dimethylcyclohexane, both source stereoisomers"
+    },
+    {
+      "number": 24,
+      "page": 12,
+      "correct": "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+      "distractors": [
+        "MeI",
+        "MeOH, Δ",
+        "PBr₃",
+        "H₂, Pt",
+        "NaOMe",
+        "1. O₃ 2. Me₂S",
+        "KMnO₄ (cold, dilute), NaOH"
+      ],
+      "category": "alkoxymercuration",
+      "reactant": "2-Methylpropene",
+      "product": "2-Methoxy-2-methylpropane"
+    },
+    {
+      "number": 25,
+      "page": 13,
+      "correct": "1. BH₃·THF 2. H₂O₂, NaOH",
+      "distractors": [
+        "NBS, hν",
+        "conc. H₂SO₄, Δ",
+        "H₂O₂",
+        "NaOH",
+        "Cl₂",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "KCN"
+      ],
+      "category": "hydroboration-oxidation",
+      "reactant": "1-Methylcyclohex-1-ene",
+      "product": "2-Methylcyclohexan-1-ol, both source stereoisomers"
+    },
+    {
+      "number": 26,
+      "page": 13,
+      "correct": "1. BH₃·THF 2. H₂O₂, NaOH",
+      "distractors": [
+        "H₂, Pt",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "KOH, Δ",
+        "NaH",
+        "CHCl₃, KOH",
+        "H₂O₂",
+        "KMnO₄ (cold, dilute), NaOH"
+      ],
+      "category": "hydroboration-oxidation",
+      "reactant": "But-1-ene",
+      "product": "Butan-1-ol"
+    },
+    {
+      "number": 27,
+      "page": 14,
+      "correct": "1. BH₃·THF 2. H₂O₂, NaOH",
+      "distractors": [
+        "H₃O⁺",
+        "CH₂N₂, hν",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "CH₂I₂, Zn(Cu)",
+        "mCPBA",
+        "SOCl₂",
+        "KMnO₄ (cold, dilute), NaOH"
+      ],
+      "category": "hydroboration-oxidation",
+      "reactant": "Allylbenzene",
+      "product": "3-Phenylpropan-1-ol"
+    },
+    {
+      "number": 28,
+      "page": 14,
+      "correct": "1. BH₃·THF 2. H₂O₂, NaOH",
+      "distractors": [
+        "OsO₄, H₂O₂",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "KOH",
+        "HBr",
+        "H₃O⁺, Δ",
+        "conc. H₃PO₄, Δ",
+        "KMnO₄ (cold, dilute), NaOH"
+      ],
+      "category": "hydroboration-oxidation",
+      "reactant": "3,4-Dimethylhex-3-ene, geometry as drawn",
+      "product": "3,4-Dimethylhexan-3-ol, both source stereoisomers"
+    },
+    {
+      "number": 29,
+      "page": 15,
+      "correct": "Br₂",
+      "distractors": [
+        "NaCl",
+        "Br₂, H₂O",
+        "PBr₃",
+        "HBr",
+        "NBS, hν",
+        "mCPBA",
+        "CHBr₃, KOH"
+      ],
+      "category": "alkene-halogenation",
+      "reactant": "3-Methylhex-3-ene, geometry as drawn",
+      "product": "3,4-Dibromo-3-methylhexane, both source stereoisomers"
+    },
+    {
+      "number": 30,
+      "page": 15,
+      "correct": "Br₂",
+      "distractors": [
+        "Br₂, H₂O",
+        "cold, dilute KMnO₄",
+        "HBr",
+        "PBr₃",
+        "conc. H₂SO₄, Δ",
+        "KBr",
+        "CHBr₃, KOH"
+      ],
+      "category": "alkene-halogenation",
+      "reactant": "Propene",
+      "product": "1,2-Dibromopropane"
+    },
+    {
+      "number": 31,
+      "page": 16,
+      "correct": "Cl₂",
+      "distractors": [
+        "Cl₂, H₂O",
+        "HCl",
+        "NaOEt",
+        "KMnO₄ (conc.), Δ, H₃O⁺",
+        "NaCl",
+        "mCPBA",
+        "CHCl₃, KOH"
+      ],
+      "category": "alkene-halogenation",
+      "reactant": "Methylenecyclohexane",
+      "product": "1-Chloro-1-(chloromethyl)cyclohexane"
+    },
+    {
+      "number": 32,
+      "page": 16,
+      "correct": "I₂",
+      "distractors": [
+        "I₂, H₂O",
+        "HI",
+        "Br₂",
+        "mCPBA, H₃O⁺",
+        "DIPEA",
+        "CH₂I₂, Zn(Cu)",
+        "CHI₃, KOH"
+      ],
+      "category": "alkene-halogenation",
+      "reactant": "Cyclohexene",
+      "product": "trans-1,2-Diiodocyclohexane, both enantiomers",
+      "notes": [
+        "Iodine reagent and intended product retained as supplied in the revised instructor source."
+      ]
+    },
+    {
+      "number": 33,
+      "page": 17,
+      "correct": "I₂, H₂O",
+      "distractors": [
+        "I₂",
+        "CHI₃, KOH",
+        "H₂O₂",
+        "CH₂I₂, Zn(Cu)",
+        "HI",
+        "P/I₂",
+        "1. Hg(OAc)₂, MeOH 2. NaBH₄"
+      ],
+      "category": "halohydrin-formation",
+      "reactant": "1-Methylcyclohex-1-ene",
+      "product": "2-Iodo-1-methylcyclohexan-1-ol, both source stereoisomers",
+      "notes": [
+        "Iodine reagent and intended product retained as supplied in the revised instructor source."
+      ]
+    },
+    {
+      "number": 34,
+      "page": 17,
+      "correct": "Br₂, H₂O",
+      "distractors": [
+        "Br₂",
+        "HBr",
+        "KMnO₄ (conc.), Δ, H₃O⁺",
+        "CHBr₃, KOH",
+        "KBr",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "PBr₃"
+      ],
+      "category": "halohydrin-formation",
+      "reactant": "But-1-ene",
+      "product": "1-Bromobutan-2-ol"
+    },
+    {
+      "number": 35,
+      "page": 18,
+      "correct": "Br₂, H₂O",
+      "distractors": [
+        "Br₂",
+        "NaOH",
+        "EtBr",
+        "HBr",
+        "CHBr₃, KOH",
+        "KBr",
+        "PBr₃"
+      ],
+      "category": "halohydrin-formation",
+      "reactant": "3,4-Dimethylhex-3-ene, geometry as drawn",
+      "product": "4-Bromo-3,4-dimethylhexan-3-ol, both source stereoisomers"
+    },
+    {
+      "number": 36,
+      "page": 18,
+      "correct": "Cl₂, H₂O",
+      "distractors": [
+        "Cl₂",
+        "HCl",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "CHCl₃, KOH",
+        "Grubbs catalyst",
+        "NaCl",
+        "mCPBA"
+      ],
+      "category": "halohydrin-formation",
+      "reactant": "2-Methylpropene",
+      "product": "1-Chloro-2-methylpropan-2-ol"
+    },
+    {
+      "number": 37,
+      "page": 19,
+      "correct": "OsO₄, H₂O₂",
+      "distractors": [
+        "KMnO₄ (conc.), Δ, H₂O",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "conc. H₂SO₄, Δ",
+        "mCPBA",
+        "mCPBA, H₃O⁺",
+        "NaOH",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄"
+      ],
+      "category": "syn-dihydroxylation",
+      "reactant": "Hex-3-ene, geometry as drawn",
+      "product": "Hexane-3,4-diol, both source stereoisomers"
+    },
+    {
+      "number": 38,
+      "page": 19,
+      "correct": "OsO₄, H₂O₂",
+      "distractors": [
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "iPrOH, Δ",
+        "mCPBA, H₃O⁺",
+        "H₃O⁺",
+        "NaOH",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "conc. H₃PO₄, Δ"
+      ],
+      "category": "syn-dihydroxylation",
+      "reactant": "4-Methylpent-2-ene, geometry as drawn",
+      "product": "4-Methylpentane-2,3-diol, both source stereoisomers"
+    },
+    {
+      "number": 39,
+      "page": 20,
+      "correct": "KMnO₄ (cold, dilute), NaOH",
+      "distractors": [
+        "H₃O⁺, Δ",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "mCPBA",
+        "KOH",
+        "Br₂, H₂O",
+        "conc. H₃PO₄, Δ",
+        "H₂O₂"
+      ],
+      "category": "syn-dihydroxylation",
+      "reactant": "But-1-ene",
+      "product": "Butane-1,2-diol"
+    },
+    {
+      "number": 40,
+      "page": 20,
+      "correct": "KMnO₄ (cold, dilute), NaOH",
+      "distractors": [
+        "KCN",
+        "H₂, Pd/C",
+        "H₂O₂",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "H₃O⁺, Δ",
+        "mCPBA, H₃O⁺",
+        "conc. H₂SO₄, Δ"
+      ],
+      "category": "syn-dihydroxylation",
+      "reactant": "Cyclohexene",
+      "product": "cis-Cyclohexane-1,2-diol"
+    },
+    {
+      "number": 41,
+      "page": 21,
+      "correct": "mCPBA",
+      "distractors": [
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "KMnO₄ (cold, dilute), NaOH",
+        "1. O₃ 2. Me₂S",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "H₃O⁺, Δ",
+        "CHCl₃, KOH",
+        "KOH"
+      ],
+      "category": "peracid-epoxidation",
+      "reactant": "cis-But-2-ene",
+      "product": "cis-2,3-Dimethyloxirane"
+    },
+    {
+      "number": 42,
+      "page": 21,
+      "correct": "mCPBA",
+      "distractors": [
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "H₃O⁺, Δ",
+        "KMnO₄ (cold, dilute), NaOH",
+        "mCPBA, H₃O⁺",
+        "KOtBu",
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "H₂, Pt"
+      ],
+      "category": "peracid-epoxidation",
+      "reactant": "trans-Pent-2-ene",
+      "product": "trans-2-Ethyl-3-methyloxirane, both enantiomers"
+    },
+    {
+      "number": 43,
+      "page": 22,
+      "correct": "1. Br₂, H₂O 2. NaH",
+      "distractors": [
+        "conc. H₂SO₄, Δ",
+        "NBS, hν",
+        "mCPBA, H₃O⁺",
+        "OsO₄, H₂O₂",
+        "KBr",
+        "KMnO₄ (cold, dilute), NaOH",
+        "H₃O⁺, Δ"
+      ],
+      "category": "halohydrin-epoxide",
+      "reactant": "But-1-ene",
+      "product": "2-Ethyloxirane"
+    },
+    {
+      "number": 44,
+      "page": 22,
+      "correct": "1. Br₂, H₂O 2. NaH",
+      "distractors": [
+        "Br₂",
+        "H₃O⁺, Δ",
+        "mCPBA, H₃O⁺",
+        "NBS, hν",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "KMnO₄ (cold, dilute), NaOH"
+      ],
+      "category": "halohydrin-epoxide",
+      "reactant": "Cyclohexene",
+      "product": "Cyclohexene oxide"
+    },
+    {
+      "number": 45,
+      "page": 23,
+      "correct": "H₃O⁺",
+      "distractors": [
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "NBS, hν",
+        "CH₂I₂, Zn(Cu)",
+        "H₂, Pt",
+        "HI",
+        "1. O₃ 2. Me₂S",
+        "mCPBA"
+      ],
+      "category": "epoxide-acid-opening",
+      "reactant": "Cyclohexene oxide",
+      "product": "trans-Cyclohexane-1,2-diol, both enantiomers"
+    },
+    {
+      "number": 46,
+      "page": 23,
+      "correct": "H₃O⁺",
+      "distractors": [
+        "KMnO₄ (cold, dilute), NaOH",
+        "H₂, Pd/C",
+        "1. Br₂, H₂O 2. NaH",
+        "CH₂N₂, hν",
+        "NaH",
+        "mCPBA",
+        "NaOEt"
+      ],
+      "category": "epoxide-acid-opening",
+      "reactant": "Propylene oxide",
+      "product": "Propane-1,2-diol"
+    },
+    {
+      "number": 47,
+      "page": 24,
+      "correct": "mCPBA, H₃O⁺",
+      "distractors": [
+        "1. O₃ 2. Me₂S",
+        "OsO₄, H₂O₂",
+        "mCPBA",
+        "CHCl₃, KOH",
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "1. Br₂, H₂O 2. NaH",
+        "HBr, ROOR"
+      ],
+      "category": "epoxidation-hydrolysis",
+      "reactant": "cis-But-2-ene",
+      "product": "Butane-2,3-diol from anti addition, both enantiomers"
+    },
+    {
+      "number": 48,
+      "page": 24,
+      "correct": "mCPBA, H₃O⁺",
+      "distractors": [
+        "1. O₃ 2. Me₂S",
+        "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "1. Br₂, H₂O 2. NaH",
+        "conc. H₂SO₄, Δ",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "OsO₄, H₂O₂"
+      ],
+      "category": "epoxidation-hydrolysis",
+      "reactant": "Cyclohexene",
+      "product": "trans-Cyclohexane-1,2-diol, both enantiomers"
+    },
+    {
+      "number": 49,
+      "page": 25,
+      "correct": "NaH",
+      "distractors": [
+        "CH₂I₂, Zn(Cu)",
+        "SOCl₂",
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "HCl",
+        "KOtBu",
+        "mCPBA",
+        "OsO₄, H₂O₂"
+      ],
+      "category": "halohydrin-epoxide",
+      "reactant": "trans-2-Chlorocyclohexan-1-ol, stereochemistry as drawn",
+      "product": "Cyclohexene oxide, stereochemistry as drawn"
+    },
+    {
+      "number": 50,
+      "page": 25,
+      "correct": "NaH",
+      "distractors": [
+        "KMnO₄ (cold, dilute), NaOH",
+        "1. O₃ 2. (CH₃)₂S",
+        "OsO₄, H₂O₂",
+        "Br₂, H₂O",
+        "CH₂I₂, Zn(Cu)",
+        "Cl₂",
+        "H₂, Pt"
+      ],
+      "category": "halohydrin-epoxide",
+      "reactant": "1-Bromopropan-2-ol",
+      "product": "Propylene oxide"
+    },
+    {
+      "number": 51,
+      "page": 26,
+      "correct": "NaH",
+      "distractors": [
+        "H₂, Pd/C",
+        "mCPBA",
+        "PBr₃",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "OsO₄, H₂O₂",
+        "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+        "KMnO₄ (conc.), Δ, H₂O"
+      ],
+      "category": "halohydrin-epoxide",
+      "reactant": "2-Bromopentan-3-ol, stereochemistry as drawn",
+      "product": "2-Ethyl-3-methyloxirane, stereochemistry as drawn"
+    },
+    {
+      "number": 52,
+      "page": 26,
+      "correct": "NaH",
+      "distractors": [
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "Cl₂",
+        "NaOEt",
+        "CH₂I₂, Zn(Cu)",
+        "KCN",
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "mCPBA"
+      ],
+      "category": "halohydrin-epoxide",
+      "reactant": "1-Bromo-2-methylpropan-2-ol",
+      "product": "2,2-Dimethyloxirane"
+    },
+    {
+      "number": 53,
+      "page": 27,
+      "correct": "H₂, Pt",
+      "distractors": [
+        "KOtBu",
+        "Cl₂",
+        "HBr",
+        "NaSH",
+        "NaOH",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "CH₂I₂, Zn(Cu)"
+      ],
+      "category": "alkene-hydrogenation",
+      "reactant": "3,4-Dimethylhex-3-ene, geometry as drawn",
+      "product": "3,4-Dimethylhexane, both source stereoisomers"
+    },
+    {
+      "number": 54,
+      "page": 27,
+      "correct": "H₂, Pd/C",
+      "distractors": [
+        "OsO₄, H₂O₂",
+        "conc. H₂SO₄, Δ",
+        "KOtBu",
+        "NBS, hν",
+        "NaH",
+        "CH₂N₂, Δ",
+        "PBr₃"
+      ],
+      "category": "alkene-hydrogenation",
+      "reactant": "But-1-ene",
+      "product": "Butane"
+    },
+    {
+      "number": 55,
+      "page": 28,
+      "correct": "H₂, Pt",
+      "distractors": [
+        "Grubbs catalyst",
+        "conc. H₂SO₄, Δ",
+        "Br₂",
+        "KCN",
+        "H₂O₂",
+        "NBS, hν",
+        "Na, metal"
+      ],
+      "category": "alkene-hydrogenation",
+      "reactant": "1,2-Dimethylcyclohex-1-ene",
+      "product": "cis-1,2-Dimethylcyclohexane"
+    },
+    {
+      "number": 56,
+      "page": 28,
+      "correct": "D₂, Pd/C",
+      "distractors": [
+        "mCPBA",
+        "NaD",
+        "NaSD",
+        "Grubbs catalyst",
+        "OsO₄, H₂O₂",
+        "KMnO₄ (conc.), Δ, H₃O⁺",
+        "Br₂, D₂O"
+      ],
+      "category": "alkene-hydrogenation",
+      "reactant": "Cyclohexene",
+      "product": "cis-1,2-Dideuteriocyclohexane"
+    },
+    {
+      "number": 57,
+      "page": 29,
+      "correct": "CH₂I₂, Zn(Cu)",
+      "distractors": [
+        "Grubbs catalyst",
+        "NaH",
+        "H₃O⁺",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "Cl₂",
+        "HI"
+      ],
+      "category": "simmons-smith",
+      "reactant": "cis-Pent-2-ene",
+      "product": "cis-1-Ethyl-2-methylcyclopropane, both enantiomers"
+    },
+    {
+      "number": 58,
+      "page": 29,
+      "correct": "CH₂I₂, Zn(Cu)",
+      "distractors": [
+        "Grubbs catalyst",
+        "Br₂, H₂O",
+        "Na, metal",
+        "OsO₄, H₂O₂",
+        "NaOEt",
+        "conc. H₂SO₄, Δ",
+        "NaH"
+      ],
+      "category": "simmons-smith",
+      "reactant": "Propene",
+      "product": "Methylcyclopropane"
+    },
+    {
+      "number": 59,
+      "page": 30,
+      "correct": "CH₂I₂, Zn(Cu)",
+      "distractors": [
+        "conc. H₂SO₄, Δ",
+        "CHI₃, KOH",
+        "NaCl",
+        "H₃O⁺",
+        "Na, metal",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "Grubbs catalyst"
+      ],
+      "category": "simmons-smith",
+      "reactant": "trans-Pent-2-ene",
+      "product": "trans-1-Ethyl-2-methylcyclopropane, both enantiomers"
+    },
+    {
+      "number": 60,
+      "page": 30,
+      "correct": "CH₂I₂, Zn(Cu)",
+      "distractors": [
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "NaN₃",
+        "Na, metal",
+        "H₃O⁺",
+        "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+        "CHI₃, KOH",
+        "H₂, Pt cat"
+      ],
+      "category": "simmons-smith",
+      "reactant": "Cyclohexene",
+      "product": "Bicyclo[4.1.0]heptane"
+    },
+    {
+      "number": 61,
+      "page": 31,
+      "correct": "CHCl₃, KOH",
+      "distractors": [
+        "H₂, Pt",
+        "Cl₂, H₂O",
+        "CH₂N₂, Δ",
+        "OsO₄, H₂O₂",
+        "HCl",
+        "Cl₂, hν",
+        "NaCl"
+      ],
+      "category": "carbene-alpha-elimination",
+      "reactant": "trans-Pent-2-ene",
+      "product": "1,1-Dichloro-2-ethyl-3-methylcyclopropane, trans substituents, both enantiomers"
+    },
+    {
+      "number": 62,
+      "page": 31,
+      "correct": "CHBr₃, KOH",
+      "distractors": [
+        "CH₂I₂, Zn(Cu)",
+        "NBS, Δ",
+        "KBr",
+        "Br₂, H₂O",
+        "HBr",
+        "mCPBA",
+        "KMnO₄ (conc.), Δ, H₂O"
+      ],
+      "category": "carbene-alpha-elimination",
+      "reactant": "Propene",
+      "product": "1,1-Dibromo-2-methylcyclopropane"
+    },
+    {
+      "number": 63,
+      "page": 32,
+      "correct": "CHI₃, KOH",
+      "distractors": [
+        "NBS, hν",
+        "HI",
+        "H₂, Pt",
+        "KI",
+        "CH₂I₂, Zn(Cu)",
+        "mCPBA",
+        "Na, metal"
+      ],
+      "category": "carbene-alpha-elimination",
+      "reactant": "cis-Pent-2-ene",
+      "product": "1,1-Diiodo-2-ethyl-3-methylcyclopropane, cis substituents, both enantiomers",
+      "notes": [
+        "Iodine reagent and intended product retained as supplied in the revised instructor source."
+      ]
+    },
+    {
+      "number": 64,
+      "page": 32,
+      "correct": "CHCl₃, KOH",
+      "distractors": [
+        "HCl",
+        "CH₂N₂, hν",
+        "Cl₂, hν",
+        "KCN",
+        "1. Cl₂, H₂O 2. NaH",
+        "NaCl",
+        "KMnO₄ (conc.), Δ, H₂O"
+      ],
+      "category": "carbene-alpha-elimination",
+      "reactant": "Cyclohexene",
+      "product": "7,7-Dichlorobicyclo[4.1.0]heptane"
+    },
+    {
+      "number": 65,
+      "page": 33,
+      "correct": "CH₂N₂, Δ",
+      "distractors": [
+        "KOtBu",
+        "CHCl₃, KOH",
+        "NaCl",
+        "HI",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "mCPBA",
+        "1. O₃ 2. PPh₃"
+      ],
+      "category": "carbene-diazomethane",
+      "reactant": "cis-Pent-2-ene",
+      "product": "cis-1-Ethyl-2-methylcyclopropane, both enantiomers"
+    },
+    {
+      "number": 66,
+      "page": 33,
+      "correct": "CH₂N₂, hν",
+      "distractors": [
+        "cold, dilute KMnO₄",
+        "H₃O⁺",
+        "NaN₃",
+        "NBS, hν",
+        "Br₂, H₂O",
+        "CHBr₃, KOH",
+        "mCPBA, H₃O⁺"
+      ],
+      "category": "carbene-diazomethane",
+      "reactant": "Propene",
+      "product": "Methylcyclopropane"
+    },
+    {
+      "number": 67,
+      "page": 34,
+      "correct": "CH₂N₂, Δ",
+      "distractors": [
+        "H₂, Pd/C",
+        "mCPBA, H₃O⁺",
+        "HBr",
+        "CHBr₃, KOH",
+        "conc. H₂SO₄, Δ",
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "Schrock catalyst"
+      ],
+      "category": "carbene-diazomethane",
+      "reactant": "trans-Pent-2-ene",
+      "product": "trans-1-Ethyl-2-methylcyclopropane, both enantiomers"
+    },
+    {
+      "number": 68,
+      "page": 34,
+      "correct": "CH₂N₂, hν",
+      "distractors": [
+        "mCPBA",
+        "conc. H₂SO₄, Δ",
+        "NaOEt",
+        "Grubbs catalyst",
+        "CHI₃, KOH",
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "Br₂, H₂O"
+      ],
+      "category": "carbene-diazomethane",
+      "reactant": "Cyclohexene",
+      "product": "Bicyclo[4.1.0]heptane"
+    },
+    {
+      "number": 69,
+      "page": 35,
+      "correct": "1. O₃ 2. Me₂S",
+      "distractors": [
+        "KMnO₄ (cold, dilute), NaOH",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "CH₂I₂, Zn(Cu)",
+        "mCPBA, H₃O⁺",
+        "CHI₃, KOH",
+        "Schrock catalyst",
+        "1. B₂H₆ 2. H₂O₂, NaOH"
+      ],
+      "category": "alkene-ozonolysis",
+      "reactant": "But-2-ene",
+      "product": "Two molecules of ethanal"
+    },
+    {
+      "number": 70,
+      "page": 35,
+      "correct": "1. O₃ 2. PPh₃",
+      "distractors": [
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "CH₂I₂, Zn(Cu)",
+        "CHI₃, KOH",
+        "mCPBA, H₃O⁺",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "KMnO₄ (cold, dilute), NaOH",
+        "SOCl₂"
+      ],
+      "category": "alkene-ozonolysis",
+      "reactant": "2-Methylbut-2-ene",
+      "product": "Ethanal and acetone"
+    },
+    {
+      "number": 71,
+      "page": 36,
+      "correct": "1. O₃ 2. Me₂S",
+      "distractors": [
+        "1. BH₃·THF 2. H₂O₂, NaOH",
+        "Br₂",
+        "KOtBu",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "Grubbs catalyst",
+        "mCPBA, H₃O⁺",
+        "KMnO₄ (cold, dilute), NaOH"
+      ],
+      "category": "alkene-ozonolysis",
+      "reactant": "Cyclohexene",
+      "product": "Hexane-1,6-dial"
+    },
+    {
+      "number": 72,
+      "page": 36,
+      "correct": "1. O₃ 2. PPh₃",
+      "distractors": [
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "KMnO₄ (conc.), Δ, H₂O",
+        "HBr",
+        "KMnO₄ (cold, dilute), NaOH",
+        "mCPBA, H₃O⁺",
+        "CH₂I₂, Zn(Cu)",
+        "H₃O⁺"
+      ],
+      "category": "alkene-ozonolysis",
+      "reactant": "3-Methylhex-3-ene",
+      "product": "Butan-2-one and propanal"
+    },
+    {
+      "number": 73,
+      "page": 37,
+      "correct": "KMnO₄ (conc.), Δ, H₂O",
+      "distractors": [
+        "1. Hg(OAc)₂, H₂O 2. NaBH₄",
+        "1. O₃ 2. PPh₃",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "conc. H₂SO₄, Δ",
+        "mCPBA, H₃O⁺",
+        "KMnO₄ (cold, dilute), NaOH",
+        "NBS, hν"
+      ],
+      "category": "alkene-oxidative-cleavage",
+      "reactant": "3-Methylhex-3-ene",
+      "product": "Butan-2-one and propanoic acid"
+    },
+    {
+      "number": 74,
+      "page": 37,
+      "correct": "KMnO₄ (conc.), Δ, H₂O",
+      "distractors": [
+        "1. O₃ 2. PPh₃",
+        "1. Hg(OAc)₂, MeOH 2. NaBH₄",
+        "CH₂I₂, Zn(Cu)",
+        "H₂O₂",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "mCPBA, H₃O⁺",
+        "KMnO₄ (cold, dilute), NaOH"
+      ],
+      "category": "alkene-oxidative-cleavage",
+      "reactant": "1-Methylcyclopent-1-ene",
+      "product": "5-Oxohexanoic acid"
+    },
+    {
+      "number": 75,
+      "page": 38,
+      "correct": "KMnO₄ (conc.), Δ, H₂O",
+      "distractors": [
+        "H₃O⁺",
+        "1. O₃ 2. Me₂S",
+        "mCPBA",
+        "OsO₄, H₂O₂",
+        "1. B₂H₆ 2. H₂O₂, NaOH",
+        "HBr",
+        "1. Hg(OAc)₂, MeOH 2. NaBH₄"
+      ],
+      "category": "alkene-oxidative-cleavage",
+      "reactant": "Cyclohexene",
+      "product": "Hexanedioic acid"
+    },
+    {
+      "number": 76,
+      "page": 38,
+      "correct": "KMnO₄ (conc.), Δ, H₂O",
+      "distractors": [
+        "H₂O₂",
+        "1. O₃ 2. Me₂S",
+        "mCPBA, H₃O⁺",
+        "Cl₂",
+        "OsO₄, H₂O₂",
+        "CH₂I₂, Zn(Cu)",
+        "Schrock catalyst"
+      ],
+      "category": "alkene-oxidative-cleavage",
+      "reactant": "Pent-2-ene",
+      "product": "Ethanoic acid and propanoic acid"
+    },
+    {
+      "number": 77,
+      "page": 39,
+      "correct": "Schrock catalyst",
+      "distractors": [
+        "KMnO₄ (conc.), Δ, H₂O",
+        "CH₂I₂, Zn(Cu)",
+        "conc. H₂SO₄, Δ",
+        "HI",
+        "NaN₃",
+        "OsO₄, H₂O₂",
+        "HBr, ROOR"
+      ],
+      "category": "olefin-metathesis",
+      "reactant": "Propene and but-1-ene",
+      "product": "Pent-2-ene, E + Z",
+      "notes": [
+        "E + Z product label retained; the source omits the ethylene coproduct."
+      ]
+    },
+    {
+      "number": 78,
+      "page": 39,
+      "correct": "Grubbs catalyst",
+      "distractors": [
+        "HCl",
+        "1. O₃ 2. Me₂S",
+        "CH₂I₂, Zn(Cu)",
+        "PBr₃",
+        "mCPBA",
+        "KMnO₄ (cold, dilute), NaOH",
+        "KCN"
+      ],
+      "category": "olefin-metathesis",
+      "reactant": "But-1-ene and allyl alcohol",
+      "product": "Pent-2-en-1-ol, E + Z",
+      "notes": [
+        "E + Z product label retained; the source omits the ethylene coproduct."
+      ]
+    },
+    {
+      "number": 79,
+      "page": 40,
+      "correct": "Schrock catalyst",
+      "distractors": [
+        "NaSH",
+        "CH₂I₂, Zn(Cu)",
+        "OsO₄, H₂O₂",
+        "KOtBu",
+        "1. O₃ 2. Me₂S",
+        "NaH",
+        "CHCl₃, KOH"
+      ],
+      "category": "olefin-metathesis",
+      "reactant": "Propene and vinylcyclopentane",
+      "product": "1-Cyclopentylprop-1-ene, E + Z",
+      "notes": [
+        "E + Z product label retained; the source omits the ethylene coproduct."
+      ]
+    },
+    {
+      "number": 80,
+      "page": 40,
+      "correct": "Grubbs catalyst",
+      "distractors": [
+        "OsO₄, H₂O₂",
+        "HCl",
+        "1. O₃ 2. Me₂S",
+        "CH₂I₂, Zn(Cu)",
+        "NBS, hν",
+        "Br₂",
+        "HBr, ROOR"
+      ],
+      "category": "olefin-metathesis",
+      "reactant": "Allyl alcohol and styrene",
+      "product": "3-Phenylprop-2-en-1-ol, E + Z",
+      "notes": [
+        "E + Z product label retained; the source omits the ethylene coproduct."
+      ]
+    }
+  ]
+}

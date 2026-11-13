@@ -1,0 +1,29 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>Pent-2-ene</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M40 176H330V256H40Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 279V63"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 109.5 106.8 70.1"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M106.8 70.1 175 109.5"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M106.8 83.7 169.1 119.7"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M175 109.5 243.2 70.1"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M243.2 70.1 311.5 109.5"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M103.3 72 106.8 70.1 110.2 72"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M171.6 107.5 175 109.5 178.4 107.5"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M239.8 72 243.2 70.1 246.7 72"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 169"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 159"/>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M350 69H498V257H350Z" fill="#ffffff" fill-rule="evenodd"/>
+</g>
+</g>
+</svg>

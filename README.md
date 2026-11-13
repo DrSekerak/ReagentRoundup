@@ -1,8 +1,16 @@
 # Reagent Roundup
 
+The bank now includes **140 questions**: the original 60 plus all 80 problems from `Organic_Reactions_80_Problems_Revised_v11.pdf`. The introduction includes the checkbox heading **Alkene Reactions (and Other Unit 4 Reactions)** and the eight requested individual choices. Checking the heading selects every Unit 4 choice; partial selection shows a mixed checkbox. Global Select All/Clear All includes both source sets. Existing saved sessions and original group IDs remain compatible.
+
+Unit 4 question counts: alkoxide formation **4**, Markovnikov additions **24**, anti-Markovnikov additions **8**, hydrogenation **4**, carbene reactions **12**, epoxidation/ring opening **12**, dihydroxylation/cleavage **12**, metathesis **4**. The six reaction types requested under Markovnikov additions are grouped there, including dihalogen addition. Detailed category names describe the individual mechanisms.
+
+Unit 4 uses exact source drawings exported to static SVGs, preserving wedges, dashes, charges, paired stereoisomers, and E + Z labels. Each drawing has an accessible chemical description and a `sourceDepiction` document/page/crop reference instead of an unverified SMILES transcription. `tools/unit4-source-evidence.json` stores checked answers and distractors with the source SHA-256; `tools/unit4-structure-manifest.json` stores all 160 drawing checksums. The original bank and its preparation workflow are retained separately.
+
+Regenerate Unit 4 with `python tools/prepare_unit4.py /path/to/Organic_Reactions_80_Problems_Revised_v11.pdf` using the preparation dependencies. The generator requires the checked PDF fingerprint and verifies every exported drawing is pixel-identical to the original source crop at 2× resolution. It writes `src/data/unit4-question-bank.json` and `public/structures/unit4-*.svg`; validation checks both source sets together, with source problem numbers unique within each document. Prepared means transcribed and checked, not instructor-approved.
+
 Organic chemistry reagent practice for Cedarville University. **Stages 1–4 implemented.**
 
-The React/TypeScript/Vite application includes the introduction, grouped category selection, and all 60 source questions with correct answers, seven distractors, explanations, hints, SMILES, source references, and 120 pre-generated RDKit SVGs. **All 60 questions are available. Questions 35–37 were approved as supplied by the instructor on October 31, 2026.** Prepared means transcribed and checked, not instructor-approved.
+The React/TypeScript/Vite application includes the introduction, grouped category selection, and all 140 source questions with correct answers, seven distractors, explanations, hints, and source references. The original set uses checked SMILES and 120 pre-generated RDKit SVGs; Unit 4 adds 160 exact source-drawing SVGs. **All 140 questions are available. Original-set questions 35–37 were approved as supplied by the instructor on October 31, 2026.** Prepared means transcribed and checked, not instructor-approved.
 
 Stage 3 practice is interactive: Start Now creates a shuffled session containing the chosen number of questions from the selected groups, with eight independently shuffled answer choices. Stage 4 saves progress automatically and provides scoring, category summaries, and detailed reviews. An Express server now requires Cedarville Microsoft Entra sign-in and offers explicit PostgreSQL account saves alongside the existing browser storage.
 
@@ -20,7 +28,7 @@ npm run build
 npm run preview
 ```
 
-Open Vite's local URL. Select groups individually and in combination, use Select All/Clear All, and check keyboard Space activation. Expected available counts: Radical Halogenation **14**, Nucleophilic Substitution **29**, Elimination **17**, all groups **60**. No questions are currently held. Selections, session length, and practice progress are restored in the same browser/profile after refresh.
+Open the local URL. Select groups individually and in combination, use Select All/Clear All, and check keyboard Space activation. Expected available counts: Radical Halogenation **14**, Nucleophilic Substitution **29**, Elimination **17**, Unit 4 **80**, all groups **140**. No questions are currently held. Selections, session length, and practice progress are restored in the same browser/profile after refresh.
 
 `validate` runs TypeScript and database checks; `validate:questions` checks just the bank. Tests cover group filtering, schema failures, source revisions, 120 SVG checksums, static assets, stereochemistry metadata, formula characters, and review exclusion. Validation cannot establish experimental feasibility or regioselectivity; instructor judgment remains necessary.
 
@@ -59,7 +67,7 @@ Record instructor decisions in tools/instructor-approvals.json and the preparati
 
 ## Adding or changing questions
 
-The supplied `Organic_Reaction_Reagents_60_Problems.pdf` is authoritative. SMILES were transcribed from final visible drawings, not inferred from the answer key. Reagent identities/conditions are retained; typography is normalized to Unicode subscripts/superscripts (Br₂, ZnCl₂, H₃O⁺), Δ, and hν. Questions 51–60 use SN2. Questions 30, 32, 40 retain E + Z labels; 59–60 show inversion. See the report for details.
+For the original set, `Organic_Reaction_Reagents_60_Problems.pdf` is authoritative; Unit 4 uses the revised 80-problem PDF described above. Original-set SMILES were transcribed from final visible drawings, not inferred from the answer key. Reagent identities/conditions are retained; typography is normalized to Unicode subscripts/superscripts (Br₂, ZnCl₂, H₃O⁺), Δ, and hν. Original questions 51–60 use SN2. Original questions 30, 32, 40 retain E + Z labels; 59–60 show inversion. See the report for details.
 
 Update `tools/structure-transcriptions.json`, `tools/source-evidence.json`, and the relevant explanation/review metadata in `tools/prepare_questions.py`. The current generator intentionally asserts 60 records to detect omissions. For future expansion, deliberately extend its count/category mapping or add separate instructor-authored records without renumbering source questions.
 

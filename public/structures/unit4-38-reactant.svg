@@ -1,0 +1,48 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>4-Methylpent-2-ene, geometry as drawn</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M40 176H330V256H40Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 279V63"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 124.1 175 45.3"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M175 45.3 311.5 124.1"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M175 72.6 299.7 144.5"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M168.2 49.2 175 45.3 181.8 49.2"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 169"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 159"/>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M40 176H330V256H40Z" fill="#ffffff" fill-rule="evenodd"/>
+<g transform="matrix(1.28,0,0,1.28,95,8)">
+<image id="image_3" width="75" height="50" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAEsAAAAyCAAAAAAxCHk/AAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAABEElEQVR4nO3WWxGDMBAFUCxgIRZiIRZiAQtYiAUsxEIsxEIsxEI7
+fDUv9l46+emU/StDD8yyjyyvebE81v9YKU2z8hqnWW6jKMZKmqMYyx7TrMC+FmGZ
+MM06LEtBKyuuthhrdzSFrKjzNMt4ngJWMDcoYCmuERnL8fWArKxuJL6ynG1D7fj/
+saiZj5VTG57IfNlhYr7whPBlRkUrwYTp8kPLNeFAxuqJK1tZi53dfGjQQ3L6TZ1P
+NCeMUPlR1b+R1d4vPQfOVXs5wHzbYdDKVxOsn7h4d1xt2v46sR/Pugi+inDWcXcj
+YZ114bYq9mF/MecJO9iQow3MWHHt0z/awNT5y+ouRhP3p8+Yj/VYX8YbLA468azD
+H3gAAAAASUVORK5CYII="/>
+</g>
+</g>
+<g clip-path="url(#clip_4)">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M40 176H330V256H40Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.971429,0,0,-.971429,184.2857,63.3143)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-42 50-58 24"/>
+<path transform="matrix(.971429,0,0,-.971429,184.2857,63.3143)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-58 24-42-2"/>
+<path transform="matrix(.971429,0,0,-.971429,184.2857,63.3143)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-42-4H-12"/>
+<path transform="matrix(.971429,0,0,-.971429,184.2857,63.3143)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-42 0H-12"/>
+<path transform="matrix(.971429,0,0,-.971429,184.2857,63.3143)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-12-2 3 24"/>
+<path transform="matrix(.971429,0,0,-.971429,184.2857,63.3143)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-58 24H-88"/>
+</g>
+</g>
+</svg>

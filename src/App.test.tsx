@@ -42,10 +42,10 @@ describe('introduction', () => {
     expect(screen.getByRole('checkbox', { name: 'Select All' })).toBePartiallyChecked();
     confirm.mockRestore();
   });
-  it('shows three reaction groups and requires a selection before practice', () => {
+  it('shows reaction groups and the Unit 4 heading and requires a selection before practice', () => {
     render(<App />);
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Organic Chemistry:Choose the Reagents');
-    expect(screen.getAllByRole('checkbox')).toHaveLength(4);
+    expect(screen.getAllByRole('checkbox')).toHaveLength(reactionGroups.length + 2);
     expect(screen.getByRole('button', { name: /Start Now/ })).toBeDisabled();
     expect(screen.getByRole('status')).toHaveTextContent('0 questions available');
     expect(screen.getByText(/then Load from account to continue on another device/)).toBeVisible();
@@ -57,12 +57,12 @@ describe('introduction', () => {
     const all = screen.getByRole('checkbox', { name: 'Select All' });
     await user.click(screen.getByRole('checkbox', { name: 'Nucleophilic Substitution' }));
     expect(all).toBePartiallyChecked();
-    expect(screen.getByRole('status')).toHaveTextContent('1 of 3 groups selected');
+    expect(screen.getByRole('status')).toHaveTextContent('1 of 11 groups selected');
     await user.click(all);
     for (const group of reactionGroups) expect(screen.getByRole('checkbox', { name: group.label })).toBeChecked();
     expect(all).toBeChecked();
     await user.click(all);
-    expect(screen.getByRole('status')).toHaveTextContent('0 of 3 groups selected');
+    expect(screen.getByRole('status')).toHaveTextContent('0 of 11 groups selected');
     await user.click(all);
     await user.click(screen.getByRole('button', { name: 'Clear All' }));
     expect(screen.getAllByRole('checkbox').every((input) => !(input as HTMLInputElement).checked)).toBe(true);
@@ -77,6 +77,6 @@ describe('introduction', () => {
     expect(bromination).toBeChecked();
     await user.keyboard(' ');
     expect(bromination).not.toBeChecked();
-    expect(screen.getByRole('status')).toHaveTextContent('0 of 3 groups selected');
+    expect(screen.getByRole('status')).toHaveTextContent('0 of 11 groups selected');
   });
 });

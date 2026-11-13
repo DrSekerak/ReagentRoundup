@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState, useSyncExternalStore } from 'react';
-import { reactionGroups, type ReactionGroup } from './data/categories';
+import { alkeneSection, reactionGroups, type ReactionGroup } from './data/categories';
 import { questions } from './data/questions';
 import { filterQuestions } from './lib/questions';
 import Practice from './components/Practice';
@@ -20,13 +20,17 @@ export default function App() {
   const saveNotice = useSyncExternalStore(repository.subscribe, repository.getNotice);
   const storageNotice = needsReplacementConfirmation ? loaded.notice : saveNotice;
   const selectAll = useRef<HTMLInputElement>(null);
+  const selectAlkenes = useRef<HTMLInputElement>(null);
+  const alkeneSelectedCount = alkeneSection.groups.filter(id => selected.includes(id)).length;
+  const allAlkenesSelected = alkeneSelectedCount === alkeneSection.groups.length;
   const allSelected = selected.length === reactionGroups.length;
   const selectedCategories = reactionGroups.filter(({ id }) => selected.includes(id)).flatMap(({ categories }) => [...categories]);
   const available = filterQuestions(questions, selectedCategories).length;
 
   useEffect(() => {
     if (selectAll.current) selectAll.current.indeterminate = selected.length > 0 && !allSelected;
-  }, [selected, allSelected, practicing]);
+    if (selectAlkenes.current) selectAlkenes.current.indeterminate = alkeneSelectedCount > 0 && !allAlkenesSelected;
+  }, [selected, allSelected, alkeneSelectedCount, allAlkenesSelected, practicing]);
 
   useEffect(() => {
     if (needsReplacementConfirmation) return; // Keep incompatible saved work until replacement is confirmed.
@@ -41,6 +45,9 @@ export default function App() {
   }
   function toggle(id: ReactionGroup) {
     selectGroups(selected.includes(id) ? selected.filter(value => value !== id) : [...selected, id]);
+  }
+  function groupOption({ id, label }: (typeof reactionGroups)[number]) {
+    return <label className={`category-option ${selected.includes(id) ? 'selected' : ''}`} key={id}><input type="checkbox" checked={selected.includes(id)} onChange={() => toggle(id)} /><span>{label}</span></label>;
   }
   function startPractice() {
     if (!confirmReplacement()) return;
@@ -82,7 +89,11 @@ export default function App() {
           <div className="panel-heading"><p className="eyebrow">BUILD YOUR PRACTICE</p><h2 id="selection-title">Choose reaction categories</h2><p>Select any combination to focus your review.</p></div>
           {(session || needsReplacementConfirmation) && <div className="saved-session"><h3>{session && sessionFinished(session) ? 'Previous session results' : 'Previous session'}</h3>{session && <><p>{session.entries.filter(entry => entry.correct || entry.attempts.length === 3).length} of {session.entries.length} questions completed.</p><button className="primary-button" onClick={() => setPracticing(true)}>{sessionFinished(session) ? 'Review Previous Results' : 'Resume Previous Session'}</button></>}<button className="secondary-button" onClick={startNewSession}>Start New Session</button></div>}
           <div className="selection-tools"><label><input ref={selectAll} type="checkbox" checked={allSelected} onChange={() => selectGroups(allSelected ? [] : reactionGroups.map(({ id }) => id))} /> Select All</label><button className="text-button" onClick={() => selectGroups([])} disabled={selected.length === 0}>Clear All</button></div>
-          <fieldset><legend className="sr-only">Reaction categories</legend><div className="category-grid">{reactionGroups.map(({ id, label }) => <label className={`category-option ${selected.includes(id) ? 'selected' : ''}`} key={id}><input type="checkbox" checked={selected.includes(id)} onChange={() => toggle(id)} /><span>{label}</span></label>)}</div></fieldset>
+          <fieldset><legend className="sr-only">Reaction categories</legend><div className="category-grid">{reactionGroups.filter(({ id }) => !alkeneSection.groups.includes(id)).map(groupOption)}</div></fieldset>
+          <fieldset className="alkene-section" aria-labelledby="alkene-heading">
+            <legend id="alkene-heading"><label><input ref={selectAlkenes} type="checkbox" checked={allAlkenesSelected} onChange={() => selectGroups(allAlkenesSelected ? selected.filter(id => !alkeneSection.groups.includes(id)) : [...new Set([...selected, ...alkeneSection.groups])])} /><span>{alkeneSection.label}</span></label></legend>
+            <div className="category-grid">{reactionGroups.filter(({ id }) => alkeneSection.groups.includes(id)).map(groupOption)}</div>
+          </fieldset>
           <fieldset className="session-length" aria-describedby="session-length-note"><legend>Number of questions</legend><div className="length-options">{([5, 10, 15, 20, 'all'] as const).map(count => {
             const disabled = count === 'all' ? available === 0 : available < count;
             return <label key={count} className={`length-option ${disabled ? 'disabled' : ''} ${questionCount === count ? 'selected' : ''}`}><input type="radio" name="question-count" value={count} checked={questionCount === count} disabled={disabled} onChange={() => setQuestionCount(count)} /><span>{count === 'all' ? 'All available' : count}</span></label>;

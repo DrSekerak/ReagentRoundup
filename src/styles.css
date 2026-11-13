@@ -15,6 +15,10 @@ main{max-width:1280px;margin:30px auto 0;padding:0 40px;display:grid;grid-templa
 @media(max-width:700px){.results-panel{padding:18px}.results-highlights,.results-stats{grid-template-columns:1fr 1fr}.results-actions{flex-direction:column}.saved-session{margin:0 18px 18px}.saved-session button{width:100%}.storage-notice{margin:10px 18px}}
 @media(max-width:420px){.results-highlights,.results-stats{grid-template-columns:1fr}.results-panel h1{font-size:30px}}
 .account-progress { max-width: 1180px; margin: 1rem auto; padding: 0 1.5rem; }
+.alkene-section{margin:0 20px 20px;padding:16px 0 0;border-top:1px solid #e2dbe8;min-width:0}
+.alkene-section legend{max-width:100%;padding:0 0 8px;font-size:15px;font-weight:650;line-height:1.4}
+.alkene-section legend label{display:flex;align-items:center;gap:10px;cursor:pointer}
+@media(max-width:520px){.alkene-section{margin-inline:14px}}
 .account-actions { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; }
 .account-progress p { font-size: .9rem; line-height: 1.5; }
 

@@ -1,0 +1,36 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>2-Bromopropane</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M40 342H330V422H40Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 437"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 427"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M96.9 168.9 175 123.8"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M175 123.8 253.1 168.9"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M175 123.8V86.6"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#7f4c19" d="M175 86.6V49.4"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M178.7 33C180.3667 33.46667 181.6 34.2 182.4 35.2 183.2667 36.2 183.7 37.43333 183.7 38.9 183.7 41.23333 182.9333 43.06667 181.4 44.4 179.9333 45.73333 177.7667 46.4 174.9 46.4H166.3V20.9H173.9C176.7667 20.9 178.9333 21.5 180.4 22.7 181.8667 23.83333 182.6 25.5 182.6 27.7 182.6 30.23333 181.3 32 178.7 33ZM169.8 23.8V31.8H173.9C175.5667 31.8 176.8333 31.46667 177.7 30.8 178.5667 30.06667 179 29.03333 179 27.7 179 25.1 177.3 23.8 173.9 23.8H169.8ZM174.9 43.5C176.5667 43.5 177.8333 43.13333 178.7 42.4 179.6333 41.6 180.1 40.43333 180.1 38.9 180.1 37.5 179.6 36.46667 178.6 35.8 177.6 35.06667 176.2 34.7 174.4 34.7H169.8V43.5H174.9Z" fill="#7f4c19" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M189.5 27.9 189.9 30.5C191.1667 28.56667 192.8667 27.6 195 27.6 195.6667 27.6 196.4667 27.7 197.4 27.9L196.8 31C195.8 30.73333 195 30.6 194.4 30.6 193.4 30.6 192.5667 30.8 191.9 31.2 191.2333 31.6 190.6333 32.26667 190.1 33.2V46.4H186.7V27.9H189.5Z" fill="#7f4c19" fill-rule="evenodd"/>
+<g clip-path="url(#clip_2)">
+</g>
+<g clip-path="url(#clip_3)">
+</g>
+<g clip-path="url(#clip_4)">
+</g>
+</g>
+</svg>

@@ -1,0 +1,29 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>1-Bromopropane</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M40 342H330V422H40Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 437"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 427"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 103.5 125.5 66.5"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M125.5 66.5 201 123.3"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M201 123.3 238.4 107.4"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#7f4c19" d="M238.4 107.4 275.8 91.5"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M121.1 68.3 125.5 66.5 129.3 69.3"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M197.3 120.5 201 123.3 202.9 122.5"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M292 85.6C293.6667 86.06667 294.9333 86.83333 295.8 87.9 296.6667 88.96667 297.1 90.26667 297.1 91.8 297.1 94.26667 296.3333 96.2 294.8 97.6 293.2 99 290.9 99.7 287.9 99.7H278.9V72.9H286.9C289.9 72.9 292.1667 73.53333 293.7 74.8 295.2333 76 296 77.73333 296 80 296 82.73333 294.6667 84.6 292 85.6ZM282.5 75.9V84.3H286.9C288.6333 84.3 289.9667 83.96667 290.9 83.3 291.8333 82.56667 292.3 81.46667 292.3 80 292.3 77.26667 290.5 75.9 286.9 75.9H282.5ZM287.9 96.7C289.7 96.7 291.0667 96.26667 292 95.4 292.9333 94.6 293.4 93.4 293.4 91.8 293.4 90.33333 292.8667 89.23333 291.8 88.5 290.8 87.76667 289.3333 87.4 287.4 87.4H282.5V96.7H287.9Z" fill="#7f4c19" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M303.2 80.2 303.6 82.9C305 80.9 306.8 79.9 309 79.9 309.7333 79.9 310.5667 80.03333 311.5 80.3L310.9 83.5C309.8333 83.23333 309 83.1 308.4 83.1 307.3333 83.1 306.4667 83.3 305.8 83.7 305.0667 84.1 304.4333 84.8 303.9 85.8V99.7H300.3V80.2H303.2Z" fill="#7f4c19" fill-rule="evenodd"/>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M521 412H750V430H521Z" fill="#ffffff" fill-rule="evenodd"/>
+</g>
+</g>
+</svg>

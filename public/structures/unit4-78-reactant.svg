@@ -1,0 +1,43 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>But-1-ene and allyl alcohol</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M40 176H330V256H40Z" clip-rule="evenodd"/>
+</clipPath>
+<path id="font_2_12" d="M.47705079 .6269531V.37109376H.7319336V.25585938H.47705079V0H.36083985V.25585938H.10595703V.37109376H.36083985V.6269531H.47705079Z"/>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 279V63"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,4.9357607)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 104.3 133.7 63.8"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M44.6 118.6 131.5 81.6"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M133.7 63.8 216.3 126"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M216.3 126 311.5 85.5"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M128.9 65.8 133.7 63.8 137.8 66.9"/>
+<path transform="matrix(.35857124,0,0,.35857124,11,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M212.2 122.9 216.3 126 221.1 124"/>
+<use data-text="+" xlink:href="#font_2_12" transform="matrix(12,0,0,-12,137.4727,39)" fill="#173550"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 103.1 121.3 67.9"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M43.8 115.5 119.4 83.3"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M121.3 67.9 193.1 121.9"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M193.1 121.9 227.2 107.4"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M227.2 107.4 261.2 93"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M117.1 69.6 121.3 67.9 124.9 70.6"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M189.6 119.2 193.1 121.9 194.8 121.2"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" d="M264.2 86.8C264.2 82.73333 265.2 79.56667 267.2 77.3 269.2667 74.96667 272.1667 73.8 275.9 73.8 279.7 73.8 282.6 74.96667 284.6 77.3 286.6 79.56667 287.6 82.73333 287.6 86.8 287.6 90.93333 286.5667 94.16667 284.5 96.5 282.5 98.83333 279.6333 100 275.9 100 272.1667 100 269.2667 98.83333 267.2 96.5 265.2 94.16667 264.2 90.93333 264.2 86.8ZM275.9 97.1C278.5 97.1 280.5 96.23333 281.9 94.5 283.3 92.76667 284 90.2 284 86.8 284 83.46667 283.3 80.96667 281.9 79.3 280.5 77.56667 278.5 76.7 275.9 76.7 273.3 76.7 271.3 77.53333 269.9 79.2 268.5 80.86667 267.8 83.4 267.8 86.8 267.8 90.2 268.5 92.76667 269.9 94.5 271.3 96.23333 273.3 97.1 275.9 97.1Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(.35857124,0,0,.35857124,148.5,4.9357607)" d="M291.6 74.1H295V85H308V74.1H311.5V99.6H308V87.8H295V99.6H291.6V74.1Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 169"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 159"/>
+<g clip-path="url(#clip_3)">
+</g>
+<g clip-path="url(#clip_4)">
+</g>
+</g>
+</svg>

@@ -11,8 +11,8 @@ const fixtures = [
 ] as ReactionQuestion[];
 
 describe('question foundation', () => {
-  it('groups all eleven categories exactly once with the requested memberships', () => {
-    expect(reactionGroups.map(({ categories }) => [...categories])).toEqual([
+  it('keeps original memberships and groups every category exactly once', () => {
+    expect(reactionGroups.slice(0, 3).map(({ categories }) => [...categories])).toEqual([
       ['radical-chlorination', 'radical-bromination-br2', 'radical-bromination-nbs'],
       ['sn1', 'sn2', 'alcohol-hbr', 'alcohol-hcl-zncl2'],
       ['e1', 'e2-zaitsev', 'e2-hofmann', 'alcohol-dehydration'],
@@ -20,13 +20,13 @@ describe('question foundation', () => {
     const grouped = reactionGroups.flatMap(({ categories }) => [...categories]);
     expect([...grouped].sort()).toEqual(reactionCategories.map(({ id }) => id).sort());
   });
-  it('defines eleven unique category IDs', () => {
-    expect(reactionCategories).toHaveLength(11);
-    expect(new Set(reactionCategories.map(({ id }) => id)).size).toBe(11);
+  it('defines unique category IDs', () => {
+    expect(reactionCategories).toHaveLength(32);
+    expect(new Set(reactionCategories.map(({ id }) => id)).size).toBe(32);
   });
   it('retains all sixty source questions and excludes held questions from practice', () => {
-    expect(questionBank).toHaveLength(60);
-    expect(questions).toHaveLength(60);
+    expect(questionBank).toHaveLength(140);
+    expect(questions).toHaveLength(140);
     expect(questionBank.filter(({ review }) => review.status === 'needs-review')).toEqual([]);
     for (const id of ['pdf-35', 'pdf-36', 'pdf-37']) {
       const q = questions.find(q => q.id === id)!;
@@ -39,8 +39,8 @@ describe('question foundation', () => {
     expect(questions.every(({ review }) => review.status === 'prepared')).toBe(true);
   });
   it('counts the prepared bank correctly for each reaction group', () => {
-    expect(reactionGroups.map(({ categories }) => filterQuestions(questions, categories).length)).toEqual([14, 29, 17]);
-    expect(filterQuestions(questions, reactionCategories.map(({ id }) => id))).toHaveLength(60);
+    expect(reactionGroups.map(({ categories }) => filterQuestions(questions, categories).length)).toEqual([14, 29, 17, 4, 24, 8, 4, 12, 12, 12, 4]);
+    expect(filterQuestions(questions, reactionCategories.map(({ id }) => id))).toHaveLength(140);
   });
   it('filters by any combination without mutating source data', () => {
     expect(filterQuestions(fixtures, [])).toEqual([]);

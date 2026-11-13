@@ -1,0 +1,21 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>Ethanol</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M40 444H330V524H40Z" clip-rule="evenodd"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 547V331"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M44.1 119.6 155.2 55.4"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M155.2 55.4 202.2 82.5"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M202.2 82.5 249.1 109.6"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M149.7 58.7 155.2 55.4 157.6 56.8"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M253.3 119.7C253.3 115.1667 254.4333 111.6333 256.7 109.1 258.9667 106.5667 262.1667 105.3 266.3 105.3 270.5 105.3 273.7333 106.5667 276 109.1 278.2 111.6333 279.3 115.1667 279.3 119.7 279.3 124.3 278.1667 127.9 275.9 130.5 273.6333 133.1 270.4333 134.4 266.3 134.4 262.1667 134.4 258.9667 133.1 256.7 130.5 254.4333 127.9 253.3 124.3 253.3 119.7ZM266.3 131.2C269.2333 131.2 271.4667 130.2333 273 128.3 274.5333 126.3667 275.3 123.5 275.3 119.7 275.3 115.9667 274.5333 113.1667 273 111.3 271.4667 109.4333 269.2333 108.5 266.3 108.5 263.4333 108.5 261.2333 109.4333 259.7 111.3 258.1 113.1667 257.3 115.9667 257.3 119.7 257.3 123.5 258.1 126.3667 259.7 128.3 261.2333 130.2333 263.4333 131.2 266.3 131.2Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M283.7 105.6H287.6V117.6H302.1V105.6H305.9V133.9H302.1V120.8H287.6V133.9H283.7V105.6Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 437"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 427"/>
+</g>
+</svg>

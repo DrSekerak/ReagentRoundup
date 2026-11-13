@@ -7,7 +7,7 @@ export function validateQuestions(
   const errors: string[] = [];
   if (!Array.isArray(input)) return ['Question bank must be an array.'];
   const ids = new Set<string>();
-  const numbers = new Set<number>();
+  const numbers = new Set<string>();
   const isText = (v: unknown): v is string => typeof v === 'string' && v.trim().length > 0;
   const record = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
   for (const [index, item] of input.entries()) {
@@ -21,7 +21,12 @@ export function validateQuestions(
     for (const role of ['reactant', 'product']) {
       const structure = item[role];
       if (!record(structure)) { fail(`missing ${role} structure`); continue; }
-      for (const field of ['smiles', 'alt', 'svgPath']) if (!isText(structure[field])) fail(`missing ${role}.${field}`);
+      for (const field of ['alt', 'svgPath']) if (!isText(structure[field])) fail(`missing ${role}.${field}`);
+      const depiction = structure.sourceDepiction;
+      if (!isText(structure.smiles) && !record(depiction)) fail(`missing ${role}.smiles or sourceDepiction`);
+      if (depiction !== undefined && (!record(depiction) || !record(item.source) || depiction.document !== item.source.document || depiction.page !== item.source.page ||
+          !Array.isArray(depiction.region) || depiction.region.length !== 4 || !depiction.region.every(v => typeof v === 'number' && Number.isFinite(v) && v >= 0) ||
+          depiction.region[2] <= depiction.region[0] || depiction.region[3] <= depiction.region[1])) fail(`invalid ${role}.sourceDepiction`);
       const path = structure.svgPath;
       if (typeof path === 'string' && (!/^structures\/[a-zA-Z0-9_-]+\.svg$/.test(path) || !structurePaths.has(path))) fail(`invalid or missing ${role} SVG file`);
     }
@@ -38,9 +43,10 @@ export function validateQuestions(
     else {
       const n = item.source.problemNumber as number;
       if (n < 1 || (item.source.page as number) < 1) fail('source numbers must be positive');
-      if (numbers.has(n)) fail('duplicate source problem number');
-      numbers.add(n);
-      if (n >= 51 && n <= 60 && item.category !== 'sn2') fail('source questions 51–60 must use SN2');
+      const key = `${item.source.document}:${n}`;
+      if (numbers.has(key)) fail('duplicate source problem number');
+      numbers.add(key);
+      if (item.source.document === 'Organic_Reaction_Reagents_60_Problems.pdf' && n >= 51 && n <= 60 && item.category !== 'sn2') fail('source questions 51–60 must use SN2');
     }
     const review = item.review;
     if (!record(review) || !['prepared', 'needs-review'].includes(String(review.status)) || !Array.isArray(review.issues) || !review.issues.every(isText) || !Array.isArray(review.notes) || !review.notes.every(isText)) fail('invalid review metadata');

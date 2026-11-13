@@ -1,0 +1,23 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>Propan-1-ol</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M40 176H330V256H40Z" clip-rule="evenodd"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 279V63"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 103.1 121.3 67.9"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M121.3 67.9 193.1 121.9"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M193.1 121.9 227.2 107.4"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M227.2 107.4 261.2 93"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M117.1 69.6 121.3 67.9 124.9 70.6"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M189.6 119.2 193.1 121.9 194.8 121.2"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M264.2 86.8C264.2 82.73333 265.2 79.56667 267.2 77.3 269.2667 74.96667 272.1667 73.8 275.9 73.8 279.7 73.8 282.6 74.96667 284.6 77.3 286.6 79.56667 287.6 82.73333 287.6 86.8 287.6 90.93333 286.5667 94.16667 284.5 96.5 282.5 98.83333 279.6333 100 275.9 100 272.1667 100 269.2667 98.83333 267.2 96.5 265.2 94.16667 264.2 90.93333 264.2 86.8ZM275.9 97.1C278.5 97.1 280.5 96.23333 281.9 94.5 283.3 92.76667 284 90.2 284 86.8 284 83.46667 283.3 80.96667 281.9 79.3 280.5 77.56667 278.5 76.7 275.9 76.7 273.3 76.7 271.3 77.53333 269.9 79.2 268.5 80.86667 267.8 83.4 267.8 86.8 267.8 90.2 268.5 92.76667 269.9 94.5 271.3 96.23333 273.3 97.1 275.9 97.1Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M291.6 74.1H295V85H308V74.1H311.5V99.6H308V87.8H295V99.6H291.6V74.1Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 169"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 159"/>
+</g>
+</svg>

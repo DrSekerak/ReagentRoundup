@@ -1,0 +1,47 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>Hex-3-ene, geometry as drawn</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M40 444H330V524H40Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 547V331"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 74.4H311.5"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 115.4H311.5"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 437"/>
+<path transform="matrix(1,0,0,-1,-40,524)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 427"/>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M40 444H330V524H40Z" fill="#ffffff" fill-rule="evenodd"/>
+<g transform="matrix(1.28,0,0,1.28,69.4,8)">
+<image id="image_3" width="115" height="50" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAHMAAAAyCAAAAABKLLvzAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAABYElEQVR4nO2VbZHEIAyGa2EtYCEWsICFWsACFrCABSxgAQux0APa
+7vLdzt7ezc1c8quFTJ58vMCy/b4txCQmMYlJTGISk5jE/HtMJ/11FK2vfdDcZKJm
+wMzcZ/OCMe4unAwTeItpYiwHYGdprUwhKrbixKmIMWM6AXuJIeCowRjyT3uhWD2i
++pBW9jthiuXpiHKR/bQYS03F7LsxtZQ9GDIVFLU9a97KxSQew9OsUINoqaZZHDBt
+O0MDlU7OGcaunkuSybLBjrcS7DJ9r6io4bz0s6iAyVbdK4Ht0FcTqMP0CgZn0q9w
+hrB8T6vtXOiHPZOErvZapj6E2DXHU89RPJJIj986wiONN8ynr6maaTmfXgFRJ/bQ
+V1Z2aV6CsiuMzk7FdIMoOVXtl0413ioOZ+M7s67zihgtBXuNbUAdb735rsSTeSe9
+DzLV485r81mmuXpFfoD5PSMmMYlJzP/I/AJWVd1bDQKIPgAAAABJRU5ErkJggg=="/>
+</g>
+</g>
+<g clip-path="url(#clip_4)">
+<path transform="matrix(1,0,0,-1,-40,524)" d="M40 444H330V524H40Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(1.779221,0,0,-1.779221,27.350647,53.344209)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M0 0 26 15"/>
+<path transform="matrix(1.779221,0,0,-1.779221,27.350647,53.344209)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M26 15 52 0"/>
+<path transform="matrix(1.779221,0,0,-1.779221,27.350647,53.344209)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M52.99944-1.732371 78.99944 13.26763"/>
+<path transform="matrix(1.779221,0,0,-1.779221,27.350647,53.344209)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M51.00056 1.732371 77.00056 16.73237"/>
+<path transform="matrix(1.779221,0,0,-1.779221,27.350647,53.344209)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M78 15 104 0"/>
+<path transform="matrix(1.779221,0,0,-1.779221,27.350647,53.344209)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M104 0 130 15"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,52 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>1-Methylcyclopent-1-ene</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M40 176H330V256H40Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 279V63"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M46.8 70.2 132.3 20.9"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M132.3 20.9 217.7 70.2"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M132.3 38 202.9 78.8"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M217.7 70.2 303.2 20.9"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M217.7 70.2V168.9"/>
+<path transform="matrix(.36842103,0,0,.36842103,78.0263,4)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M128 23.4 132.3 20.9 136.5 23.4"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 169"/>
+<path transform="matrix(1,0,0,-1,-40,256)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 159"/>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M350 69H498V257H350Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,-40,256)" d="M40 176H330V256H40Z" fill="#ffffff" fill-rule="evenodd"/>
+<g transform="matrix(1.2800001,0,0,1.28,104.600009,8)">
+<image id="image_3" width="60" height="50" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAADwAAAAyCAAAAAAlnefeAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAABLklEQVR4nO2VUXHEIBCGzwIW1sJawMJawEIsYAELWIgFLGBhLVDS
+aSbALrRNX2464eVys3zw7U+YvMofxuuBH/iB3x/O+304AG43YSbi4izfgROG4ydC
+/D3sIX892W/VBziju/5smIsyOJ2r9vCOXcwJgiQJ6ZzUwQ7HlI7sWtICJVU7Wy8d
+A56TORK61K1+wcGoHWb47DCC2UT9hLkXbIeznnBLSuWEI07QuqQj1anRBn3jTNNS
+Azv9LvhQD2zCXvDu1Hp9T7xyCANc1KYZJ4UBJi3Pumu2P4AjKeVqHabWDcxGVg9r
+OzmnDi5Wetes87zlFlbyPqwXt7qBWezBsLTurqSYV7OSK07gOBraZdY9LLJBNUUd
+1vpbWfdwFI6rrAeYDQzDrKzf7iv5v+EPbN9JUv/N4KIAAAAASUVORK5CYII="/>
+</g>
+</g>
+<g clip-path="url(#clip_4)">
+<path transform="matrix(1,0,0,-1,-40,256)" d="M40 176H330V256H40Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(1.079365,0,0,-1.079365,127.8889,48.0952)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-26 15 0 30"/>
+<path transform="matrix(1.079365,0,0,-1.079365,127.8889,48.0952)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M0 30 26 15"/>
+<path transform="matrix(1.079365,0,0,-1.079365,127.8889,48.0952)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M26 15 16-15"/>
+<path transform="matrix(1.079365,0,0,-1.079365,127.8889,48.0952)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M20.62413 11.52149 13.78641-8.991672"/>
+<path transform="matrix(1.079365,0,0,-1.079365,127.8889,48.0952)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M16-15H-16"/>
+<path transform="matrix(1.079365,0,0,-1.079365,127.8889,48.0952)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M-16-15-26 15"/>
+<path transform="matrix(1.079365,0,0,-1.079365,127.8889,48.0952)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M26 15 54 22"/>
+</g>
+</g>
+</svg>

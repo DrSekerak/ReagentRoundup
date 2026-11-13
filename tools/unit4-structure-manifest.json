@@ -1,0 +1,1926 @@
+{
+  "sourceSha256": "d738ce131aaa781def09a08b143ee15c9787972ee56b62404a8d55e3e2fc8b4f",
+  "pymupdfVersion": "2.0",
+  "structures": [
+    {
+      "questionId": "unit4-01",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "05dbe88e25be88fee6dacdb593cda50474d8db62243771d9aa175419d0edb1dc"
+    },
+    {
+      "questionId": "unit4-01",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "30a540f81119285aeb4338968c878347ab7e58720a5827e93c91e6e8f1b7c6df"
+    },
+    {
+      "questionId": "unit4-02",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "13ac170fd6047ca6aa8ec8f6c764a8bb5410f391cd6e4f24e8b068b2033cec9e"
+    },
+    {
+      "questionId": "unit4-02",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "c00860ad768f2bd12653a3a95c2ec106d47fcba98339bd1240efbd11290ffa54"
+    },
+    {
+      "questionId": "unit4-03",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "ee38b9c5fbcf865d06b233f63b40ad89ff3337155c2df9258646f80548a6c68c"
+    },
+    {
+      "questionId": "unit4-03",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "4f28f5935422975e55dbc59e195e4815038eee617722081750ec8478bb4c0214"
+    },
+    {
+      "questionId": "unit4-04",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "6b45a258cffa8b621b13e18cd6b6cee22180cc111b017658c4fe305799febabd"
+    },
+    {
+      "questionId": "unit4-04",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "c01f78665ef741d28ab1605aefcba4f2ea2db2b284e0117f4fd95c0ea63945ed"
+    },
+    {
+      "questionId": "unit4-05",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "fe5e43929a2340934468843fd24df7a76cae622833be6073ea88cc7e942c076d"
+    },
+    {
+      "questionId": "unit4-05",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9e5e80dcd22b25f02199f8a502e82b3eac691038b1d95b2115b9b36c1bf34360"
+    },
+    {
+      "questionId": "unit4-06",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "64d93c3264eb3732e87f904fed1cd319c0fdd736b84587115a62f24fc901590f"
+    },
+    {
+      "questionId": "unit4-06",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "210ac2a401ede80468c1087f21ef579f28bf06aa5898f8a7faa64e177558c91b"
+    },
+    {
+      "questionId": "unit4-07",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "ae19a33ee997bd65b02ae0777ffa33a35442303f433277b9de046bf7f54b7a0a"
+    },
+    {
+      "questionId": "unit4-07",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "96b6249847587d684cccf849715721eb4fb49a2d441e53bf7e1f3a3b8826f7a6"
+    },
+    {
+      "questionId": "unit4-08",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": false,
+      "svgSha256": "4c4d9a9926e9bf2c13d6c4cc0339d13aa2a14987bf2849445937b2ccd598007f"
+    },
+    {
+      "questionId": "unit4-08",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "be859db18fa615ab6a81e22cd2000a87975c84adeace1b29e5fc53659b01e26f"
+    },
+    {
+      "questionId": "unit4-09",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "b624a8bc3b9955ee3202113f7fbc396dd8ba5234e55c5dcebdb3cb4ece533bfe"
+    },
+    {
+      "questionId": "unit4-09",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "d1636fe6984757e579ea29a81f125cea8026c0e1a76aff41ab9ab8f89dcfdce1"
+    },
+    {
+      "questionId": "unit4-10",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "add9adf78cb6064d116ca4a721fb367c65f4d82c41f98902bea43caf61592153"
+    },
+    {
+      "questionId": "unit4-10",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "407bf0fb9a73840d3756ae08e4bcbc5e4cfbc14a86f0dc6114d76139037ec77a"
+    },
+    {
+      "questionId": "unit4-11",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "a54f5d532ab831e2db5d802148674e747ec3db4fcbd056e092265c7aab54a3a9"
+    },
+    {
+      "questionId": "unit4-11",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "62c6824469c50ca12f637acdf543d80c000d5763c9505230a14eecc47d0c19b3"
+    },
+    {
+      "questionId": "unit4-12",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "8e06e41d6138616886818cc64bd42d06700ad095d1f3246084821020e3004aed"
+    },
+    {
+      "questionId": "unit4-12",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "00dd8952c145bd074c45076575b31fb0da625ad1254f41287cd2bd025460d1a2"
+    },
+    {
+      "questionId": "unit4-13",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "6b2c5f5e21b743d3936a4aca33ec35e72b3a40f58c7739b27ca5517dd125edcd"
+    },
+    {
+      "questionId": "unit4-13",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "14b0f7bfd6820e35bb93ce2801f4cdc5e90896fc916490976fa7be4038247c79"
+    },
+    {
+      "questionId": "unit4-14",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "f39ec28b73f38858480d8bd09dc5764c813344a8e520281a5a868562985eb477"
+    },
+    {
+      "questionId": "unit4-14",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "740407274ba54a0cd4f410457a6f371c73571a2647a53c626b9179321f5848aa"
+    },
+    {
+      "questionId": "unit4-15",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "627e39f865a8d51e140dffb8133155552ce115c8300115aedb2c08af4bad7247"
+    },
+    {
+      "questionId": "unit4-15",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "bc9aa75956f4372e94c3864166079aa253294a36f82d4cf81a1d7f09bbeb7ee4"
+    },
+    {
+      "questionId": "unit4-16",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": false,
+      "svgSha256": "26a875674a9a7fc3a583ddf19dcad0a206113cf9421a7d9a0677ed08cbb2ee42"
+    },
+    {
+      "questionId": "unit4-16",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "7a4345b237a4431f7cf95f0eadb52a3a1586e441ed50eb56d4a7b3962b7892c8"
+    },
+    {
+      "questionId": "unit4-17",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "902f51da921c889aa7b52c92fd391fb06e04dc88532e3f28ae3084435543bb4c"
+    },
+    {
+      "questionId": "unit4-17",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "1c179b057b4a60173df4915138fe63271dc9a1cc2aee770f68eb70290810a2b7"
+    },
+    {
+      "questionId": "unit4-18",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9ae83d0ea92981a4a823ac009a0688b97a449f788c06b8d8a3bb2ac7808a7131"
+    },
+    {
+      "questionId": "unit4-18",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "ed9708c0ce443d1ebc6db54478e75fc91d30d94fd91c4d22df9fcaa975a444ad"
+    },
+    {
+      "questionId": "unit4-19",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "24d187a130d862836188c24ea10ae19ad855bf9fe56d21473757e6b94c68d0f1"
+    },
+    {
+      "questionId": "unit4-19",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9c397a8ff05acda3e1a780610b605613923f97cd3a62479ca15d18189c594226"
+    },
+    {
+      "questionId": "unit4-20",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": false,
+      "svgSha256": "146714e05fcf8b524e236aded28d8a285a6a234fa2470f26069b99ac708ebb20"
+    },
+    {
+      "questionId": "unit4-20",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "b2d05c3b61c67d607f50e4532dcbe09215bdb92890930b5e1843ffb50e6b2eb3"
+    },
+    {
+      "questionId": "unit4-21",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "a821293a76cd5c88f1f8d2e4ba83e549ced63467fc92c9a61ea085b3432b9204"
+    },
+    {
+      "questionId": "unit4-21",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9312ac87db97cde55bc50b43e854ee83ef84f482db74992d4e44966768d98266"
+    },
+    {
+      "questionId": "unit4-22",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "2470afc33e80381775f264da1deacfc21e05a86f91f34729f45c4080749826e5"
+    },
+    {
+      "questionId": "unit4-22",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "de91dec35b71bc875cdd04d3f0709e52dd64d40a1a22f42c79726bef7eb4792d"
+    },
+    {
+      "questionId": "unit4-23",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "777a62e41bb8abaca7c79cdaacf5327861961e28a1dfd310c9b77a4806f9c38e"
+    },
+    {
+      "questionId": "unit4-23",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "d2aa267b7aa50938d102f4a4986482e2edfef8ba13e662089cc6810310e67a20"
+    },
+    {
+      "questionId": "unit4-24",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": false,
+      "svgSha256": "3b373bd6930e395d3df669e6bdebe410670b4826029f216fa22f72fb990c9ee6"
+    },
+    {
+      "questionId": "unit4-24",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9d345dd5ab45d78171c8fb0d6ffd37ae4bd15828e0b2f0348e013912978e68eb"
+    },
+    {
+      "questionId": "unit4-25",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "124fef024962355de84358e0fb5e901d438b63b8e7d362c69223449f8e724cb6"
+    },
+    {
+      "questionId": "unit4-25",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "f0edfb729c7f6caa8da7f5548e9f622b2552e394137c1f03824a258051ffde42"
+    },
+    {
+      "questionId": "unit4-26",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9ae83d0ea92981a4a823ac009a0688b97a449f788c06b8d8a3bb2ac7808a7131"
+    },
+    {
+      "questionId": "unit4-26",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "4636a066c523010225bd16438d1242f48ae0a4243528c4d04098532bb0371efb"
+    },
+    {
+      "questionId": "unit4-27",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "0c8849561d8b35019d9e93cfdc8b5a02686c22507e5da27b99d913504703c3ae"
+    },
+    {
+      "questionId": "unit4-27",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "585ceeaf3db2eed497a74129ab8920abe40d903b3808b6dc2785eadb961e3a20"
+    },
+    {
+      "questionId": "unit4-28",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "211a0335e3fa802f19a6d7bc5e707248c6efe1ff9c5b6bf1bd60f8874245ea2e"
+    },
+    {
+      "questionId": "unit4-28",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "7ae379ae358dbeeb63eb5b0ea6e7e941d9ae8f7028d6e21800b5c4646631b048"
+    },
+    {
+      "questionId": "unit4-29",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "84b7db588019c55d888e442fac05122b54ec438c98355869890a5524b406efd5"
+    },
+    {
+      "questionId": "unit4-29",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "7968f52b76e7b8c0985396c2d0f9903474d8331a38979955dbdd565d15046d7f"
+    },
+    {
+      "questionId": "unit4-30",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "7550d732b1cc6c7357a7653030f737a18a052140699cf635568232317650b7a8"
+    },
+    {
+      "questionId": "unit4-30",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "5b418760b92da4f8ae8ee558b9b1aefeaa17ef548d1314d8dc276d263e2480d2"
+    },
+    {
+      "questionId": "unit4-31",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "5306ca6a6f3eecaa1ed838e09cd51d5590b29a0e726626045be026235189c9dd"
+    },
+    {
+      "questionId": "unit4-31",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "5ce6f6c0bf32c5425b35cdad071b570c4714d5bcdf9302cf8943f52ea6e2de29"
+    },
+    {
+      "questionId": "unit4-32",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "f8b60bda34a222fe5f61aa1cf17484d7d8b0af43094d2bb5ed65f12fe523234d"
+    },
+    {
+      "questionId": "unit4-32",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "8a093744ef9a8423304f4210520c94c022eecb965dd5d115a40f58180624eb36"
+    },
+    {
+      "questionId": "unit4-33",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "114a02e069cd2b694e0680aaafbc43e1b0800715864e3e233f43718fc226a034"
+    },
+    {
+      "questionId": "unit4-33",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "af1225be89faf1a7bb383941300262b564e589d1ae47e2b069219492bc7ad986"
+    },
+    {
+      "questionId": "unit4-34",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "2f79559b0c1f4623f8edfb4f4604fe11789e10a1a87258ef6f1c11b08d1ad1ba"
+    },
+    {
+      "questionId": "unit4-34",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "ee34f349f39c065788c18c4c6d93b7436efd9c4a823fac637f22fb6e2d27cd80"
+    },
+    {
+      "questionId": "unit4-35",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "21157e201140443667ac50f404570927bc3b7b7c7b75183e1aff9a625577a04e"
+    },
+    {
+      "questionId": "unit4-35",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "faeed26767ce8b1a9e65e7cceaa402b461c559b184a077150f481b1ba05fe7c7"
+    },
+    {
+      "questionId": "unit4-36",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": false,
+      "svgSha256": "245c5c7f4e2dbec28b9496c9fc2d206b4f769ac15d2d2e1bbc803fb8da5b3cd3"
+    },
+    {
+      "questionId": "unit4-36",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "092ca00e9682c4f85d59674cbc592ae6f93fc2f7a9294eaccb5bade91b7a41d0"
+    },
+    {
+      "questionId": "unit4-37",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "62d924da59437f3a4b201b88693cd3adae767c0278b8395dbfb05aa01d3ce0e1"
+    },
+    {
+      "questionId": "unit4-37",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "78f609aec9a131d1f36842f29250a060306441132275125b5c8842036d0f12d0"
+    },
+    {
+      "questionId": "unit4-38",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "84583640349c8bd61d618c0d70b696fd7e52b1852c6f9b645b47c07558abb277"
+    },
+    {
+      "questionId": "unit4-38",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "2e51ae0a4536acd08a745b24ac2baf3e6b3e439c918b46d2601995a796dbd1e8"
+    },
+    {
+      "questionId": "unit4-39",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "01b5915e9f6681d319e4a9c024495cab465cf06eadec2de697a0ea4cc5f46f3e"
+    },
+    {
+      "questionId": "unit4-39",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "48fc55d5a6d4f92e43b6bfa537819dfc9fc474a1246a489bae3076b622983a0e"
+    },
+    {
+      "questionId": "unit4-40",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "7b46af75289104e865f859518aa2af9b80d2294403ae3d8898b2eaa9f54e9043"
+    },
+    {
+      "questionId": "unit4-40",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "54825fb50e968f6fc967208f0c6a5e58eae2bb5451967764f575bb577e14facc"
+    },
+    {
+      "questionId": "unit4-41",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "6b40a5936511a2e4aa1e0292ea1912340cccdce60fe06987af3b34e5e752ad73"
+    },
+    {
+      "questionId": "unit4-41",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "089feadcde2768b44d4eefe755848f55a00b6b28436ef7eb18889e7e140326fd"
+    },
+    {
+      "questionId": "unit4-42",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "4986c2b2f212c81488fccba3eabd2a55b19c6c1c9a201e3f57c92a964690e80e"
+    },
+    {
+      "questionId": "unit4-42",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "6ffa0ddb126f2df65f574eb024b88ba780618ab0d0b633f05cfa7eaf91767ea1"
+    },
+    {
+      "questionId": "unit4-43",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "d155e44f1ee15fb12f2caec062daaba31bfc937e5d359c8fa287dfcd79299b07"
+    },
+    {
+      "questionId": "unit4-43",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "1a5f3ebd2c7f6de1a3ad5b7e5d6ee83c9e530e71dce9ce3eb6360f444894d2e0"
+    },
+    {
+      "questionId": "unit4-44",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "c014090bb029fe682f9bdb1e5ad6b63da4f06c76c6584a4b09cab78344dcf5a1"
+    },
+    {
+      "questionId": "unit4-44",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "3d2f7fd87b313f56a5884fdf9bf0d6178f9f0d925a3e969b62cc1ca1fda01439"
+    },
+    {
+      "questionId": "unit4-45",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "4f2f4cc0d2eec27642ad9f71d9cf2db8c3e58356c9faa49cb5c3ee4080579532"
+    },
+    {
+      "questionId": "unit4-45",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "48c203fa61915f0c63055f0f56f0a12c6b0dedfdea3beb87c8781d92a850c1ba"
+    },
+    {
+      "questionId": "unit4-46",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "d7d0e8518d6a402aef4388449e2531e32073ff3ad6969bac2b2270f6022d73c4"
+    },
+    {
+      "questionId": "unit4-46",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "38af27b86a69bac9ca74589da4feb95249b35eaaf8d4753d0eeae0b8fb38c06e"
+    },
+    {
+      "questionId": "unit4-47",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "fdc7a618fc41caf7f0847c79e6b5be5bf4176d0e979ebe217e42d39b8953dce8"
+    },
+    {
+      "questionId": "unit4-47",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "e591146fcf32ce642954f41f8af507ac701ff734e4ec9604dedbbcdce894dd31"
+    },
+    {
+      "questionId": "unit4-48",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "b7108ac3fe59a8d68aed6b5c114b1b1a4230f88b2351e42cca0d12964d1b86e1"
+    },
+    {
+      "questionId": "unit4-48",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "e84d58c6730ac2bf6075da673b272298c13a12bfd8927e39f4d0f50bbde82b0c"
+    },
+    {
+      "questionId": "unit4-49",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "412174d4395f218ea3d906cf26b8657ac930a9002d8078eba6aa32c4d6e6d91e"
+    },
+    {
+      "questionId": "unit4-49",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "ed7680f18e05fac430e4e0e07a6a3428f8059ab5d71f275a54209bf1949f1746"
+    },
+    {
+      "questionId": "unit4-50",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": false,
+      "svgSha256": "df20cf9190ee98c4a95bd7d3e5974efdc2c9b9b32d451433f0bf973efb41138b"
+    },
+    {
+      "questionId": "unit4-50",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "0ff63fe6b85b1c90ebd43d91b401f5100c5fcf943bee1ada0f09b5f7d256539d"
+    },
+    {
+      "questionId": "unit4-51",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "0cef4ec86fb8f2b8a4ec0158d71d412c32a49f14a584a320fd0e010f5789d704"
+    },
+    {
+      "questionId": "unit4-51",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "1b93155a3f8cc15f00a70d25963008a3ce2205d34687648347f04865c97f71f1"
+    },
+    {
+      "questionId": "unit4-52",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": false,
+      "svgSha256": "0f699dab3426f75f041b414e2ed738683c2102f8cdd96604cc5499a319a6bcc2"
+    },
+    {
+      "questionId": "unit4-52",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "7a49e6b401c7516dd55007e0ae9c3866df5f4255cc93b5928b7eba20d7e6206f"
+    },
+    {
+      "questionId": "unit4-53",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "eb331e33521cfd4b57dc76247dbd8e9a9b4c93e41ca8bdd79fb7b32f7b6eeada"
+    },
+    {
+      "questionId": "unit4-53",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "320a44fe957c530ecccf252420ca11150b64ccb7b3b7e6634e921274607520dc"
+    },
+    {
+      "questionId": "unit4-54",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9ae83d0ea92981a4a823ac009a0688b97a449f788c06b8d8a3bb2ac7808a7131"
+    },
+    {
+      "questionId": "unit4-54",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "24ffde0444a5a7cb274559445b2fa2331503790461d8c3f222302eb900a6473a"
+    },
+    {
+      "questionId": "unit4-55",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "90a581bda8e7a277a367773ce08ea7c31aa24edc0c180e2aac1fc57caa177dff"
+    },
+    {
+      "questionId": "unit4-55",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "6fbd73092f8e1edd425daff5ad0628a872a4620a7f235fbd01531206e9f53e71"
+    },
+    {
+      "questionId": "unit4-56",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "57c3b445ad36000d20b58e93c04ceadbfd906cfc18cb65afdfba1914dc94639a"
+    },
+    {
+      "questionId": "unit4-56",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "b0210a3a5c3db5a2d7d91411fc018787c5f01a6896676e54d9ceb5a1cc653b17"
+    },
+    {
+      "questionId": "unit4-57",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "db2e4812f11b25e32ae647a5bf4510f10d758bf9083ac15064c78355f840ddda"
+    },
+    {
+      "questionId": "unit4-57",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "111ea91186f5e5568c5fa0aff594a6e3661ba4d6ca1417c8eac5ac91ab6c16bf"
+    },
+    {
+      "questionId": "unit4-58",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "f5b7129373700ed29e0dfd5083b7ea2024229a5c6f9a39e9cf4fa8af005e7bce"
+    },
+    {
+      "questionId": "unit4-58",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "16c12ddbc43f51a22ab2640c7db0acd97632e8905b9e5b197bb01ab1627903d3"
+    },
+    {
+      "questionId": "unit4-59",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "ebd568e66004227b90c3c126521d534a31a341aa8351ef51327b8d42bd1008af"
+    },
+    {
+      "questionId": "unit4-59",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "58d510046568d2da4612740d4ee6530d8b2aaf9cba8c30fd461e16cdfb56633a"
+    },
+    {
+      "questionId": "unit4-60",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "0ac20bd275ff893e6b4ed8d6e29952351bbff5b90e1c64d05c0cc7d5b6082a20"
+    },
+    {
+      "questionId": "unit4-60",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "c33421ba4b23e60a0e3b553cd84274f1913433064523b55abd935d5e1332ac85"
+    },
+    {
+      "questionId": "unit4-61",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "b4ed7022dc1cdd3edfd49c4d46586f88e4808129c5fb1acd090df541892acae7"
+    },
+    {
+      "questionId": "unit4-61",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "ed7ec7cd9440248c6550bd1e2846c2f92252bba500b9d79b8d8bf0fb339324c6"
+    },
+    {
+      "questionId": "unit4-62",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "1f10d91f861440514ebedf29c1d2731a848bc711d3aac49cdbced8aaa807458a"
+    },
+    {
+      "questionId": "unit4-62",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "f4e53436884f455a2718f2a776d3cc3f96e5eede476a40d29a8935009cafd2de"
+    },
+    {
+      "questionId": "unit4-63",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "e2105030dcfc47b2f1b116295dc52295da73413d8e1408e9bc1770f63fd8cced"
+    },
+    {
+      "questionId": "unit4-63",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "841b86db97435e8b52c1c821757607f75deca629e767a22d152242fc456aed42"
+    },
+    {
+      "questionId": "unit4-64",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "ff3de201723e9b5c0cd5a6aadfddd94e88985fa75089e9623071851e39385071"
+    },
+    {
+      "questionId": "unit4-64",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "1331f2bccb21eb1b6ee31b3ac6e780c65c2a4e3ff23c1288ffa433c2fedef08d"
+    },
+    {
+      "questionId": "unit4-65",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "e897c00b786d71c551c2484dbd5848c20f979d06835786a6c90b8d91d46b61c1"
+    },
+    {
+      "questionId": "unit4-65",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "45641c62e0ff972f46f52379fab6bcd2594b7682a71c1602a93434130da87f38"
+    },
+    {
+      "questionId": "unit4-66",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9834e5a5c44676764dfcf5003445e987be7de9978d0719dbd527d88dadfac2af"
+    },
+    {
+      "questionId": "unit4-66",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "16c12ddbc43f51a22ab2640c7db0acd97632e8905b9e5b197bb01ab1627903d3"
+    },
+    {
+      "questionId": "unit4-67",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "3573285bc17f0908c1128536f67303b179fb41dd0d2f9ceb07797674b306dae6"
+    },
+    {
+      "questionId": "unit4-67",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "b08286dc1b55f58390c6340eb55f53aa67dbe82bec7fde0358afe7391f1050a5"
+    },
+    {
+      "questionId": "unit4-68",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "0ac20bd275ff893e6b4ed8d6e29952351bbff5b90e1c64d05c0cc7d5b6082a20"
+    },
+    {
+      "questionId": "unit4-68",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "1e3ba7c027ded798c6607ff357a288c09e05d0b48c45471c52b746ab9f62d74c"
+    },
+    {
+      "questionId": "unit4-69",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "46d82b31cf26a847f143cc1183d274ad0275a11d20b29cf73961ebb69460d66b"
+    },
+    {
+      "questionId": "unit4-69",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "86bdced545958f7f2f42c883f3742ebe11cc9b2070a7d81709b381a8aa2db6c5"
+    },
+    {
+      "questionId": "unit4-70",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "f087e380084907f2f664692d2ef530d6801c710407772961bb4ad82a586a4f51"
+    },
+    {
+      "questionId": "unit4-70",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "5da587f8fa4cd973ece0b24fb7bba81c6e1377230029ef06e92b329f98dd93e9"
+    },
+    {
+      "questionId": "unit4-71",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "b6feb776c46eeb4b5eb004855fad6677ec3f5cb6d31aeaf7c5b83ac7450732ee"
+    },
+    {
+      "questionId": "unit4-71",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "a8d06aa67c8cfcaf4311eed4ace5adac3b624ddba56b9eb1ff12495967ee2cd6"
+    },
+    {
+      "questionId": "unit4-72",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "a3d67adb26e3aa798a3a527dc898592cb882cc302c3541d51815ca71d6ddfd53"
+    },
+    {
+      "questionId": "unit4-72",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "7f07c091940c8ed9c5692aee099654808cd1f2a07653fcb6a83375345e237b78"
+    },
+    {
+      "questionId": "unit4-73",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "66668270f07cc17778f50b1ce347714973866537633b90281eac51c90b25527c"
+    },
+    {
+      "questionId": "unit4-73",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "d8a8da3c309e3185678f7c6aa03d63c4f2638958fa858a954f4648cea7267bd7"
+    },
+    {
+      "questionId": "unit4-74",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9a795c2dc062b61bf90f6fbee09d75955e82a00a62e8dfd106d912428f7471e6"
+    },
+    {
+      "questionId": "unit4-74",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "d5b1e9a5606a3d64310e7e11da964b25d45f0541005fcf84f11fdc73a64465e3"
+    },
+    {
+      "questionId": "unit4-75",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "916661e6f2e640465f4fa6d02cd46155873f78ce7f453b3fe9737f19ceb644d5"
+    },
+    {
+      "questionId": "unit4-75",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "bae2a029019ef019da3cb1d1b734e1412d41bcf851069cf1623d81878b067154"
+    },
+    {
+      "questionId": "unit4-76",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "38a239a1cfee5f164e57f3e915e3f4ffbc3a6d9bd3ff2b8ee092a30710c53a21"
+    },
+    {
+      "questionId": "unit4-76",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "73692f8f4cf5a70b8e52c533eb73c9c393a07e69c8589d9a79382c92717535c0"
+    },
+    {
+      "questionId": "unit4-77",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "15794549cedd10a6d971d0551b90e8129b828ed1d6781d833a134cc9f3430b47"
+    },
+    {
+      "questionId": "unit4-77",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "0ef10c66256cdfdbca48be86c56dbf3ba9e3f10840f2d3196daabe7b02434a63"
+    },
+    {
+      "questionId": "unit4-78",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "08e8c8d0abe779458cd1a99f95c75e1cc23d49cb33f9464e39e97ed4722a3161"
+    },
+    {
+      "questionId": "unit4-78",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "ae7cba7865a3fc890396e9d58265107e1a2a565162e2cadf6ebec4ff3050ee01"
+    },
+    {
+      "questionId": "unit4-79",
+      "role": "reactant",
+      "region": [
+        40,
+        88,
+        330,
+        168
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "736dcc1488bb62f52da1bee6056459062eebc8cd2df498ac3286c40997ab750a"
+    },
+    {
+      "questionId": "unit4-79",
+      "role": "product",
+      "region": [
+        40,
+        190,
+        330,
+        270
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "9accf2cd54534ee05df7568ad3f0264c74544d90e84500dd90b2278cf0ebeaea"
+    },
+    {
+      "questionId": "unit4-80",
+      "role": "reactant",
+      "region": [
+        40,
+        356,
+        330,
+        436
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "315c774fb0d9cbf187f035cc6bbaa615878d62968aef8d3240cb418b28455b77"
+    },
+    {
+      "questionId": "unit4-80",
+      "role": "product",
+      "region": [
+        40,
+        458,
+        330,
+        538
+      ],
+      "isolatedCrop": true,
+      "svgSha256": "1a04383c2df1f2c4faffd00ea62990e4052bdd19f38e1628eb8a879ebaaf0988"
+    }
+  ]
+}

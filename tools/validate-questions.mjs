@@ -3,7 +3,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { validateQuestions } from '../src/lib/validateQuestions.ts';
 import { reactionCategories } from '../src/data/categories.ts';
 
-const bank = JSON.parse(readFileSync(new URL('../src/data/question-bank.json', import.meta.url), 'utf8'));
+const bank = ['question-bank.json', 'unit4-question-bank.json'].flatMap(name => JSON.parse(readFileSync(new URL(`../src/data/${name}`, import.meta.url), 'utf8')));
 const dir = new URL('../public/structures/', import.meta.url);
 const paths = new Set(readdirSync(dir).map((name) => `structures/${name}`));
 const errors = validateQuestions(bank, reactionCategories.map(({ id }) => id), paths);

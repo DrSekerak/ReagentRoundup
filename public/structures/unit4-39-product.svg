@@ -1,0 +1,44 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>Butane-1,2-diol</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M40 342H330V422H40Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M0 0H792V612H0Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 547V331"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 437"/>
+<path transform="matrix(1,0,0,-1,-40,422)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 432 265 427"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M272 65.3 247.1 51"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M247.1 51 222.3 36.6"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M222.3 36.6 161 72"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M161 72V101.1"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ff0000" d="M161 101.1V130.3"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M161 72 99.8 36.6"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M99.8 36.6 38.5 72"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M223.5 37.4 222.3 36.6 219.2 38.4"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M102.8 38.4 99.8 36.6 96.7 38.4"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M274.3 72.1C274.3 68.83333 275.1 66.33333 276.7 64.6 278.3 62.8 280.5667 61.9 283.5 61.9 286.5 61.9 288.7667 62.8 290.3 64.6 291.9 66.33333 292.7 68.83333 292.7 72.1 292.7 75.3 291.9 77.83333 290.3 79.7 288.7 81.5 286.4333 82.4 283.5 82.4 280.5667 82.4 278.3 81.5 276.7 79.7 275.1 77.83333 274.3 75.3 274.3 72.1ZM283.5 80.2C285.5667 80.2 287.1333 79.5 288.2 78.1 289.3333 76.76667 289.9 74.76667 289.9 72.1 289.9 69.43333 289.3333 67.43333 288.2 66.1 287.1333 64.76667 285.5667 64.1 283.5 64.1 281.5 64.1 279.9333 64.76667 278.8 66.1 277.6667 67.43333 277.1 69.43333 277.1 72.1 277.1 74.76667 277.6667 76.76667 278.8 78.1 279.9333 79.5 281.5 80.2 283.5 80.2Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M295.8 62.1H298.5V70.6H308.8V62.1H311.5V82.1H308.8V72.9H298.5V82.1H295.8V62.1Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M151.8 142.8C151.8 139.6 152.6 137.1 154.2 135.3 155.8 133.5 158.0667 132.6 161 132.6 163.9333 132.6 166.2 133.5 167.8 135.3 169.4 137.1 170.2 139.6 170.2 142.8 170.2 146 169.4 148.5333 167.8 150.4 166.2 152.2667 163.9333 153.2 161 153.2 158.0667 153.2 155.8 152.2667 154.2 150.4 152.6 148.6 151.8 146.0667 151.8 142.8ZM161 150.9C163.0667 150.9 164.6333 150.2333 165.7 148.9 166.8333 147.5 167.4 145.4667 167.4 142.8 167.4 140.2 166.8333 138.2333 165.7 136.9 164.6333 135.5667 163.0667 134.9 161 134.9 159 134.9 157.4333 135.5333 156.3 136.8 155.1667 138.1333 154.6 140.1333 154.6 142.8 154.6 145.4667 155.1667 147.5 156.3 148.9 157.4333 150.2333 159 150.9 161 150.9Z" fill="#ff0000" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.99993899)" d="M173.3 132.8H176V141.3H186.3V132.8H189V152.9H186.3V143.6H176V152.9H173.3V132.8Z" fill="#ff0000" fill-rule="evenodd"/>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(1,0,0,-1,-40,422)" d="M350 337H498V525H350Z" fill="#ffffff" fill-rule="evenodd"/>
+</g>
+<g clip-path="url(#clip_3)">
+</g>
+<g clip-path="url(#clip_4)">
+</g>
+</g>
+</svg>

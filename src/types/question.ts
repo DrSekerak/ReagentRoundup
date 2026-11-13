@@ -3,7 +3,9 @@ import type { ReactionCategory } from '../data/categories';
 /** Paths are relative to public/, e.g. structures/q01-reactant.svg.
  * Render future assets with import.meta.env.BASE_URL + path. */
 export interface MolecularStructure {
-  smiles: string;
+  smiles?: string;
+  /** Exact source drawing, used when no separately checked SMILES is available. */
+  sourceDepiction?: { document: string; page: number; region: [number, number, number, number] };
   svgPath: string;
   alt: string;
 }

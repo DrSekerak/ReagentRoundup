@@ -1,0 +1,30 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="290" height="80" viewBox="0 0 290 80"><title>1-Bromobutane</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-40,154)" d="M40 74H330V154H40Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-40,154)" d="M0 0H792V612H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-40,154)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M335 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,154)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M502 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,154)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cbd4dc" d="M756 279V63"/>
+<path transform="matrix(1,0,0,-1,-40,154)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 169"/>
+<path transform="matrix(1,0,0,-1,-40,154)" stroke-width="1.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#172f45" d="M274 164 265 159"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" d="M0 0H350V190H0Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M38.5 108.1 102.2 71.3"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M102.2 71.3 165.9 108.1"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M165.9 108.1 229.6 71.3"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M229.6 71.3 256.7 87"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#7f4c19" d="M256.7 87 283.8 102.6"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M99 73.1 102.2 71.3 105.4 73.1"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M162.7 106.2 165.9 108.1 169.1 106.2"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" stroke-width="1.575" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M226.4 73.1 229.6 71.3 230.9 72.1"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" d="M296.3 107.5C297.6333 107.9 298.6333 108.5 299.3 109.3 299.9667 110.1 300.3 111.1 300.3 112.3 300.3 114.2333 299.7 115.7667 298.5 116.9 297.3 117.9667 295.5333 118.5 293.2 118.5H286.2V97.7H292.3C294.7 97.7 296.5 98.16667 297.7 99.1 298.9 100.0333 299.5 101.4 299.5 103.2 299.5 105.2667 298.4333 106.7 296.3 107.5ZM289 100V106.5H292.3C293.7 106.5 294.7333 106.2333 295.4 105.7 296.1333 105.1667 296.5 104.3333 296.5 103.2 296.5 101.0667 295.1 100 292.3 100H289ZM293.2 116.1C294.5333 116.1 295.5667 115.8 296.3 115.2 297.0333 114.5333 297.4 113.5667 297.4 112.3 297.4 111.1667 297 110.3333 296.2 109.8 295.4 109.2 294.2333 108.9 292.7 108.9H289V116.1H293.2Z" fill="#7f4c19" fill-rule="evenodd"/>
+<path transform="matrix(.39999975,0,0,.39999975,72.5,-.9999542)" d="M305.1 103.4 305.4 105.5C306.4667 103.9 307.8667 103.1 309.6 103.1 310.1333 103.1 310.7667 103.2 311.5 103.4L311.1 105.9C310.2333 105.7 309.5667 105.6 309.1 105.6 308.3 105.6 307.6 105.7667 307 106.1 306.4667 106.3667 306 106.9 305.6 107.7V118.5H302.8V103.4H305.1Z" fill="#7f4c19" fill-rule="evenodd"/>
+<g clip-path="url(#clip_2)">
+</g>
+</g>
+</svg>

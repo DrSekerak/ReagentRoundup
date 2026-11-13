@@ -5,6 +5,7 @@ import Results from './Results';
 import { finishFixture } from '../test/sessions';
 import { createSession } from '../lib/practice';
 import { questionBank } from '../data/questions';
+import { reactionCategories } from '../data/categories';
 
 describe('results', () => {
   it('shows scores, every category, detailed submitted answers, and navigation', async () => {
@@ -15,7 +16,7 @@ describe('results', () => {
     expect(screen.getByText('6 / 12')).toBeVisible();
     expect(screen.getByText('Questions with hints used').parentElement).toHaveTextContent('2');
     const table = screen.getByRole('table', { name: 'Reaction category performance' });
-    expect(within(table).getAllByRole('row')).toHaveLength(12);
+    expect(within(table).getAllByRole('row')).toHaveLength(reactionCategories.length + 1);
     expect(screen.queryByRole('heading', { name: 'Detailed question review' })).not.toBeInTheDocument();
     await user.click(screen.getByRole('button', { name: 'Review Results' }));
     expect(screen.getByRole('table', { name: 'Submitted answers and final results' })).toHaveTextContent('Correct on attempt 3');
